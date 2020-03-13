@@ -1,0 +1,23 @@
+<!-- Compatibility -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta content="#6CD9FF" name="theme-color">
+<!-- Metadata -->
+<meta content="{% if page.description %}{{ page.description }}{% else %} {% endif %}" name="description">
+<meta content="bp, bob, bobpony, bob pony, bpc, bobpony.org, bobpony.com" name="keywords">
+<!-- Open Graph -->
+<meta content="{% if page.description %}{{ page.description }}{% else %}{% endif %}" name="og:description">
+<meta content="/img/favicon.png" property="og:image">
+<meta content="{% if page.title %}{{ page.title }}{% else %}lesbian.codes{% endif %}" property="og:title">
+<meta content="website" property="og:type">
+<meta content="{% if page.url %}https://bobpony.com{{ page.url }}{% else %}{% endif %}" property="og:url">
+<!-- Twitter/Discord Metadata -->
+<meta content="summary" name="twitter:card">
+<meta content="@TheBobPony" name="twitter:creator">
+<meta content="{% if page.description %}{{ page.description }}{% else %}{% endif %}" name="twitter:description">
+<meta content="/img/favicon.png" name="twitter:image">
+<meta content="@TheBobPony" name="twitter:site">
+<meta content="TheBobPony" name="twitter:title">
+<meta content="{% if page.url %}https://bobpony.com{{ page.url }}{% else %}{% endif %}" property="twitter:url">
+<!-- Favicon -->
+<link href="/img/favicon.png" rel="icon">

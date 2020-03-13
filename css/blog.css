@@ -1,0 +1,19 @@
+/* Layout Styling */
+
+.box {
+  max-width: 50em;
+}
+
+/* Text Styling */
+
+a {
+  color: #cdbeeb;
+}
+
+a:hover {
+  color: #aea2c5;
+}
+
+.subtitle {
+  margin-bottom: 0px !important;
+}

@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+/* General Styling */
+
+html,
+body {
+  font-family: "Open Sans", sans-serif !important;
+  scroll-behavior: smooth;
+}
+
+/* Layout Styling */
+
+#container {
+  max-width: 60em;
+}
+
+/* Text Styling */
+
+
+/* Navbar Styling */
+
+a.navbar-item.is-active,
+a.navbar-item:hover,
+.footer-link:hover,
+.navbar-burger:hover,
+.navbar-menu.is-active,
+.navbar-menu.is-active:hover,
+.navbar-toggle {
+  color: #ccc;
+  background-color: transparent;
+}
+
+a.navbar-item:active,
+.footer-link,
+.footer-link:active {
+  color: #fff;
+}
+
+.navbar-burger span {
+  background-color: #fff;
+}
+
+.nav-icon {
+  color: #fff;
+  margin-right: 5px;
+  transition: all .2s;
+  -webkit-transition: all .2s;
+}
+
+.nav-icon:hover {
+  color: #ccc;
+}
+
+/* Background Styling */
+
+.gradient {
+  background-size: 400% 400%;
+  -webkit-animation: gradient 6s ease infinite;
+  -moz-animation: gradient 6s ease infinite;
+  -o-animation: gradient 6s ease infinite;
+  animation: gradient 6s ease infinite;
+}
+
+@-webkit-keyframes gradient {
+  0% {
+    background: #00A2FF;
+  }
+
+  50% {
+    background: #0087FF;
+  }
+
+  100% {
+    background: #00A2FF;
+  }
+}
+
+
+@keyframes gradient {
+  0% {
+    background: #00A2FF;
+  }
+
+  50% {
+    background: #0087FF;
+  }
+
+  100% {
+    background: #00A2FF;
+  }
+}

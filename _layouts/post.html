@@ -3,12 +3,9 @@ fullurl: post.url
 layout: default
 ---
 
-<head>
-  <link rel="stylesheet" href="/css/main.css">
-  <link rel="stylesheet" href="/css/post.css">
-</head>
+{% include nav.html %}
 
-<div class="hero gradient">
+<div class="hero is-primary is-bold">
   <div class="hero-body">
     <div class="container animated fadeIn fast">
       <div class="columns is-desktop is-vcentered is-centered">
@@ -20,7 +17,6 @@ layout: default
           <p class="title is-size-2 has-text-white" style="margin-bottom: 15px;">{{ page.title }}</p>
           <p class="subtitle has-text-white" style="margin-bottom: 2px;">{{ page.description }}</p>
           <p class="subtitle has-text-white" style="margin-bottom: 2px;">{{ p.date | date: "%B %d, %Y" }}, posted by {{ p.author }}</p>
-          <a href="/blog/" class="nav-icon subtitle has-text-white"> <i class="fas fa-arrow-circle-left fa-lg"></i> Back to blog posts</a>
         </div>
         {% endfor %}
       </div>

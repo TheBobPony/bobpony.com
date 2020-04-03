@@ -1,37 +1,24 @@
 ---
-description: A WIP website, so not as feature complete yet...
+description: A WIP website, not compelete yet.
 layout: default
 permalink: /
-title: Jekyll Pony
+title: Bob Pony
 ---
-
-<head>
-  <link rel="stylesheet" href="/css/main.css">
-</head>
-
+{% include nav.html %}
 <section class="section hero is-fullheight gradient">
   <div class="hero-body">
     <div class="container has-text-centered">
       <div class="columns is-desktop is-vcentered is-centered">
         <div class="column is-narrow">
-          <h1 class="title is-size-1 has-text-white" style="font-size: 3.3em !important;">Bob Pony</h1>
-		  <p class="subtitle">Work in progress, not everything is feature complete yet for now.</p>
-		  <div class="column has-text-centered">
+          <h1 class="title is-size-1">{{page.title}}</h1>
             <a href="https://www.youtube.com/channel/UCAZzz2Dd9Xh6vTjNcxhqPZw" class="link" title="YouTube Channel"> <span class="icon is-large"> <i class="icons fab fa-youtube fa-3x"></i> </span> </a>
             <a href="https://twitter.com/TheBobPony" class="link" title="@TheBobPony"> <span class="icon is-large"> <i class="icons fab fa-twitter fa-3x"></i> </span> </a>
             <a href="https://github.com/TheBobPony" class="link" title="GitHub"> <span class="icon is-large"> <i class="icons fab fa-github fa-3x"></i> </span> </a>
             <a href="https://discord.me/bobpony" class="link" title="Discord Server"> <span class="icon is-large"> <i class="icons fab fa-discord fa-3x"></i> </span> </a>
             <a href="mailto:me@bobpony.org" class="link" title="E-mail"> <span class="icon is-large"> <i class="icons fas fa-envelope-open-text fa-3x"></i> </span> </a>
-            <div class="columns">
-              <div class="column has-text-centered">
-                <a href="/blog" class="link" title="Blog"> <span class="icon is-large"> <i class="icons fa fa-rss fa-3x"></i> </span> </a>
-                <a href="/downloads" class="link" title="Downloads"> <span class="icon is-large"> <i class="icons fa fa-download fa-3x"></i> </span> </a>
-              </div>
-            </div>
-          </div>
-		  <a href="https://bobpony.org" class="button">Return to old site</a>
         </div>
       </div>
     </div>
   </div>
+  <br /><br />
 </section>

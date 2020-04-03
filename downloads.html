@@ -5,15 +5,9 @@ layout: default
 permalink: /downloads/
 title: Downloads
 ---
-
-<head>
-  <link rel="stylesheet" href="../css/main.css">
-  <link rel="stylesheet" href="../css/downloads.css">
-</head>
-
 {% include nav.html %}
 
-<section class="hero gradient">
+<section class="hero is-primary is-bold">
   <div class="hero-body">
     <div class="container" id="container">
       <div class="columns">
@@ -28,11 +22,11 @@ title: Downloads
     </div>
   </div>
   <div class="hero-foot">
-    <nav class="tabs is-centered animated fadeInUp faster">
+    <nav class="tabs is-centered animated fadeInDown faster">
       <ul>
-        <li><a href="#software"><i class="fas fa-window-restore icon is-small"></i>Software</a></li>
-        <li><a href="#updates"><i class="fas fa-sync icon is-small"></i>Updates</a></li>
-        <li><a href="#windows"><i class="fab fa-windows icon is-small"></i>Windows</a></li>
+        {% for d in site.downloads %}
+        <li><a href="#{{d.idd}}"><i class="{{ d.icon }} icon is-small"></i>{{ d.title }}</a></li>
+        {% endfor %}
       </ul>
     </nav>
   </div>

@@ -1,12 +1,12 @@
 ---
-description: The lair of files, software, and more
+description: Useful files, software, and more.
+icon: fas fa-cloud-download-alt
 layout: default
 permalink: /downloads/
 title: Downloads
 ---
 
 <head>
-  <script src="../js/nav.js"></script>
   <link rel="stylesheet" href="../css/main.css">
   <link rel="stylesheet" href="../css/downloads.css">
 </head>
@@ -16,13 +16,13 @@ title: Downloads
 <section class="hero gradient">
   <div class="hero-body">
     <div class="container" id="container">
-      <div class="columns has-text-white">
+      <div class="columns">
         <div class="column animated fadeInLeft faster">
-          <h1 class="title is-size-1 has-text-white" style="margin-bottom: 15px;">Downloads</h1>
-          <p class="subtitle is-size-4 has-text-white">Useful files, software, and more</p>
+          <h1 class="title is-size-1">{{page.title}}</h1>
+          <p class="subtitle is-size-4">{{page.description}}</p>
         </div>
         <div class="column is-narrow is-hidden-mobile is-hidden-touch animated fadeInRight faster">
-          <i class="fas fa-cloud-download-alt fa-5x"></i>
+          <i class="{{ page.icon }} fa-6x"></i>
         </div>
       </div>
     </div>
@@ -30,9 +30,9 @@ title: Downloads
   <div class="hero-foot">
     <nav class="tabs is-centered animated fadeInUp faster">
       <ul>
-        <li><a class="has-text-white" href="#software"><i class="fas fa-window-restore icon is-small"></i>Software</a></li>
-        <li><a class="has-text-white" href="#updates"><i class="fas fa-sync icon is-small"></i>Updates</a></li>
-        <li><a class="has-text-white" href="#windows"><i class="fab fa-windows icon is-small"></i>Windows</a></li>
+        <li><a href="#software"><i class="fas fa-window-restore icon is-small"></i>Software</a></li>
+        <li><a href="#updates"><i class="fas fa-sync icon is-small"></i>Updates</a></li>
+        <li><a href="#windows"><i class="fab fa-windows icon is-small"></i>Windows</a></li>
       </ul>
     </nav>
   </div>
@@ -44,9 +44,7 @@ title: Downloads
   <p class="title has-text-centered is-size-2">
     <i class="{{ d.icon }}"></i> {{ d.title }}
   </p>
-  {{ d.content }}
-  <br>
+  <div class="box">{{ d.content }}</div>
   <br>
   {% endfor %}
-  <br>
 </section>

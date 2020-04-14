@@ -8,27 +8,27 @@ idd: windows
   <p class="title" id="{{page.idd}}">
     Windows 1.0 - 2000
   </p>
-  <a class="button  is-rounded" href="https://mega.nz/#F!rMNQFIqB!kVUiDuv7n5_A59t0NBKd9A">
+  <a class="button  is-rounded" href="{{ site.cdnurl }}\{{ page.idd }}\">
     <span class="icon is-small"><i class="fas fa-download"></i></span>
     <p>Windows 1.0 - 3.1</p>
   </a>
-  <a class="button  is-rounded" href="https://mega.nz/#F!2JlWSQJK!P7Vbac3ldKHgGNhFrfFRnA">
+  <a class="button  is-rounded" href="{{ site.cdnurl }}\{{ page.idd }}\95\">
     <span class="icon is-small"><i class="fas fa-download"></i></span>
     <p>Windows 95</p>
   </a>
-  <a class="button  is-rounded" href="https://mega.nz/#F!KIsiiABB!ncHdEqur9O7pqy-DPnxKaw">
+  <a class="button  is-rounded" href="{{ site.cdnurl }}\{{ page.idd }}\nt\">
     <span class="icon is-small"><i class="fas fa-download"></i></span>
     <p>Windows NT 3.1 - 4.0</p>
   </a>
-  <a class="button  is-rounded" href="https://mega.nz/#F!HZlE1QRY!hekoJOLKx80uYtQceGgWbQ">
+  <a class="button  is-rounded" href="{{ site.cdnurl }}\{{ page.idd }}\98\">
     <span class="icon is-small"><i class="fas fa-download"></i></span>
     <p>Windows 98</p>
   </a>
-  <a class="button  is-rounded" href="https://mega.nz/#!LYVmiSBS!rF_DFLuyIkkGF86FV7NE8k34hIFjQlBoCbf0XvcA7mM">
+  <a class="button  is-rounded" href="{{ site.cdnurl }}\{{ page.idd }}\">
     <span class="icon is-small"><i class="fas fa-download"></i></span>
     <p>Windows 2000</p>
   </a>
-  <a class="button  is-rounded" href="https://mega.nz/#!DYUWjQ5Y!sFD0g1aDyhMwUxo7ZkkZm-enk0Ux-NTeziBw6wR8YY4">
+  <a class="button  is-rounded" href="{{ site.cdnurl }}\{{ page.idd }}\Windows_Me_en.zip">
     <span class="icon is-small"><i class="fas fa-download"></i></span>
     <p>Windows ME</p>
   </a>
@@ -38,35 +38,35 @@ idd: windows
   <p class="title">
     Windows XP <a href="https://en.wikipedia.org/wiki/Windows_XP"><i  class="subtitle fas fa-question-circle"></i></a>
   </p>
-  <a class="button  is-rounded" href="https://mega.nz/#!nE0xGRaC!L9ggqL7hRcm-2K7OszrDDCaGivPy9FsZdCfyaHcwGHE">
+  <a class="button  is-rounded" href="{{ site.cdnurl }}\{{ page.idd }}\xp\Windows XP Professional SP3 x86.iso">
     <span class="icon is-small"><i class="fas fa-download"></i></span>
     <p>Professional</p>
   </a>
-  <a class="button  is-rounded" href="https://mega.nz/#!Dc8iHYbC!Bzq-MccyHuSEUdomRXO72UH9kXRMqAu3jV2gD-iHfAI">
+  <a class="button  is-rounded" href="{{ site.cdnurl }}\{{ page.idd }}\xp\Windows XP Professional RTM.iso">
     <span class="icon is-small"><i class="fas fa-download"></i></span>
     <p>Professional RTM</p>
   </a>
-  <a class="button  is-rounded" href="https://mega.nz/#!yBlEkYQI!phcBWeLHEkZ0Iiiufna5X72epw6YbbY3lXJtbmOWztE">
+  <a class="button  is-rounded" href="{{ site.cdnurl }}\{{ page.idd }}\xp\Windows XP Home Edition.iso">
     <span class="icon is-small"><i class="fas fa-download"></i></span>
     <p>Home Edition</p>
   </a>
-  <a class="button  is-rounded" href="https://mega.nz/#!GBk2RAhY!iAxvUty-65shTZVZWLB08VPryvBrUXAbOv7YYA7h6Ik">
+  <a class="button  is-rounded" href="{{ site.cdnurl }}\{{ page.idd }}\xp\Windows XP MCE 2005.zip">
     <span class="icon is-small"><i class="fas fa-download"></i></span>
     <p>MCE 2005</p>
   </a>
-  <a class="button  is-rounded" href="https://mega.nz/#!Dd9ATSaK!XgVZoSZ601CqN6bNjcak0mCI2acM3ha03i9C1xMO9ZU">
+  <a class="button  is-rounded" href="{{ site.cdnurl }}\{{ page.idd }}\xp\Windows XP Starter Edition SP3.iso">
     <span class="icon is-small"><i class="fas fa-download"></i></span>
     <p>Starter</p>
   </a>
-  <a class="button  is-rounded" href="https://mega.nz/#!Ld0mRKoa!hmNxF3YiaAcjS7Fwp8iDICIBUn9keklgVhK0ovFIyhw">
+  <a class="button  is-rounded" href="{{ site.cdnurl }}\{{ page.idd }}\xp\Windows XP Tablet PC Edition (2005).zip">
     <span class="icon is-small"><i class="fas fa-download"></i></span>
     <p>Tablet PC</p>
   </a>
-  <a class="button  is-rounded" href="https://mega.nz/#!DQkWRICR!_0zKVmK6vVMfE8THixNMKjJXARV7TMBpeIr_LTGLInE">
+  <a class="button  is-rounded" href="{{ site.cdnurl }}\{{ page.idd }}\xp\Windows XP Professional x64 VL.iso">
     <span class="icon is-small"><i class="fas fa-download"></i></span>
     <p>x64</p>
   </a>
-  <a class="button  is-rounded" href="https://mega.nz/#!rB1URA7a!740BLUV2IOSrbeyHXHzRbAAXRqJ2QVKn9RY_nGQCoTU">
+  <a class="button  is-rounded" href="{{ site.cdnurl }}\{{ page.idd }}\xp\Windows XP 64-Bit Edition 2003 (For ia64).iso">
     <span class="icon is-small"><i class="fas fa-download"></i></span>
     <p>ia64</p>
   </a>
@@ -78,7 +78,7 @@ idd: windows
   <p class="title">
     Windows Vista - 10
   </p>
-  <a class="button  is-rounded" href="https://mega.nz/#!Gc1mmK5Z!p3Jcew0SAuIzhF3-nmCcSPZ4mPcPc4scF7YzdBn1ZRQF">
+  <a class="button  is-rounded" href="{{ site.cdnurl }}\{{ page.idd }}\">
     <span class="icon is-small"><i class="fas fa-download"></i></span>
     <p>Windows Vista</p>
   </a>
@@ -100,11 +100,11 @@ idd: windows
   <p class="title">
     Windows Server <a href="https://en.wikipedia.org/wiki/Windows_Server"><i  class="subtitle fas fa-question-circle"></i></a>
   </p>
-  <a class="button  is-rounded" href="https://mega.nz/#!bZNgECrQ!KOhof733PHTjGod8QVDRr5eUvhJviYpeg2E-C8vixLw">
+  <a class="button  is-rounded" href="{{ site.cdnurl }}\{{ page.idd }}\server\Windows Server 2003 x86 SP2.iso">
     <span class="icon is-small"><i class="fas fa-download"></i></span>
     <p>2003</p>
   </a>
-  <a class="button  is-rounded" href="https://mega.nz/#!KIcG3IJT!xnsugXsBuSvPDwVBC1LrYf5tLktae5mcnTz-dRiYW5Y">
+  <a class="button  is-rounded" href="{{ site.cdnurl }}\{{ page.idd }}\server\Windows Server 2003 R2 SP2 x86.zip">
     <span class="icon is-small"><i class="fas fa-download"></i></span>
     <p>2003 R2</p>
   </a>
@@ -138,7 +138,7 @@ idd: windows
   <p class="title">
     Others
   </p>
-  <a class="button  is-rounded" href="https://mega.nz/#!zUUiBaxK!_X1MJzmY0xIGv1xqv8Bgxa4Q_A9o5WMODltgs6RqHEs">
+  <a class="button  is-rounded" href="{{ site.cdnurl }}\{{ page.idd }}\xp\Windows Fundamentals for Legacy PCs SP2.iso">
     <span class="icon is-small"><i class="fas fa-download"></i></span>
     <p>Windows FLP</p>
   </a>

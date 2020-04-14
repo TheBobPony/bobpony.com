@@ -8,31 +8,31 @@ idd: updates
   <p class="title" id="{{page.idd}}">
     <i class="fab fa-windows"></i> Windows NT 4.0 <a href="https://en.wikipedia.org/wiki/Windows_NT_4.0#Service_packs"><i  class="subtitle fas fa-question-circle"></i></a>
   </p>
-  <a class="button  is-rounded" href="https://mega.nz/#!vQEVjSZJ!84FXPagwi_bJSMOZZxu9uX-XoJBq181HTSDhrPPMaCA">
+  <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/Windows NT 4.0 Service Pack 1.7z">
     <span class="icon is-small"><i class="fas fa-download"></i></span>
     <p>SP1</p>
   </a>
-  <a class="button  is-rounded" href="https://mega.nz/#!7JVRUIhK!0xWHDlxpFMaHZS6j5c9i3VUz3OYcGHt0BfREfeBkrFw">
+  <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/Windows NT 4.0 Service Pack 2.7z">
     <span class="icon is-small"><i class="fas fa-download"></i></span>
     <p>SP2</p>
   </a>
-  <a class="button  is-rounded" href="https://mega.nz/#!iUUxAQYD!nx8UYu6QKq6CaUjKJX3knV4KTMJ6SgPMtuCf6oLrkew">
+  <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/Windows NT 4.0 Service Pack 3.7z">
     <span class="icon is-small"><i class="fas fa-download"></i></span>
     <p>SP3</p>
   </a>
-  <a class="button  is-rounded" href="https://mega.nz/#!HdMTXQYZ!hI42xanbXvb1JlBVFamnf3NI8qaicED9eaPKWOgY_vo">
+  <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/Windows NT 4.0 Service Pack 4.7z">
     <span class="icon is-small"><i class="fas fa-download"></i></span>
     <p>SP4</p>
   </a>
-    <a class="button  is-rounded" href="https://mega.nz/#!LcERCAjD!eeYk3HgMKs-NTANyQbpQw8_0bIPz2B0DlLXEQG3_MJk">
+    <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/Windows NT 4.0 Service Pack 5.7z">
     <span class="icon is-small"><i class="fas fa-download"></i></span>
     <p>SP5</p>
   </a>
-    <a class="button  is-rounded" href="https://mega.nz/#!qRVxgKRJ!wsrawLd9IULKknshnsbXL2zY8_J_PLICTWjgZeqxLE8">
+    <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/Windows NT 4.0 Service Pack 6a.7z">
     <span class="icon is-small"><i class="fas fa-download"></i></span>
     <p>SP6a</p>
   </a>
-    <a class="button  is-rounded" href="https://mega.nz/#!LFEFQCrD!VBcvc-hCG-t4jtZjkDEiUIjpdui2vlGVQ3HS0VkLmMw">
+    <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/Windows NT 4.0 USB Support Patch.7z">
     <span class="icon is-small"><i class="fas fa-download"></i></span>
     <p>USB Support Patch</p>
   </a>
@@ -42,19 +42,19 @@ idd: updates
   <p class="title" id="patches">
     <i class="fab fa-windows"></i> Windows 2000 <a href="https://en.wikipedia.org/wiki/Windows_2000#Service_packs"><i  class="subtitle fas fa-question-circle"></i></a>
   </p>
-   <a class="button  is-rounded" href="https://mega.nz/#!3cUFBQbZ!G76ldqYycDcR4C_S5fR2LLUtr7iQTW3m8CvVbb3Rzmo">
+   <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/Windows 2000 Service Pack 1.7z">
     <span class="icon is-small"><i class="fas fa-download"></i></span>
     <p>SP1</p>
   </a>
-  <a class="button  is-rounded" href="https://mega.nz/#!qJFzSI4A!fLRFQ24MpGWLiAF9d178vg5k-F9Q8VCDrSPV-E31IDc">
+  <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/Windows 2000 Service Pack 2.7z">
     <span class="icon is-small"><i class="fas fa-download"></i></span>
     <p>SP2</p>
   </a>
-  <a class="button  is-rounded" href="https://mega.nz/#!jRNViACK!QPo-azmsFOC5V93m6Vs40anTKAV4Rsh43Cu6rd53mnk">
+  <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/Windows 2000 Service Pack 3.7z">
     <span class="icon is-small"><i class="fas fa-download"></i></span>
     <p>SP3</p>
   </a>
-  <a class="button  is-rounded" href="https://mega.nz/#!2NU1iKqL!V33b6hOonrlAQm6uoxjmzuIE8pNwwljKMn6K44NYPGI">
+  <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/Windows 2000 Service Pack 4.7z">
     <span class="icon is-small"><i class="fas fa-download"></i></span>
     <p>SP4</p>
   </a>

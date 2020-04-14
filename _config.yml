@@ -2,6 +2,7 @@
 title: BobPony.com
 description: Writing about various things.
 permalink: /blog/:year/:title/
+cdnurl: https://cdn.bobpony.com
 
 # Collections from folders
 collections:

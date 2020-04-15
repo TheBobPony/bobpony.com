@@ -3,6 +3,7 @@ title: BobPony.com
 description: Writing about various things.
 permalink: /blog/:year/:title/
 cdnurl: https://cdn.bobpony.com
+wikihelp: https://en.wikipedia.org/wiki
 
 # Collections from folders
 collections:

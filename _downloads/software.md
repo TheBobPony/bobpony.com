@@ -7,51 +7,55 @@ idd: software
 
 <div class="column">
   <p class="title" id="{{page.idd}}">
-    <i class="fas fa-compact-disc"></i> HP LightScribe
+    <i class="fas fa-toolbox"></i> Utilites
   </p>
-  <a class="button  is-rounded" href="https://mega.nz/#!zAc2yS4a!13qxN9SQc7cwUeQUv1WB3qph_XzgAQpZ5RQDa9CvicQ">
+  <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/">
     <span class="icon is-small"><i class="fas fa-download"></i></span>
-    <p>System Software</p>
+    <p>Sysinternals Suite</p>
   </a>
-  <a class="button  is-rounded" href="https://mega.nz/#!XcNQzI6B!M9dId92aqmsiuf0uSUZUgmmLhofMkMwujHtzZx8aOhQ">
-    <span class="icon is-small"><i class="fas fa-download"></i></span>
-    <p>Simple Labeler</p>
+  <a class="button  is-rounded" href="https://www.cpuid.com/softwares/cpu-z.html">
+    <span class="icon is-small"><i class="fas fa-external-link-alt"></i></span>
+    <p>CPU-Z</p>
   </a>
-  <a class="button  is-rounded" href="https://mega.nz/#!7RUCCCZI!qlAcyJ3hCshybYvfWCcyCqTef9E3-eCYa74eVt4a8tk">
+  <a class="button  is-rounded" href="https://www.techpowerup.com/download/techpowerup-gpu-z/">
+    <span class="icon is-small"><i class="fas fa-external-link-alt"></i></span>
+    <p>GPU-Z</p>
+  </a>
+  <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/">
     <span class="icon is-small"><i class="fas fa-download"></i></span>
-    <p>Template Labeler</p>
+    <p>AIDA32</p>
   </a>
 </div>
 
 <div class="column">
   <p class="title">
-    <i class="fas fa-exclamation"></i> Microsoft Plus! <a href="https://en.wikipedia.org/wiki/Microsoft_Plus"><i  class="subtitle fas fa-question-circle"></i></a>
+    <i class="fas fa-exclamation"></i> Microsoft Plus! <a href="{{site.wikihelp}}/Microsoft_Plus"><i  class="subtitle fas fa-question-circle"></i></a>
   </p>
-  <a class="button  is-rounded" href="https://mega.nz/#!zYsEnSiJ!E2wdxVT_kH5a-6czbiN0JZxSBnUAEH4Q2bG-qHHCDmk">
+  <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/msplus/Microsoft Plus! for Windows 95.iso">
     <span class="icon is-small"><i class="fas fa-download"></i></span>
     <p>Plus! 95</p>
   </a>
-  <a class="button  is-rounded" href="https://mega.nz/#!DY1WASYQ!h-ag0oqXjrnXiZg5P4ViRJTf9kxdvLzmq33nE5yyK1s">
+  <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/msplus/Microsoft Plus! For Kids.iso">
     <span class="icon is-small"><i class="fas fa-download"></i></span>
     <p>Plus! for Kids</p>
   </a>
-  <a class="button  is-rounded" href="https://mega.nz/#!2R1SQQzS!SvriU3yFOtFJZZikPokn-vrOq2ItXRQqQ40NR6fPpwQ">
+  <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/msplus/Microsoft Plus! For Windows 98.iso">
     <span class="icon is-small"><i class="fas fa-download"></i></span>
     <p>Plus! 98</p>
   </a>
-    <a class="button  is-rounded" href="https://mega.nz/#!6YlQVSSJ!qdNS52IuPEthp2qBMkuNBo9LwW9s-m6oYEO7IoR3rKY">
+    <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/msplus/Microsoft Plus! Game Pack - Cards And Puzzles.iso">
     <span class="icon is-small"><i class="fas fa-download"></i></span>
     <p>Plus! Game Pack</p>
   </a>
-    <a class="button  is-rounded" href="https://mega.nz/#!yI8QFIYA!qSKgo4Ce_33o2faqUlqqbuyAopa17M3HYgmO7AEyTjs">
+    <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/msplus/Microsoft Plus! For Windows XP.iso">
     <span class="icon is-small"><i class="fas fa-download"></i></span>
     <p>Plus! XP</p>
   </a>
-    <a class="button  is-rounded" href="https://mega.nz/#!KMtkmCIY!Jxcw7EvU3bWYGbx06eCqvNdxENhcRozpBg5EcOStCoA">
+    <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/msplus/Microsoft Plus! Digital Media Edition.iso">
     <span class="icon is-small"><i class="fas fa-download"></i></span>
     <p>Plus! Digital Media</p>
   </a>
-    <a class="button  is-rounded" href="https://mega.nz/#!GYliVQxZ!L31NM-IVGgCZ_t0JMo6XholBSBFcdX1x6jHsNQsGTic">
+    <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/msplus/Microsoft Plus! XP Superpack.zip">
     <span class="icon is-small"><i class="fas fa-download"></i></span>
     <p>Plus! SuperPack</p>
   </a>
@@ -62,7 +66,7 @@ idd: software
 <div class="columns">
 <div class="column">
   <p class="title">
-    <i class="fas fa-times"></i> DirectX <a href="https://en.wikipedia.org/wiki/DirectX"><i  class="subtitle fas fa-question-circle"></i></a>
+    <i class="fas fa-times"></i> DirectX <a href="{{site.wikihelp}}/DirectX"><i  class="subtitle fas fa-question-circle"></i></a>
   </p>
   <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/dx/">
     <span class="icon is-small"><i class="fas fa-download"></i></span>
@@ -88,49 +92,49 @@ idd: software
 
 <div class="column">
   <p class="title" id="updates">
-    <i class="fab fa-internet-explorer"></i> Internet Explorer <a href="https://en.wikipedia.org/wiki/Internet_Explorer"><i  class="subtitle fas fa-question-circle"></i></a>
+    <i class="fab fa-internet-explorer"></i> Internet Explorer <a href="{{site.wikihelp}}/Internet_Explorer"><i  class="subtitle fas fa-question-circle"></i></a>
   </p>
   <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/ie/IE1.zip">
     <span class="icon is-small"><i class="fas fa-download"></i></span>
     <p>IE1</p>
   </a>
-  <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/IE2.zip">
+  <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/ie/IE2.zip">
     <span class="icon is-small"><i class="fas fa-download"></i></span>
     <p>IE2</p>
   </a>
-  <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/IE3.zip">
+  <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/ie/IE3.zip">
     <span class="icon is-small"><i class="fas fa-download"></i></span>
     <p>IE3</p>
   </a>
-  <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/IE4.zip">
+  <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/ie/IE4.zip">
     <span class="icon is-small"><i class="fas fa-download"></i></span>
     <p>IE4</p>
   </a>
-  <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/IE5.zip">
+  <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/ie/IE5.zip">
     <span class="icon is-small"><i class="fas fa-download"></i></span>
     <p>IE5</p>
   </a>
-  <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/IE6.zip">
+  <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/ie/IE6.zip">
     <span class="icon is-small"><i class="fas fa-download"></i></span>
     <p>IE6</p>
   </a>
-  <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/IE7.zip">
+  <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/ie/IE7.zip">
     <span class="icon is-small"><i class="fas fa-download"></i></span>
     <p>IE7</p>
   </a>
-  <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/IE8.zip">
+  <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/ie/IE8.zip">
     <span class="icon is-small"><i class="fas fa-download"></i></span>
     <p>IE8</p>
   </a>
-  <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/IE9.zip">
+  <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/ie/IE9.zip">
     <span class="icon is-small"><i class="fas fa-download"></i></span>
     <p>IE9</p>
   </a>
-  <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/IE10.zip">
+  <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/ie/IE10.zip">
     <span class="icon is-small"><i class="fas fa-download"></i></span>
     <p>IE10</p>
   </a>
-  <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/IE11.zip">
+  <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/ie/IE11.zip">
     <span class="icon is-small"><i class="fas fa-download"></i></span>
     <p>IE11</p>
   </a>
@@ -139,7 +143,7 @@ idd: software
 <div class="columns">
 <div class="column">
   <p class="title">
-    <i class="fas fa-play"></i> Windows Media Player <a href="https://en.wikipedia.org/wiki/Windows_Media_Player"><i  class="subtitle fas fa-question-circle"></i></a>
+    <i class="fas fa-play"></i> Windows Media Player <a href="{{site.wikihelp}}/Windows_Media_Player"><i  class="subtitle fas fa-question-circle"></i></a>
   </p>
   <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/wmp/WMP7.zip">
     <span class="icon is-small"><i class="fas fa-download"></i></span>
@@ -164,23 +168,23 @@ idd: software
 </div>
 <div class="column">
   <h1 class="title">
-    <i class="fab fa-windows"></i> Windows (Live) Essentials
+    <i class="fab fa-windows"></i> Windows (Live) Essentials <a href="{{site.wikihelp}}/Windows_Essentials"><i  class="subtitle fas fa-question-circle"></i></a>
   </h1>
   <a class="button is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/wle/">
     <span class="icon is-small">
-      <i class="fas fa-download"></i>
+      <i class="fas fa-folder"></i>
     </span>
     <span>2009 (XP+)</span>
   </a>
   <a class="button is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/wle/">
     <span class="icon is-small">
-      <i class="fas fa-download"></i>
+      <i class="fas fa-folder"></i>
     </span>
     <span>2011 (Vista+)</span>
   </a>
   <a class="button is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/wle/">
     <span class="icon is-small">
-      <i class="fas fa-download"></i>
+      <i class="fas fa-folder"></i>
     </span>
     <span>2012 (7+)</span>
   </a>
@@ -190,8 +194,9 @@ idd: software
 <h1 class="title">
     <i class="fab fa-windows"></i> Others
   </h1>
-    <a class="button is-rounded" href="https://archive.org/details/ChromeFrameArchive01"><span>Google Chrome Frame</span></a>
-    <a class="button is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/"><span>IE6 for modern Windows</span></a>
-    <a class="button is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/"><span>Windows Movie Maker 2.6</span></a>
-    <a class="button is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/"><span>Windows Movie Maker 6.0</span></a>
+  <div markdown="1">
+  [Google Chrome Frame](https://archive.org/details/ChromeFrameArchive01){: .button .is-rounded}
+  [Windows Movie Maker 2.6]({{ site.cdnurl }}/{{ page.idd }}/81.98_forceware_win9x_english.exe){: .button .is-rounded}
+  [Windows Movie Maker 6.0]({{ site.cdnurl }}/{{ page.idd }}/81.98_forceware_win9x_english.exe){: .button .is-rounded}
+  [IE6 for modern Windows]({{ site.cdnurl }}/{{ page.idd }}/81.98_forceware_win9x_english.exe){: .button .is-rounded}
 </div>

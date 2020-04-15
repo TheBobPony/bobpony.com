@@ -6,7 +6,7 @@ idd: updates
 <div class="columns">
 <div class="column">
   <p class="title" id="{{page.idd}}">
-    <i class="fab fa-windows"></i> Windows NT 4.0 <a href="https://en.wikipedia.org/wiki/Windows_NT_4.0#Service_packs"><i  class="subtitle fas fa-question-circle"></i></a>
+    <i class="fab fa-windows"></i> Windows NT 4.0 <a href="{{site.wikihelp}}/Windows_NT_4.0#Service_packs"><i  class="subtitle fas fa-question-circle"></i></a>
   </p>
   <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/Windows NT 4.0 Service Pack 1.7z">
     <span class="icon is-small"><i class="fas fa-download"></i></span>
@@ -40,7 +40,7 @@ idd: updates
 
 <div class="column">
   <p class="title" id="patches">
-    <i class="fab fa-windows"></i> Windows 2000 <a href="https://en.wikipedia.org/wiki/Windows_2000#Service_packs"><i  class="subtitle fas fa-question-circle"></i></a>
+    <i class="fab fa-windows"></i> Windows 2000 <a href="{{site.wikihelp}}/Windows_2000#Service_packs"><i  class="subtitle fas fa-question-circle"></i></a>
   </p>
    <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/Windows 2000 Service Pack 1.7z">
     <span class="icon is-small"><i class="fas fa-download"></i></span>
@@ -64,7 +64,7 @@ idd: updates
 <div class="columns">
 <div class="column">
   <p class="title" id="patches">
-    <i class="fab fa-windows"></i> Windows XP <a href="https://en.wikipedia.org/wiki/Windows_XP#Service_packs"><i  class="subtitle fas fa-question-circle"></i></a>
+    <i class="fab fa-windows"></i> Windows XP <a href="{{site.wikihelp}}/Windows_XP#Service_packs"><i  class="subtitle fas fa-question-circle"></i></a>
   </p>
   <a class="button  is-rounded" href="http://www.download.windowsupdate.com/msdownload/update/v3-19990518/cabpool/sp1aexpress_5d7ed5146e86a5e10e309048d02744efe5aba1d8.exe">
     <span class="icon is-small"><i class="fas fa-external-link-alt"></i></span>

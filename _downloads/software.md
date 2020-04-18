@@ -203,7 +203,7 @@ idd: software
   </h1>
   <div markdown="1">
 [Google Chrome Frame](https://archive.org/details/ChromeFrameArchive01){: .button .is-rounded}
-[Windows Movie Maker 2.6]({{ site.cdnurl }}/{{ page.idd }}/81.98_forceware_win9x_english.exe){: .button .is-rounded}
-[Windows Movie Maker 6.0]({{ site.cdnurl }}/{{ page.idd }}/81.98_forceware_win9x_english.exe){: .button .is-rounded}
-[IE6 for modern Windows]({{ site.cdnurl }}/{{ page.idd }}/81.98_forceware_win9x_english.exe){: .button .is-rounded}
+[Windows Movie Maker 2.6]({{ site.cdnurl }}/{{ page.idd }}/MM26_ENU.msi){: .button .is-rounded}
+[Windows Movie Maker 6.0]({{ site.cdnurl }}/{{ page.idd }}/wmminst.exe){: .button .is-rounded}
+[IE6 for modern Windows]({{ site.cdnurl }}/{{ page.idd }}/ie/ie6.exe){: .button .is-rounded}
   </div>

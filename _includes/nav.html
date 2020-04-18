@@ -1,4 +1,4 @@
-<nav class="navbar is-primary">
+<nav class="navbar is-primary {% if page.url == "/" %}is-fixed-top{% endif %}">
   <div class="container" id="container">
     <div class="navbar-brand">
       <a href="/" class="navbar-brand">
@@ -15,10 +15,12 @@
         <a href="/" {% if page.url == "/"%}class="navbar-item is-active" {% else %} class="navbar-item" {% endif %}>
           <span class="nav-icon"><i class="fas fa-home"></i> Home </span>
         </a>
-        <a href="/blog/" {% if page.url == "/blog/"%}class="navbar-item is-active" {% else %} class="navbar-item" {% endif %}>
+        <a href="/blog/" {% if page.url == "/blog/"%}class="navbar-item is-active" {% else %} class="navbar-item"
+          {% endif %}>
           <span class="nav-icon"><i class="fas fa-pen"></i> Blog </span>
         </a>
-        <a href="/downloads/" {% if page.url == "/downloads/" %}class="navbar-item is-active" {% else %} class="navbar-item" {% endif %}>
+        <a href="/downloads/" {% if page.url == "/downloads/" %}class="navbar-item is-active" {% else %}
+          class="navbar-item" {% endif %}>
           <span class="nav-icon"><i class="fas fa-cloud-download-alt"></i> Downloads </span>
         </a>
       </div>

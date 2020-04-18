@@ -82,7 +82,7 @@ idd: windows
     <span class="icon is-small"><i class="fas fa-download"></i></span>
     <p>Windows Vista x86</p>
   </a>
-  <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/vista/">
+  <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/vista/en_windows_vista_sp2_x64_dvd_342267.iso">
     <span class="icon is-small"><i class="fas fa-download"></i></span>
     <p>Windows Vista x64</p>
   </a>
@@ -146,8 +146,8 @@ idd: windows
     <span class="icon is-small"><i class="fas fa-download"></i></span>
     <p>Windows FLP</p>
   </a>
-  <a class="button  is-rounded" href="https://mega.nz/#!qB9xVCLZ!eTfZ34xOPcXoH2wnJIHNUBVYD4Uc6DZS4xU_99tDZWw">
-    <span class="icon is-small"><i class="fas fa-download"></i></span>
+  <a class="button  is-rounded" href="http://download.microsoft.com/download/C/D/7/CD789C98-6C1A-43D6-87E9-F7FDE3806950/ThinPC_110415_EVAL_x86fre.iso">
+    <span class="icon is-small"><i class="fas fa-external-link-alt"></i></span>
     <p>Win7 Thin PC</p>
   </a>
     <a class="button  is-rounded" href="https://www.microsoft.com/en-us/download/details.aspx?id=11196">
@@ -164,6 +164,6 @@ idd: windows
   </a>
   <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/eval/">
     <span class="icon is-small"><i class="fas fa-folder"></i></span>
-    <p>Evaluations</p>
+    <p>Evaluations Archive</p>
   </a>
 </div>

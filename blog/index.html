@@ -5,10 +5,6 @@ layout: default
 title: Blog
 ---
 
-<head>
-  <script src="{{ "/js/nav.js" | prepend: site.baseurl }}"></script>
-</head>
-
 {% include nav.html %}
 
 <section class="hero is-primary is-bold">
@@ -48,7 +44,8 @@ title: Blog
           </div>
         </div>
       </div>
-      {% capture mod %} {{ forloop.index | modulo: 2 | times: 1 }} {% endcapture %} {% if mod contains "0" %} {% endif %} {% endfor %}
+      {% capture mod %} {{ forloop.index | modulo: 2 | times: 1 }} {% endcapture %} {% if mod contains "0" %}
+      {% endif %} {% endfor %}
     </div>
   </div>
 </section>
@@ -58,11 +55,13 @@ title: Blog
     <nav class="pagination is-centered is-rounded">
       {% if paginator.total_pages > 1 %}
       {% if paginator.previous_page %}
-      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="pagination-previous"><span class="fas fa-chevron-left fa-lg"></span></a>
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"
+        class="pagination-previous"><span class="fas fa-chevron-left fa-lg"></span></a>
       {% else %}
       {% endif %}
       {% if paginator.next_page %}
-      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="pagination-next"><span class="fas fa-chevron-right fa-lg"></a>
+      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"
+        class="pagination-next"><span class="fas fa-chevron-right fa-lg"></a>
       {% else %}
       <a disabled class="pagination-next"><span class="fas fa-chevron-right fa-lg"></span></a>
       {% endif %}
@@ -73,7 +72,8 @@ title: Blog
         {% elsif page == 1 %}
         <li><a href="/blog/" class="pagination-link">{{ page }}</a></li>
         {% else %}
-        <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}" class="pagination-link">{{ page }}</a></li>
+        <li><a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}"
+            class="pagination-link">{{ page }}</a></li>
         {% endif %}
         {% endfor %}
       </ul>

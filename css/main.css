@@ -1,0 +1,65 @@
+/* Layout Styling */
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.spacer {
+  margin-bottom: 5em;
+}
+
+/* Text Styling */
+
+.title,
+.subtitle {
+  color: #fff !important;
+  margin-top: 3px !important;
+  margin-bottom: 3px !important;
+  font-weight: normal !important;
+}
+
+a:hover {
+  stroke-width: 5.3px;
+  -webkit-stroke-width: 5.3px;
+  -webkit-stroke-color: #FFFFFF;
+  -webkit-fill-color: #FFFFFF;
+  text-shadow: 1px 0px 20px blue;
+}
+
+/* Image Styling */
+.logo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 3px #fff solid;
+  margin-bottom: 5px;
+  transition: all 0.25s;
+  -webkit-transition: all 0.25s;
+}
+
+.logo:hover {
+  filter: saturate(1.15);
+  stroke-width: 5.3px;
+  -webkit-stroke-width: 5.3px;
+  -webkit-stroke-color: #FFFFFF;
+  -webkit-fill-color: #FFFFFF;
+  text-shadow: 1px 0px 20px blue;
+}
+
+/* Icon Styling */
+
+.icons {
+  color: #fff;
+  transition: all .2s;
+  font-size: 3em;
+  padding: 2px;
+}
+
+.icons:hover {
+  color: #ffffffab;
+  transition: all 0.25s;
+  -webkit-transition: all .2s;
+}

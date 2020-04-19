@@ -5,7 +5,7 @@ idd: macos
 ---
 <div class="columns">
   <div class="column">
-    <p class="title" id="{{page.idd}}">
+    <p class="title">
       Classic <a href="{{site.wikihelp}}/Classic_Mac_OS"><i class="subtitle fas fa-question-circle"></i></a>
     </p>
     <a class="button is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/classic/Mac_OS_9.0.0.toast__0.zip">

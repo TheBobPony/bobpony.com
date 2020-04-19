@@ -5,10 +5,10 @@ idd: windows
 ---
 <div class="columns">
 <div class="column">
-  <p class="title" id="{{page.idd}}">
+  <p class="title">
     Windows 1.0 - 2000
   </p>
-  <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/">
+  <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/windos/">
     <span class="icon is-small"><i class="fas fa-folder"></i></span>
     <p>Windows 1.0 - 3.1</p>
   </a>
@@ -78,16 +78,12 @@ idd: windows
   <p class="title">
     Windows Vista - 10
   </p>
-  <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/vista/en_windows_vista_with_sp2_x86_dvd_342266.iso">
-    <span class="icon is-small"><i class="fas fa-download"></i></span>
-    <p>Windows Vista x86</p>
+  <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/vista/">
+    <span class="icon is-small"><i class="fas fa-folder"></i></span>
+    <p>Windows Vista</p>
   </a>
-  <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/vista/en_windows_vista_sp2_x64_dvd_342267.iso">
-    <span class="icon is-small"><i class="fas fa-download"></i></span>
-    <p>Windows Vista x64</p>
-  </a>
-  <a class="button  is-rounded" href="https://www.microsoft.com/en-us/software-download/windows7">
-    <span class="icon is-small"><i class="fas fa-external-link-alt"></i></span>
+  <a class="button  is-rounded" href="https://cdn.bobpony.com/windows/7/">
+    <span class="icon is-small"><i class="fas fa-folder"></i></span>
     <p>Windows 7</p>
   </a>
   <a class="button  is-rounded" href="https://www.microsoft.com/en-us/software-download/windows8ISO">

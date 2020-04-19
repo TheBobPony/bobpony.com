@@ -32,13 +32,17 @@ title: Downloads
   </div>
 </section>
 
-<section class="container section">
+<section class="container section animated fadeInUp faster">
   <br>
   {% for d in site.downloads %}
-  <p class="title has-text-centered is-size-2">
-    <i class="{{ d.icon }}"></i> {{ d.title }}
-  </p>
-  <div class="box">{{ d.content }}</div>
+  <a name="{{ d. idd }}"></a>
+  <div class="box">
+    <p class="title has-text-centered is-size-2">
+      <i class="{{ d.icon }}"></i> {{ d.title }}
+    </p>
+    <hr>
+    {{ d.content }}
+  </div>
   <br>
   {% endfor %}
   <h1 class="title">Looking for more?</h1>

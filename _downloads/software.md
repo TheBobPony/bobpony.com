@@ -6,7 +6,7 @@ idd: software
 <div class="columns">
 
   <div class="column">
-    <p class="title" id="{{page.idd}}">
+    <p class="title">
       <i class="fas fa-toolbox"></i> Utilities
     </p>
     <a class="button  is-rounded" href="https://docs.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite">
@@ -95,7 +95,7 @@ idd: software
   </div>
 
   <div class="column">
-    <p class="title" id="updates">
+    <p class="title">
       <i class="fab fa-internet-explorer"></i> Internet Explorer <a href="{{site.wikihelp}}/Internet_Explorer"><i
           class="subtitle fas fa-question-circle"></i></a>
     </p>

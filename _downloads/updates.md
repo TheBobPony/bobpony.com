@@ -5,7 +5,7 @@ idd: updates
 ---
 <div class="columns">
   <div class="column">
-    <p class="title" id="{{page.idd}}">
+    <p class="title">
       <i class="fab fa-windows"></i> Windows NT 4.0 <a href="{{site.wikihelp}}/Windows_NT_4.0#Service_packs"><i
           class="subtitle fas fa-question-circle"></i></a>
     </p>

@@ -177,19 +177,19 @@ idd: software
       <i class="fab fa-windows"></i> Windows (Live) Essentials <a href="{{site.wikihelp}}/Windows_Essentials"><i
           class="subtitle fas fa-question-circle"></i></a>
     </h1>
-    <a class="button is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/wle/">
+    <a class="button is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/wle/2009">
       <span class="icon is-small">
         <i class="fas fa-folder"></i>
       </span>
       <span>2009 (XP+)</span>
     </a>
-    <a class="button is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/wle/">
+    <a class="button is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/wle/2011">
       <span class="icon is-small">
         <i class="fas fa-folder"></i>
       </span>
       <span>2011 (Vista+)</span>
     </a>
-    <a class="button is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/wle/">
+    <a class="button is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/wle/2012">
       <span class="icon is-small">
         <i class="fas fa-folder"></i>
       </span>

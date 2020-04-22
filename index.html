@@ -4,7 +4,6 @@ layout: default
 permalink: /
 title: Bob Pony
 ---
-{% include nav.html %}
 <link href="/css/main.css" rel="stylesheet">
 <section class="section hero is-fullheight gradient">
   <div class="hero-body">
@@ -12,11 +11,11 @@ title: Bob Pony
       <div class="columns is-desktop is-vcentered is-centered">
         <div class="column is-narrow">
           <h1 class="title is-size-1">{{page.title}}</h1>
-            <a href="https://www.youtube.com/channel/UCAZzz2Dd9Xh6vTjNcxhqPZw" class="link" title="YouTube Channel"> <span class="icon is-large"> <i class="icons fab fa-youtube fa-3x"></i> </span> </a>
-            <a href="https://twitter.com/TheBobPony" class="link" title="@TheBobPony"> <span class="icon is-large"> <i class="icons fab fa-twitter fa-3x"></i> </span> </a>
-            <a href="https://github.com/TheBobPony" class="link" title="GitHub"> <span class="icon is-large"> <i class="icons fab fa-github fa-3x"></i> </span> </a>
-            <a href="https://discord.me/bobpony" class="link" title="Discord Server"> <span class="icon is-large"> <i class="icons fab fa-discord fa-3x"></i> </span> </a>
-            <a href="mailto:me@bobpony.org" class="link" title="E-mail"> <span class="icon is-large"> <i class="icons fas fa-envelope-open-text fa-3x"></i> </span> </a>
+            <a href="https://www.youtube.com/channel/UCAZzz2Dd9Xh6vTjNcxhqPZw" class="link has-tooltip-bottom" data-tooltip="YouTube"> <span class="icon is-large"> <i class="icons fab fa-youtube fa-3x"></i> </span> </a>
+            <a href="https://twitter.com/TheBobPony" class="link has-tooltip-bottom" data-tooltip="Twitter"> <span class="icon is-large"> <i class="icons fab fa-twitter fa-3x"></i> </span> </a>
+            <a href="https://github.com/TheBobPony" class="link has-tooltip-bottom" data-tooltip="GitHub"> <span class="icon is-large"> <i class="icons fab fa-github fa-3x"></i> </span> </a>
+            <a href="https://discord.me/bobpony" class="link has-tooltip-bottom" data-tooltip="Discord Server"> <span class="icon is-large"> <i class="icons fab fa-discord fa-3x"></i> </span> </a>
+            <a href="mailto:me@bobpony.org" class="link has-tooltip-bottom" data-tooltip="E-mail"> <span class="icon is-large"> <i class="icons fas fa-envelope-open-text fa-3x"></i> </span> </a>
         </div>
       </div>
     </div>

@@ -14,7 +14,7 @@ idd: drivers
 [ATI Win2K/XP Archive]({{ site.cdnurl }}/{{ page.idd }}/atiwin2kxp){: .button .is-rounded}
 [NVIDIA (Win9x)]({{ site.cdnurl }}/{{ page.idd }}/nvidia9x/81.98_forceware_win9x_english.exe){: .button .is-rounded}
 [NVIDIA (Win9x) Unofficial](https://drive.google.com/uc?authuser=0&id=0BxP1VJf8kaXoVGhvYmtGUXM5Z2M&export=download){: .button .is-rounded}
-[Older NVIDIA Win9x Drivers]({{ site.cdnurl }}/{{ page.idd }}/nvidia9x){: .button .is-rounded}
+[NVIDIA Win9x Archive]({{ site.cdnurl }}/{{ page.idd }}/nvidia9x){: .button .is-rounded}
 [NVIDIA (WinNT4)]({{ site.cdnurl }}/{{ page.idd }}/){: .button .is-rounded}
 [NVIDIA Win2K/XP Archive]({{ site.cdnurl }}/{{ page.idd }}/nvidia2kxp){: .button .is-rounded}
   </div>

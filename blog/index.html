@@ -3,9 +3,8 @@ description: Writing about various things
 fullurl: https://bobpony.com/blog
 layout: default
 title: Blog
+icon: fas fa-pen
 ---
-
-{% include nav.html %}
 
 <section class="hero is-primary is-bold">
   <div class="hero-body">
@@ -13,10 +12,10 @@ title: Blog
       <div class="columns has-text-white">
         <div class="column animated fadeInLeft faster">
           <h1 class="title is-size-1 has-text-white" style="margin-bottom: 18px;">{{page.title}}</h1>
-          <p class="subtitle is-size-4 has-text-white">{{page.description}}</p>
+          <p class="subtitle is-size-4 has-text-white">{{site.description}}</p>
         </div>
         <div class="column is-narrow is-hidden-mobile is-hidden-touch animated fadeInRight faster">
-          <i class="fas fa-pen fa-5x"></i>
+          <i class="{{page.icon}} fa-5x"></i>
         </div>
       </div>
     </div>

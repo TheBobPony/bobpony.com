@@ -38,20 +38,44 @@ idd: macos
       </span>
       <span>OS 9.2.1</span>
     </a>
+    <a class="button is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/classic/">
+      <span class="icon is-small">
+        <i class="fas fa-folder"></i>
+      </span>
+      <span>More</span>
+    </a>
   </div>
   <div class="column">
     <p class="title">
       Mac OS X <a href="{{site.wikihelp}}/MacOS"><i class="subtitle fas fa-question-circle"></i></a>
     </p>
+    <a class="button is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/cheetah">
+      <span class="icon is-small">
+        <i class="fas fa-folder"></i>
+      </span>
+      <span>Cheetah (10.0)</span>
+    </a>
+    <a class="button is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/puma">
+      <span class="icon is-small">
+        <i class="fas fa-folder"></i>
+      </span>
+      <span>Puma (10.1)</span>
+    </a>
+    <a class="button is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/jaguar">
+      <span class="icon is-small">
+        <i class="fas fa-folder"></i>
+      </span>
+      <span>Jaguar (10.2)</span>
+    </a>
     <a class="button is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/panther">
       <span class="icon is-small">
-        <i class="fas fa-download"></i>
+        <i class="fas fa-folder"></i>
       </span>
       <span>Panther (10.3)</span>
     </a>
     <a class="button is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/tiger">
       <span class="icon is-small">
-        <i class="fas fa-download"></i>
+        <i class="fas fa-folder"></i>
       </span>
       <span>Tiger (10.4)</span>
     </a>

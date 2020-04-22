@@ -1,0 +1,40 @@
+---
+description: List of the devices I have
+icon: fas fa-cubes
+layout: default
+permalink: /devices/
+title: Devices
+---
+<section class="hero is-primary is-bold">
+    <div class="hero-body">
+      <div class="container" id="container">
+        <div class="columns has-text-white">
+          <div class="column animated fadeInLeft faster">
+            <h1 class="title is-size-1 has-text-white" style="margin-bottom: 18px;">{{page.title}}</h1>
+            <p class="subtitle is-size-4 has-text-white">{{page.description}}</p>
+          </div>
+          <div class="column is-narrow is-hidden-mobile is-hidden-touch animated fadeInRight faster">
+            <i class="{{page.icon}} fa-5x"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="container section animated fadeInUp faster">
+  <div class="columns">
+  {% for d in site.devices %}
+  <div class="column">
+  <div class="box">
+    <p class="title has-text-centered is-size-2">
+      <i class="{{ d.icon }}"></i> {{ d.title }}
+    </p>
+    <hr>
+    <p>{{ d.cpu }}</p>
+    <p>{{ d.gpu }}</p>
+    <p>{{ d.ram }}</p> 
+    <p>{{ d.mobo }}</p>
+  </div>
+</div>
+  {% endfor %}
+</div>
+</section>

@@ -38,13 +38,9 @@ idd: windows
   <p class="title">
     Windows XP <a href="https://en.wikipedia.org/wiki/Windows_XP"><i  class="subtitle fas fa-question-circle"></i></a>
   </p>
-  <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/xp/Windows XP Professional SP3 x86.iso">
+  <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/xp/professional/">
     <span class="icon is-small"><i class="fas fa-download"></i></span>
     <p>Professional</p>
-  </a>
-  <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/xp/Windows XP Professional RTM.iso">
-    <span class="icon is-small"><i class="fas fa-download"></i></span>
-    <p>Professional RTM</p>
   </a>
   <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/xp/Windows XP Home Edition.iso">
     <span class="icon is-small"><i class="fas fa-download"></i></span>
@@ -70,6 +66,14 @@ idd: windows
     <span class="icon is-small"><i class="fas fa-download"></i></span>
     <p>ia64</p>
   </a>
+  <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/xp/Windows Fundamentals for Legacy PCs SP2.iso">
+    <span class="icon is-small"><i class="fas fa-download"></i></span>
+    <p>Windows FLP</p>
+  </a>
+  <a class="button  is-rounded" href="https://www.microsoft.com/en-us/download/details.aspx?id=11196">
+    <span class="icon is-small"><i class="fas fa-external-link-alt"></i></span>
+    <p>POSReady 2009</p>
+  </a>
 </div>
 </div>
 
@@ -86,13 +90,25 @@ idd: windows
     <span class="icon is-small"><i class="fas fa-folder"></i></span>
     <p>Windows 7</p>
   </a>
+  <a class="button  is-rounded" href="http://download.microsoft.com/download/C/D/7/CD789C98-6C1A-43D6-87E9-F7FDE3806950/ThinPC_110415_EVAL_x86fre.iso">
+    <span class="icon is-small"><i class="fas fa-external-link-alt"></i></span>
+    <p>Win7 Thin PC</p>
+  </a>
   <a class="button  is-rounded" href="https://www.microsoft.com/en-us/software-download/windows8ISO">
     <span class="icon is-small"><i class="fas fa-external-link-alt"></i></span>
     <p>Windows 8.1</p>
   </a>
+  <a class="button  is-rounded" href="https://www.microsoft.com/en-us/download/details.aspx?id=40745">
+    <span class="icon is-small"><i class="fas fa-external-link-alt"></i></span>
+    <p>Win8.1 Embedded</p>
+  </a>
   <a class="button  is-rounded" href="https://www.microsoft.com/en-us/software-download/windows10">
     <span class="icon is-small"><i class="fas fa-external-link-alt"></i></span>
     <p>Windows 10</p>
+  </a>
+  <a class="button  is-rounded" href="https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced">
+    <span class="icon is-small"><i class="fas fa-external-link-alt"></i></span>
+    <p>Win10 Insiders ISOs</p>
   </a>
 </div>
 
@@ -138,36 +154,12 @@ idd: windows
   <p class="title">
     Others
   </p>
-  <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/xp/Windows Fundamentals for Legacy PCs SP2.iso">
-    <span class="icon is-small"><i class="fas fa-download"></i></span>
-    <p>Windows FLP</p>
-  </a>
-  <a class="button  is-rounded" href="http://download.microsoft.com/download/C/D/7/CD789C98-6C1A-43D6-87E9-F7FDE3806950/ThinPC_110415_EVAL_x86fre.iso">
-    <span class="icon is-small"><i class="fas fa-external-link-alt"></i></span>
-    <p>Win7 Thin PC</p>
-  </a>
-    <a class="button  is-rounded" href="https://www.microsoft.com/en-us/download/details.aspx?id=11196">
-    <span class="icon is-small"><i class="fas fa-external-link-alt"></i></span>
-    <p>POSReady 2009</p>
-  </a>
-  <a class="button  is-rounded" href="https://www.microsoft.com/en-us/download/details.aspx?id=40745">
-    <span class="icon is-small"><i class="fas fa-external-link-alt"></i></span>
-    <p>Win8.1 Embedded</p>
-  </a>
-  <a class="button  is-rounded" href="https://www.microsoft.com/en-us/software-download/windowsinsiderpreviewadvanced">
-    <span class="icon is-small"><i class="fas fa-external-link-alt"></i></span>
-    <p>Win10 Insiders ISOs</p>
-  </a>
   <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/eval/">
     <span class="icon is-small"><i class="fas fa-folder"></i></span>
     <p>Evaluations Archive</p>
   </a>
-  <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/beta/whistler/">
+  <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/beta/">
     <span class="icon is-small"><i class="fas fa-folder"></i></span>
-    <p>Windows XP beta builds</p>
-  </a>
-  <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/beta/longhorn/">
-    <span class="icon is-small"><i class="fas fa-folder"></i></span>
-    <p>Windows Vista beta builds</p>
+    <p>Windows beta builds</p>
   </a>
 </div>

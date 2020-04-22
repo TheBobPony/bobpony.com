@@ -6,12 +6,14 @@
   <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" rel="stylesheet">
   <link href="https://jenil.github.io/bulmaswatch/darkly/bulmaswatch.min.css" rel="stylesheet">
   <link href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bulma-tooltip@3.0.2/dist/css/bulma-tooltip.min.css" rel="stylesheet">
   {% include head.html %}
   <title>{% if page.title %}{{ page.title }}{% else %}Bob Pony{% endif %}</title>
   <script src="{{ "/js/nav.js" | prepend: site.baseurl }}"></script>
 </head>
 
 <body>
+  {% include nav.html %}
   {{ content }}
 </body>
 

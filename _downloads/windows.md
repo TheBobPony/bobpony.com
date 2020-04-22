@@ -162,4 +162,12 @@ idd: windows
     <span class="icon is-small"><i class="fas fa-folder"></i></span>
     <p>Evaluations Archive</p>
   </a>
+  <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/beta/whistler/">
+    <span class="icon is-small"><i class="fas fa-folder"></i></span>
+    <p>Windows XP beta builds</p>
+  </a>
+  <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/beta/longhorn/">
+    <span class="icon is-small"><i class="fas fa-folder"></i></span>
+    <p>Windows Vista beta builds</p>
+  </a>
 </div>

@@ -30,24 +30,26 @@ idd: drivers
 [SB Basic (Win9x DOS Mode)]({{ site.cdnurl }}/{{ page.idd }}/audio/95dosapp.exe){: .button .is-rounded}
   </div>
   </div>
-</div>
-<div class="columns">
-  <div class="column">
-    <p class="title">
-      <i class="fas fa-network-wired"></i> Networking
-    </p>
-    <a class="button is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/Realtek8139.zip" target="_blank"><span>RTL8139
-        Drivers</span></a>
   </div>
-  <div class="column">
-    <p class="title">
-      <i class="fas fa-microchip"></i> Chipset
-    </p>
-    <a class="button is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/chipset/intel/"
-      target="_blank"><span>Intel</span></a>
-    <a class="button is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/chipset/sis/"
-      target="_blank"><span>SiS</span></a>
-    <a class="button is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/chipset/cyrix/"
-      target="_blank"><span>Cyrix</span></a>
-  </div>
-</div>
+  <div class="columns">
+    <div class="column">
+      <p class="title">
+        <i class="fas fa-microchip"></i> Chipset
+      </p>
+      <a class="button is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/chipset/intel/"
+        target="_blank"><span>Intel</span></a>
+      <a class="button is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/chipset/sis/"
+        target="_blank"><span>SiS</span></a>
+      <a class="button is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/chipset/cyrix/"
+        target="_blank"><span>Cyrix</span></a>
+    </div>
+    <div class="column">
+      <p class="title">
+        <i class="fas fa-cubes"></i> Others
+      </p>
+      <a class="button is-rounded"
+        href="https://docs.fedoraproject.org/en-US/quick-docs/creating-windows-virtual-machines-using-virtio-drivers/"
+        target="_blank"><span>Virtio Drivers</span></a>
+      <a class="button is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/Realtek8139.zip"
+        target="_blank"><span>RTL8139</span></a>
+    </div>

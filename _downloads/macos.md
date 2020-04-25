@@ -1,12 +1,12 @@
 ---
-title: Mac OS
+title: macOS
 icon: fab fa-apple
 idd: macos
 ---
 <div class="columns">
   <div class="column">
     <p class="title">
-      Classic <a href="{{site.wikihelp}}/Classic_Mac_OS"><i class="subtitle fas fa-question-circle"></i></a>
+      Classic (PPC)<a href="{{site.wikihelp}}/Classic_Mac_OS"><i class="subtitle fas fa-question-circle"></i></a>
     </p>
     <a class="button is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/classic/Mac_OS_9.0.0.toast__0.zip">
       <span class="icon is-small">
@@ -47,7 +47,7 @@ idd: macos
   </div>
   <div class="column">
     <p class="title">
-      Mac OS X <a href="{{site.wikihelp}}/MacOS"><i class="subtitle fas fa-question-circle"></i></a>
+      Mac OS X (PPC) <a href="{{site.wikihelp}}/MacOS"><i class="subtitle fas fa-question-circle"></i></a>
     </p>
     <a class="button is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/cheetah">
       <span class="icon is-small">

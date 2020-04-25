@@ -1,5 +1,5 @@
 ---
-title: Windows ISOs
+title: Windows
 icon: fab fa-windows
 idd: windows
 ---
@@ -70,9 +70,9 @@ idd: windows
     <span class="icon is-small"><i class="fas fa-download"></i></span>
     <p>Windows FLP</p>
   </a>
-  <a class="button  is-rounded" href="https://www.microsoft.com/en-us/download/details.aspx?id=11196">
-    <span class="icon is-small"><i class="fas fa-external-link-alt"></i></span>
-    <p>POSReady 2009</p>
+  <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/eval/POSready2009_CD.iso">
+    <span class="icon is-small"><i class="fas fa-download"></i></span>
+    <p>POSReady 2009 (Evaluation)</p>
   </a>
 </div>
 </div>
@@ -116,28 +116,28 @@ idd: windows
   <p class="title">
     Windows Server <a href="https://en.wikipedia.org/wiki/Windows_Server"><i  class="subtitle fas fa-question-circle"></i></a>
   </p>
-  <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/server/Windows Server 2003 x86 SP2.iso">
-    <span class="icon is-small"><i class="fas fa-download"></i></span>
+  <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/server/2003/">
+    <span class="icon is-small"><i class="fas fa-folder"></i></span>
     <p>2003</p>
   </a>
-  <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/server/Windows Server 2003 R2 SP2 x86.zip">
-    <span class="icon is-small"><i class="fas fa-download"></i></span>
+  <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/server/2003r2/">
+    <span class="icon is-small"><i class="fas fa-folder"></i></span>
     <p>2003 R2</p>
   </a>
-  <a class="button  is-rounded" href="https://www.microsoft.com/en-us/download/details.aspx?id=5023">
-    <span class="icon is-small"><i class="fas fa-external-link-alt"></i></span>
+  <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/server/2008/">
+    <span class="icon is-small"><i class="fas fa-folder"></i></span>
     <p>2008</p>
   </a>
-  <a class="button  is-rounded" href="https://www.microsoft.com/en-us/download/details.aspx?id=11093">
-    <span class="icon is-small"><i class="fas fa-external-link-alt"></i></span>
+  <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/server/2008r2/">
+    <span class="icon is-small"><i class="fas fa-folder"></i></span>
     <p>2008 R2</p>
   </a>
-  <a class="button  is-rounded" href="https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2012">
-    <span class="icon is-small"><i class="fas fa-external-link-alt"></i></span>
+  <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/server/2012/">
+    <span class="icon is-small"><i class="fas fa-folder"></i></span>
     <p>2012</p>
   </a>
-  <a class="button  is-rounded" href="https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2012-r2">
-    <span class="icon is-small"><i class="fas fa-external-link-alt"></i></span>
+  <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/server/2012r2/">
+    <span class="icon is-small"><i class="fas fa-folder"></i></span>
     <p>2012 R2</p>
   </a>
   <a class="button  is-rounded" href="https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2016">

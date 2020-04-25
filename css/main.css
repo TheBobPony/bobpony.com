@@ -35,3 +35,5 @@ body {
   transition: all 0.25s;
   -webkit-transition: all .2s;
 }
+
+h1 { font-family: Chewy;}

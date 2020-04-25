@@ -21,7 +21,7 @@ idd: software
       <span class="icon is-small"><i class="fas fa-external-link-alt"></i></span>
       <p>GPU-Z</p>
     </a>
-    <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/">
+    <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/utilities/aida32pe_393.zip">
       <span class="icon is-small"><i class="fas fa-download"></i></span>
       <p>AIDA32</p>
     </a>
@@ -73,7 +73,7 @@ idd: software
           class="subtitle fas fa-question-circle"></i></a>
     </p>
     <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/dx/">
-      <span class="icon is-small"><i class="fas fa-download"></i></span>
+      <span class="icon is-small"><i class="fas fa-folder"></i></span>
       <p>DX1-5</p>
     </a>
     <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/dx/DX6.zip">
@@ -119,8 +119,8 @@ idd: software
       <span class="icon is-small"><i class="fas fa-download"></i></span>
       <p>IE5</p>
     </a>
-    <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/ie/IE6.zip">
-      <span class="icon is-small"><i class="fas fa-download"></i></span>
+    <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/ie/6/">
+      <span class="icon is-small"><i class="fas fa-folder"></i></span>
       <p>IE6</p>
     </a>
     <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/ie/IE7.zip">
@@ -139,8 +139,8 @@ idd: software
       <span class="icon is-small"><i class="fas fa-download"></i></span>
       <p>IE10</p>
     </a>
-    <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/ie/IE11.zip">
-      <span class="icon is-small"><i class="fas fa-download"></i></span>
+    <a class="button  is-rounded" href="https://support.microsoft.com/help/18520/download-internet-explorer-11-offline-installer">
+      <span class="icon is-small"><i class="fas fa-external-link-alt"></i></span>
       <p>IE11</p>
     </a>
   </div>
@@ -206,4 +206,5 @@ idd: software
 [Windows Movie Maker 2.6]({{ site.cdnurl }}/{{ page.idd }}/MM26_ENU.msi){: .button .is-rounded}
 [Windows Movie Maker 6.0]({{ site.cdnurl }}/{{ page.idd }}/wmminst.exe){: .button .is-rounded}
 [IE6 for modern Windows]({{ site.cdnurl }}/{{ page.idd }}/ie/ie6.exe){: .button .is-rounded}
+[VMware Workstation](https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html){: .button .is-rounded}
   </div>

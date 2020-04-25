@@ -35,7 +35,7 @@ idd: updates
     </a>
     <a class="button  is-rounded" href="{{ site.cdnurl }}/{{ page.idd }}/Windows NT 4.0 USB Support Patch.7z">
       <span class="icon is-small"><i class="fas fa-download"></i></span>
-      <p>USB Support Patch</p>
+      <p>USB 1.x Driver</p>
     </a>
   </div>
 

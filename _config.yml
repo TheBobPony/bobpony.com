@@ -7,7 +7,6 @@ wikihelp: https://en.wikipedia.org/wiki
 
 # Collections from folders
 collections:
-  - downloads
   - devices
 
 # Compression config

@@ -10,11 +10,9 @@
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Chewy" />
   {% include head.html %}
   <title>{% if page.title %}{{ page.title }}{% else %}Bob Pony{% endif %}</title>
-  <script src="{{ "/js/nav.js" | prepend: site.baseurl }}"></script>
 </head>
 
 <body>
-  {% include nav.html %}
   {{ content }}
 </body>
 

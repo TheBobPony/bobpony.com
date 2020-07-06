@@ -1,17 +1,10 @@
 # Info
-title: BobPony.com
-description: Writing about various things.
-permalink: /blog/:year/:title/
-cdnurl: https://cdn.bobpony.com
-wikihelp: https://en.wikipedia.org/wiki
-
-# Collections from folders
-collections:
+title: Bob Pony
 
 # Compression config
 compress_html:
-  # Hides all comments
-  comments: all
+# Hides all comments
+comments: all
 
 # Excludes non-related files
 exclude:
@@ -20,16 +13,6 @@ exclude:
   - LICENSE
   - README.md
 
-# Code highlighting
-kramdown:
-  auto_ids: false
-
-# Paginator
-paginate: 5
-paginate_path: "/blog/page:num/"
-
 # Plugins for Jekyll
 plugins:
-  - jekyll-feed
-  - jekyll-paginate
   - jekyll-sitemap

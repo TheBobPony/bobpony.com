@@ -3,8 +3,7 @@ title: Bob Pony
 
 # Compression config
 compress_html:
-# Hides all comments
-comments: all
+    comments: all
 
 # Excludes non-related files
 exclude:

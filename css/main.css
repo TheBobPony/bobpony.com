@@ -7,25 +7,14 @@ body {
   overflow: hidden;
 }
 
-.spacer {
-  margin-bottom: 5em;
-}
-
 /* Text Styling */
 
-.title,
-.subtitle {
-  color: #fff !important;
-  margin-top: 3px !important;
-  margin-bottom: 3px !important;
-  font-weight: normal !important;
-}
+.home { font-family: Chewy;}
 
 /* Icon Styling */
 
 .icons {
   color: #fff;
-  transition: all .2s;
   font-size: 3em;
   padding: 2px;
 }
@@ -35,5 +24,3 @@ body {
   transition: all 0.25s;
   -webkit-transition: all .2s;
 }
-
-h1 { font-family: Chewy;}

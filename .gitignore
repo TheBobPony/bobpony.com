@@ -44,3 +44,4 @@ Temporary Items
 .fuse_hidden*
 .nfs*
 .Trash-*
+*.bak

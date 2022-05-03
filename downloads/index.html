@@ -1,0 +1,89 @@
+---
+title: Downloads - Bob Pony
+permalink: /downloads
+layout: default
+---
+<!DOCTYPE html>
+<html lang="en" prefix="og: https://ogp.me/ns#">
+
+<head>
+    <meta property="og:title" content="Downloads - Bob Pony" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://downloadui.bobpony.com" />
+    <meta property="og:description" content="Download software from Bob Pony's massive software repository with ease." />
+    <meta property="theme-color" content="#85fb65" />
+    <meta charset="UTF-8" />
+    <style>
+        .dropdown-item {
+            min-width: 40vh;
+            max-width: 95vw;
+            text-align-last: center;
+            margin-bottom: 1em;
+        }
+
+        .buttom {
+            margin-bottom: 0.5em;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="hero is-info is-bold">
+        <div class="hero-body container has-text-centered">
+          <p class="title">
+            Downloads
+        </p>
+          <p class="subtitle">
+            Easily download stuff from our massive repository
+          </p>
+        </div>
+      </section>
+        <div class="container">
+            <br />
+                <div class="has-text-centered">
+                    <div class="columns is-desktop is-vcentered is-centered">
+                        <div class="column is-narrow">
+                            <p class="dropdown">
+                                <select class="dropdown-item" name="Product type" id="type" autocomplete="off"
+                                    onchange="updateVersions()">
+                                    <option disabled selected value="placeholder">
+                                        ---- Choose category ----
+                                    </option>
+                                </select>
+                            </p>
+                            <br />
+                            <p class="dropdown">
+                                <select class="dropdown-item" name="Product version" id="version" autocomplete="off"
+                                    onchange="updateEditions()">
+                                    <option disabled selected value="placeholder">
+                                        ---- Choose version/type ----
+                                    </option>
+                                </select>
+                            </p>
+                            <br />
+                            <p class="dropdown">
+                                <select class="dropdown-item" name="Product edition" id="edition" autocomplete="off"
+                                    onchange="updateURL()">
+                                    <option disabled selected value="placeholder">
+                                        ---- Choose option ----
+                                    </option>
+                                </select>
+                            </p>
+                            <br />
+                            <p class="button" id="downloadP">
+                                <a id="download">DOWNLOAD</a>
+                            </p>
+                            <br /><br />
+                            <div class="notification">
+                                <i class="fa-solid fa-circle-info"></i> If you need to enter a password, try
+                                <span style="font-family: monospace">bigcdn</span>.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    <!-- Script tags here! -->
+    <script src="./listing.js"></script>
+</body>
+
+</html>

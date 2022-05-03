@@ -4,13 +4,29 @@ layout: default
 permalink: /
 title: BobPony.com
 ---
+<script>
+  var channelID = "MY-ID";
+    var reqURL = "https://www.youtube.com/feeds/videos.xml?channel_id=";
+    $.getJSON("https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent(reqURL)+channelID, function(data) {
+       var link = data.items[0].link;
+       var id = link.substr(link.indexOf("=")+1);
+    $("#youtube_video").attr("src","https://youtube.com/embed/"+ id + "?controls=0&showinfo=0&rel=0");
+		var link = data.items[1].link;
+       	var id = link.substr(link.indexOf("=")+1);
+    $("#youtube_video2").attr("src","https://youtube.com/embed/"+ id + "?controls=0&showinfo=0&rel=0");
+		var link = data.items[2].link;
+     	var id = link.substr(link.indexOf("=")+1);
+    $("#youtube_video3").attr("src","https://youtube.com/embed/"+ id + "?controls=0&showinfo=0&rel=0");
+	
+    });
+</script>
 <section class="hero is-info is-bold">
-  <div class="hero-body container">
+  <div class="hero-body container has-text-centered">
     <p class="title">
-      Welcome to Bob Pony's website!
+      Welcome!
     </p>
     <p class="subtitle">
-      Here you can find quick links to go to the downloads page to social links!
+      Use the links to explore around this website.
     </p>
   </div>
 </section>
@@ -20,6 +36,12 @@ title: BobPony.com
   <p class="subtitle is-spaced"></p>
   <div class="columns">
     <div class="column is-three-quarters-desktop">
+      <div class="box has-text-centered">
+        <h2 class="title is-4">Watch one of our newest videos, Windows 11 on a 2006 iMac</h2>
+        <figure class="image is-16by9">
+        <iframe type="text/html" class="has-ratio" width="640" height="360" src="https://www.youtube-nocookie.com/embed/wNrtPBXiJbY?modestbranding=1&disablekb=1&cc_load_policy=1" frameborder="0"></iframe>      
+        </figure>
+      </div>
       <div class="box smallbox">
         <div class="columns">
           <div class="column is-narrow">
@@ -28,33 +50,8 @@ title: BobPony.com
           <div class="column">
             <h2 class="title is-4">Downloads</h2>
             <h3 style="opacity: 0.6;" class="subtitle is-6">Download files from our massive collection.</h3>
-            <a href="https://downloadui.bobpony.com" class="button is-primary is-rounded">Downloader UI</a>
-            <a href="https://dl.bobpony.com" class="button is-rounded">Directory Listing</a>
-          </div>
-        </div>
-      </div>
-      <div class="box smallbox">
-        <div class="columns">
-          <div class="column is-narrow">
-            <p class="has-text-centered"><i class="fab fa-discord fa-4x"></i></p>
-          </div>
-          <div class="column">
-            <h2 class="title is-4">Discord Server</h2>
-            <h3 style="opacity: 0.6;" class="subtitle is-6">Join in and discuss from technology to entertainment.</h3>
-              <a href="/discord" class="button is-rounded is-primary">Join in</a>
-              <a href="https://docs.google.com/forms/d/e/1FAIpQLSc9_kdWSFR_55MKg6k77ufRhg2U-tT6cltCha25gf9VPewYlA/viewform" class="button is-rounded">Appeal</a>
-          </div>
-        </div>
-      </div>
-      <div class="box smallbox">
-        <div class="columns">
-          <div class="column is-narrow">
-            <p class="has-text-centered"><i class="fas fa-video fa-4x"></i></p>
-          </div>
-          <div class="column">
-            <h2 class="title is-4">Video archives</h2>
-            <h3 style="opacity: 0.6;" class="subtitle is-6">Bunch of video files, self explantory.</h3>
-            <a href="https://video.bobpony.com" class="button is-primary is-rounded">View the archive</a>
+            <a href="/downloads" class="button is-primary is-rounded">Downloader UI</a>
+            <a href="https://dl.bobpony.com" class="button is-rounded">Directory Listing (Advanced)</a>
           </div>
         </div>
       </div>
@@ -65,13 +62,46 @@ title: BobPony.com
           </div>
           <div class="column">
             <h2 class="title is-4">YouTube</h2>
-            <h3 style="opacity: 0.6;" class="subtitle is-6">Once in a while, there'll be a new video. Subscribe!</h3>
-              <a href="https://youtube.com/BobPony" class="button is-primary is-rounded">Subscribe!</a>
+            <h3 style="opacity: 0.6;" class="subtitle is-6">Once in a while, there'll be a new video. Subscribe, so you don't miss out whenever a new video is uploaded!</h3>
+              <a href="https://youtube.com/BobPony/videos" class="button is-primary is-rounded">View videos</a>
+              <a href="https://youtube.com/BobPony" class="button is-danger is-rounded">Subscribe</a>
+          </div>
+        </div>
+      </div>
+      <div class="box smallbox">
+        <div class="columns">
+          <div class="column is-narrow">
+            <p class="has-text-centered"><i class="fab fa-discord fa-4x"></i></p>
+          </div>
+          <div class="column">
+            <h2 class="title is-4">Discord Server</h2>
+            <h3 style="opacity: 0.6;" class="subtitle is-6">Join in to discuss from technology to entertainment.</h3>
+              <a href="/discord" class="button is-rounded is-primary">Join in</a>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSc9_kdWSFR_55MKg6k77ufRhg2U-tT6cltCha25gf9VPewYlA/viewform" class="button is-rounded">Appeal</a>
           </div>
         </div>
       </div>
     </div>
     <div class="column">
+      <div class="card">
+        <header class="card-header">
+          <p class="card-header-title is-centered">
+            <span class="icon-text">
+              <span class="icon">
+                <i class="fab fa-youtube"></i>
+              </span>
+              <span>Latest Videos</span>
+            </span>
+          </p>
+        </header>
+        <div class="card-content">
+          <a href="https://youtu.be/wNrtPBXiJbY" class="button is-rounded is-fullwidth">Windows 11 on 2006 iMac</a>
+          <a href="https://youtu.be/3PmVMSUB2UI" class="button is-rounded is-fullwidth">"Uninstalling" Windows 11</a>
+          <a href="https://youtu.be/ewq9LoyDrkw" class="button is-rounded is-fullwidth">Wii Shop Channel 2022</a>
+          <a href="https://youtu.be/Z7wOpPLHAeo" class="button is-rounded is-fullwidth">Windows NT 4 in QEMU</a>
+        </div>
+      </div>
+      <br />
       <div class="card">
         <header class="card-header">
           <p class="card-header-title is-centered">
@@ -91,10 +121,6 @@ title: BobPony.com
           <a href="https://dl.bobpony.com/windows/10/en_windows_10_enterprise_ltsc_2019_x64_dvd_5795bb03.iso" class="button is-rounded is-fullwidth">Windows 10 LTSC 2019 x64</a>
           <a href="https://dl.bobpony.com/windows/11/en_windows_11_x64.ISO" class="button is-rounded is-fullwidth">Windows 11 x64</a>
           <a href="https://dl.bobpony.com/windows/vista/en_windows_vista_sp2_x64_dvd_342267.iso" class="button is-rounded is-fullwidth">Windows Vista SP2 x64</a>
-          <a href="https://dl.bobpony.com/windows/beta/10/th1/x64/10.0.10130.0.fbl_impressive.150522-2224_amd64fre_client-professional-core_retail.7z" class="button is-rounded is-fullwidth">Windows 10 Build 10130 x64</a>
-          <a href="https://dl.bobpony.com/windows/beta/10/th1/x64/10.0.10074.0.fbl_impressive.150424-1350_amd64fre_client-professional-core_retail.7z" class="button is-rounded is-fullwidth">Windows 10 Build 10074 x64</a>
-          <a href="https://dl.bobpony.com/windows/beta/10/th2/x64/10.0.10575.0.th2_release.151017-2006_amd64fre_client-professional-core_retail.7z" class="button is-rounded is-fullwidth">Windows 10 Build 10575 x64</a>
-          <a href="https://dl.bobpony.com/windows/beta/8/x64/6.2.8056.0.fbl_grfx_dev1.110727-1728_amd64fre_client-prerelease_retail_en-us.7z" class="button is-rounded is-fullwidth">Windows 8 Build 8056 x64</a>
         </div>
       </div>
     </div>

@@ -1,10 +1,3 @@
-/*// Make sure you're not using IE in 2020
-const ua = window.navigator.userAgent;
-const msie = ua.indexOf("MSIE ");
-
-if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv:11\./)) window.location.href = "/iebad.html";
-*/ // Commented this out, since the corresponding page (iebad.html) was removed, and it only served as personal bias. -- omame
-
 let productList = {};
 
 const typeObj = document.querySelector("#type");

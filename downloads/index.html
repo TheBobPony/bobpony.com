@@ -1,18 +1,9 @@
 ---
-title: Downloads - Bob Pony
+title: Downloads
+description: Download software from Bob Pony's massive software repository with ease.
 permalink: /downloads/
 layout: default
 ---
-<!DOCTYPE html>
-<html lang="en" prefix="og: https://ogp.me/ns#">
-
-<head>
-    <meta property="og:title" content="Downloads - Bob Pony" />
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://downloadui.bobpony.com" />
-    <meta property="og:description" content="Download software from Bob Pony's massive software repository with ease." />
-    <meta property="theme-color" content="#85fb65" />
-    <meta charset="UTF-8" />
     <style>
         .dropdown-item {
             min-width: 40vh;
@@ -25,16 +16,13 @@ layout: default
             margin-bottom: 0.5em;
         }
     </style>
-</head>
-
-<body>
-    <section class="hero is-info is-bold">
+    <section class="hero is-small is-info is-bold">
         <div class="hero-body container has-text-centered">
           <p class="title">
-            Downloads
+            {{ page.title }}
         </p>
           <p class="subtitle">
-            Easily download stuff from our massive repository
+            {{ page.description}}
           </p>
         </div>
       </section>
@@ -84,6 +72,3 @@ layout: default
         </div>
     <!-- Script tags here! -->
     <script src="./listing.js"></script>
-</body>
-
-</html>

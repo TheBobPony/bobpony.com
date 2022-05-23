@@ -19,56 +19,38 @@
             <span>Home</span>
           </span>
         </a>
-        <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link">
-            <span class="icon-text">
-              <span class="icon">
-                <i class="fas fa-download"></i>
-              </span>
-              <span>Downloads</span>
+		<a href="/downloads/" class="navbar-item {% if page.url == "/downloads/" %}is-active{% endif %}">
+          <span class="icon-text">
+            <span class="icon">
+              <i class="fas fa-download"></i>
             </span>
-          </a>
-          <div class="navbar-dropdown">
-            <a href="/downloads" class="navbar-item {% if page.url == "/downloads/" %}is-active{% endif %}">
-              Downloader UI
-            </a>
-            <a href="https://dl.bobpony.com" class="navbar-item">
-              Directory Listing
-            </a>
-          </div>
-        </div>
-        <div class="navbar-item has-dropdown is-hoverable">
-          <a class="navbar-link">
-            <span class="icon-text">
-              <span class="icon">
-                <i class="fas fa-cubes"></i>
-              </span>
-              <span>More</span>
+            <span>Downloads</span>
+          </span>
+        </a>
+		<a href="https://video.bobpony.com" class="navbar-item">
+          <span class="icon-text">
+            <span class="icon">
+              <i class="fas fa-video"></i>
             </span>
-          </a>
-          <div class="navbar-dropdown">
-            <a href="https://video.bobpony.com" class="navbar-item">
-              Video Archives
-            </a>
-            <a href="https://github.com/TheBobPony" class="navbar-item">GitHub profile</a>
-            <a href="https://github.com/TheBobPony/bobpony.com" class="navbar-item">
-              Source on GitHub
-            </a>
-          </div>
-        </div>
+            <span>Video Archive</span>
+          </span>
+        </a>
       </div>
 
       <div class="navbar-end">
-        <a href="https://www.youtube.com/channel/UCAZzz2Dd9Xh6vTjNcxhqPZw" class="navbar-item has-tooltip-bottom" title="YouTube">
+        <a href="https://www.youtube.com/channel/UCAZzz2Dd9Xh6vTjNcxhqPZw" class="navbar-item" title="YouTube">
           <i class="fab fa-youtube"></i>
         </a>
-        <a href="https://twitter.com/TheBobPony" class="navbar-item has-tooltip-bottom" title="Twitter">
+        <a href="https://twitter.com/TheBobPony" class="navbar-item" title="Twitter">
           <i class="fab fa-twitter"></i>
         </a>
-        <a href="/discord" class="navbar-item has-tooltip-bottom" title="Discord Server">
+		<a href="https://github.com/TheBobPony" class="navbar-item" title="GitHub">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="/discord" class="navbar-item {% if page.url == "/discord/" %}is-active{% endif %}" title="Discord Server">
           <i class="fab fa-discord"></i>
         </a>
-        <a href="mailto:contact@bobpony.com" class="navbar-item has-tooltip-bottom" title="Email">
+        <a href="/contact" class="navbar-item {% if page.url == "/contact/" %}is-active{% endif %}" title="Contact">
           <i class="fas fa-envelope"></i>
         </a>
       </div>

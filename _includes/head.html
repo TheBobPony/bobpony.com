@@ -20,4 +20,4 @@
 <meta content="TheBobPony" name="twitter:title">
 <meta content="{% if page.url %}https://bobpony.com{{ page.url }}{% else %}{% endif %}" property="twitter:url">
 <!-- Favicon -->
-<link href="/img/favicon.png" rel="icon">
+<link href="{% if page.url == "/discord/" %}/img/Discord-Logo-Color.png{% else %}/img/favicon.png{% endif %}" rel="icon">

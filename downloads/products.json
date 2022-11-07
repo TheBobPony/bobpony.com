@@ -253,13 +253,13 @@
     },
     "Windows": {
 	"11": {
-		"21H2 x64 (All editions)": "https://dl.bobpony.com/windows/11/en_windows_11_x64.ISO",
-		"21H2 ARM64 (All editions)": "https://dl.bobpony.com/windows/11/en_windows_11_arm64.ISO"
+		"22H2 x64 (All editions)": "https://dl.bobpony.com/windows/11/en-us_windows_11_22h2_x64.iso",
+		"22H2 ARM64 (All editions)": "https://dl.bobpony.com/windows/11/en-us_windows_11_22h2_arm64.iso"
 	},
         "10": {
-            "21H2 x86 (All editions)": "https://dl.bobpony.com/windows/10/en-us_windows_10_21h2_x86.iso",
-            "21H2 x64 (All editions)": "https://dl.bobpony.com/windows/10/en-us_windows_10_21h2_x64.iso",
-            "21H2 ARM64 (All editions)": "https://dl.bobpony.com/windows/10/en-us_windows_10_21h2_arm64.iso",
+            "22H2 x86 (All editions)": "https://dl.bobpony.com/windows/10/en-us_windows_10_22h2_x86.iso",
+            "22H2 x64 (All editions)": "https://dl.bobpony.com/windows/10/en-us_windows_10_22h2_x64.iso",
+            "22H2 ARM64 (All editions)": "https://dl.bobpony.com/windows/10/en-us_windows_10_22h2_arm64.iso",
             "LTSB 2015 x86": "https://dl.bobpony.com/windows/10/en_windows_10_enterprise_2015_ltsb_x86_dvd_6848454.iso",
             "LTSB 2015 x64": "https://dl.bobpony.com/windows/10/en_windows_10_enterprise_2015_ltsb_x64_dvd_6848446.iso",
             "LTSB 2016 x86": "https://dl.bobpony.com/windows/10/en_windows_10_enterprise_2016_ltsb_x86_dvd_9060010.iso",
@@ -428,7 +428,7 @@
             "x64 (Updated August 2021)": "https://dl.bobpony.com/windows/server/2019/en-us_windows_server_2019_updated_aug_2021_x64_dvd_a6431a28.iso"
         },
 	"2022": {
-            "x64 (Updated November 2021)": "https://dl.bobpony.com/windows/server/2022/en-us_windows_server_version_2022_updated_nov_2021_x64_dvd_e9a58f14.iso"
+            "x64 (Updated November 2021)": "https://dl.bobpony.com/windows/server/2022/en-us_windows_server_2022_updated_sep_2022_x64_dvd_44ee9450.iso"
         }
     },
     "Windows Betas": {
@@ -605,7 +605,8 @@
             "6.0.4029 x86": "https://dl.bobpony.com/windows/beta/longhorn/x86/6.0.4029.0.main.030619-0000_x86fre_client-professional_retail_en-us.7z",
             "6.0.4042 x86": "https://dl.bobpony.com/windows/beta/longhorn/x86/6.0.4042.0.lab06_n.030909-1709_x86fre_client-professional_retail_en-us.7z",
             "6.0.4074 x86": "https://dl.bobpony.com/windows/beta/longhorn/x86/6.0.4074.0.idx02.040425-1535_x86fre_client-professional_retail_en-us.7z",
-            "6.0.4093 x86": "https://dl.bobpony.com/windows/beta/longhorn/x86/6.0.4093.0.main.040819-1215_x86fre_client-professional_retail_en-us.7z"
+            "6.0.4093 x86": "https://dl.bobpony.com/windows/beta/longhorn/x86/6.0.4093.0.main.040819-1215_x86fre_client-professional_retail_en-us.7z",
+            "6.0.4093 x86 (Fixed)": "https://dl.bobpony.com/windows/beta/longhorn/x86/Build%204093.main.040819-1215%20longhorn.ms%20fixed.zip"
         },
         "Longhorn (Vista) Post-Reset": {
             "6.0.5000 x86": "https://dl.bobpony.com/windows/beta/longhorn/x86/6.0.5000.0.vbl_core.040902-2000_x86fre_client-professional_retail_en-us-LB1PFRE_EN.7z",
@@ -786,8 +787,6 @@
             "10.0.10568 x64": "https://dl.bobpony.com/windows/beta/10/th2/x64/10.0.10568.0.th2_release.151010-1734_amd64fre_client-professional-core_retail.7z",
             "10.0.10575 x86": "https://dl.bobpony.com/windows/beta/10/th2/x86/10.0.10575.0.th2_release.151017-2006_x86fre_client-professional-core_retail.7z",
             "10.0.10575 x64": "https://dl.bobpony.com/windows/beta/10/th2/x64/10.0.10575.0.th2_release.151017-2006_amd64fre_client-professional-core_retail.7z"
-        },
-        "TODO: Fill out other builds.": {
         }
     }
 }

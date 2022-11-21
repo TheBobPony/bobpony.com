@@ -7,17 +7,15 @@
 <meta content="bp, bob, bobpony, bob pony, bpc, bobpony.org, bobpony.com" name="keywords">
 <!-- Open Graph -->
 <meta content="{% if page.description %}{{ page.description }}{% else %}{% endif %}" name="og:description">
-<meta content="/img/favicon.png" property="og:image">
+<meta content="https://bobpony.com/img/favicon.png" property="og:image">
 <meta content="{% if page.title %}{{ page.title }} - Bob Pony{% else %}Bob Pony's website{% endif %}" property="og:title">
 <meta content="website" property="og:type">
 <meta content="{% if page.url %}https://bobpony.com{{ page.url }}{% else %}{% endif %}" property="og:url">
 <!-- Twitter/Discord Metadata -->
 <meta content="summary" name="twitter:card">
-<meta content="@TheBobPony" name="twitter:creator">
 <meta content="{% if page.description %}{{ page.description }}{% else %}{% endif %}" name="twitter:description">
-<meta content="/img/favicon.png" name="twitter:image">
-<meta content="@TheBobPony" name="twitter:site">
-<meta content="TheBobPony" name="twitter:title">
+<meta content="https://bobpony.com/img/favicon.png" name="twitter:image">
+<meta content="{% if page.title %}{{ page.title }} - Bob Pony{% else %}Bob Pony's website{% endif %}" name="twitter:title">
 <meta content="{% if page.url %}https://bobpony.com{{ page.url }}{% else %}{% endif %}" property="twitter:url">
 <!-- Favicon -->
 <link href="{% if page.url == "/discord/" %}/img/Discord-Logo-Color.png{% else %}/img/favicon.png{% endif %}" rel="icon">

@@ -20,11 +20,14 @@ title: Home
       <div class="box has-text-centered">
         <h2 class="title is-4">Watch one of the newest videos</h2>
         <figure class="image is-16by9">
-        <iframe class="has-ratio" src="https://www.youtube-nocookie.com/embed/3PS1sErFL4s?modestbranding=1&disablekb=1&cc_load_policy=1" frameborder="0"></iframe>      
+        <script src="{{ "/js/yt.js" | prepend: site.baseurl }}"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <iframe class="has-ratio" id="youtube_video" frameborder="0"></iframe>   
+        <noscript>To view this video, please enable JavaScript!</noscript>  
         </figure>
         <br />
         <a href="https://youtube.com/BobPony/videos" class="button is-primary is-rounded">View more videos</a>
-              <a href="https://youtube.com/BobPony" class="button is-danger is-rounded">Subscribe</a>
+              <a href="https://youtube.com/BobPony?sub_confirmation=1" class="button is-danger is-rounded">Subscribe</a>
       </div>
       <div class="box smallbox">
         <div class="columns">

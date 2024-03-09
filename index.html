@@ -1,73 +1,77 @@
 ---
-description: The official website by Bob Pony
+description: Bob Pony's official website for downloads, social links, and more!
 layout: default
 permalink: /
 title: Home
 ---
-<section class="hero is-info is-bold">
+<section class="hero is-black is-bold is-fullheight">
   <div class="hero-body container has-text-centered">
     <p class="title">
-      Welcome home!
+      👋 Welcome to BobPony.com!
     </p>
   </div>
-</section>
-{% include nojs.html %}
-<div class="container">
-  <h1 class="title"></h1>
-  <p class="subtitle is-spaced"></p>
-  <div class="columns">
-    <div class="column is-three-quarters-desktop">
-      <div class="box has-text-centered">
-        <h2 class="title is-4">Watch one of the newest videos</h2>
-        <figure class="image is-16by9">
-        <script src="{{ "/js/yt.js" | prepend: site.baseurl }}"></script>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-        <iframe class="has-ratio" id="youtube_video" frameborder="0"></iframe>   
-        <noscript>To view this video, please enable JavaScript!</noscript>  
-        </figure>
-        <br />
-        <a href="https://youtube.com/BobPony/videos" class="button is-primary is-rounded">View more videos</a>
-              <a href="https://youtube.com/BobPony?sub_confirmation=1" class="button is-danger is-rounded">Subscribe</a>
-      </div>
-      <div class="box smallbox">
-        <div class="columns">
-          <div class="column is-narrow">
-            <p class="has-text-centered"><i class="fas fa-download fa-4x"></i></p>
-          </div>
-          <div class="column">
-            <h2 class="title is-4">Downloads</h2>
-            <h3 style="opacity: 0.6;" class="subtitle is-6">Download files from our massive collection.</h3>
-            <a href="/downloads" class="button is-primary is-rounded">Downloads</a>
-            <a href="https://dl.bobpony.com" class="button is-rounded">Directory Listing (Advanced)</a>
-          </div>
-        </div>
+
+<div class="container"><br />
+      <div class="has-text-centered">
+        <h1 class="title is-spaced">Stay in touch with these socials:</h2>
+        <a title="YouTube Channel" href="https://www.youtube.com/channel/UCAZzz2Dd9Xh6vTjNcxhqPZw" class="button is-danger is-large">
+    <span class="icon is-medium">
+      <i class="fab fa-youtube fa-lg"></i>
+    </span>
+    <span>YouTube</span>
+  </a>
+  <a title="Twitter" href="https://twitter.com/TheBobPony" class="button is-info is-large">
+    <span class="icon is-medium">
+      <i class="fab fa-twitter fa-lg"></i>
+    </span>
+    <span>Twitter</span>
+  </a>
+  <a title="Bluesky @bobpony.com" href="https://bsky.app/profile/bobpony.com" class="button is-info is-large">
+    <span class="icon is-medium">
+      <i class="fas fa-cloud fa-lg"></i>
+    </span>
+    <span>Bluesky</span>
+  </a>
+  <a title="Mastodon @bobpony@mastodon.social" href="https://mastodon.social/@bobpony" class="button is-dark is-large">
+    <span class="icon is-medium">
+      <i class="fab fa-mastodon fa-lg"></i>
+    </span>
+    <span>Mastodon</span>
+  </a>
+  <a title="Join Bob Pony's Discord server" href="/discord" class="button is-link is-large">
+    <span class="icon is-medium">
+      <i class="fab fa-discord fa-lg"></i>
+    </span>
+    <span>Discord Server</span>
+  </a>
+  <br /><br />
+  <h1 class="title is-spaced">Other pages:</h2>
+  <a title="Downloads" href="/downloads" class="button is-large">
+    <span class="icon is-medium">
+      <i class="fas fa-download fa-lg"></i>
+    </span>
+    <span>Downloads</span>
+  </a>
+  <a title="Website status" href="https://status.bobpony.com/" class="button is-large">
+    <span class="icon is-medium">
+      <i class="fas fa-arrow-trend-up fa-lg"></i>
+    </span>
+    <span>Website status</span>
+  </a>
+  <br /><br />
+  <h1 class="title is-spaced">Have something to say?</h2>
+  <a title="Contact page" href="/contact" class="button is-large">
+    <span class="icon is-medium">
+      <i class="fas fa-envelope fa-lg"></i>
+    </span>
+    <span>Contact</span>
+  </a>
       </div>
       
-    </div>
-    <div class="column">
-      <div class="card">
-        <header class="card-header">
-          <p class="card-header-title is-centered">
-            <span class="icon-text">
-              <span class="icon">
-                <i class="fa-solid fa-chart-line"></i>
-              </span>
-              <span>Popular Downloads</span>
-            </span>
-          </p>
-        </header>
-        <div class="card-content">
-          <a href="https://dl.bobpony.com/windows/10/en-us_windows_10_enterprise_ltsc_2021_x64_dvd_d289cf96.iso" class="button is-rounded is-fullwidth">Windows 10 LTSC 2021 x64</a>
-          <a href="https://dl.bobpony.com/windows/7/en_windows_7_with_sp1_x64.iso" class="button is-rounded is-fullwidth">Windows 7 SP1 x64</a>
-          <a href="https://dl.bobpony.com/windows/10/en-us_windows_10_22h2_x64.iso" class="button is-rounded is-fullwidth">Windows 10 22H2 x64</a>
-          <a href="https://dl.bobpony.com/windows/10/en_windows_10_enterprise_2016_ltsb_x64_dvd_9059483.iso" class="button is-rounded is-fullwidth">Windows 10 LTSB 2016 x64</a>
-          <a href="https://dl.bobpony.com/windows/10/en_windows_10_enterprise_ltsc_2019_x64_dvd_5795bb03.iso" class="button is-rounded is-fullwidth">Windows 10 LTSC 2019 x64</a>
-          <a href="https://dl.bobpony.com/windows/11/en-us_windows_11_22h2_x64.iso" class="button is-rounded is-fullwidth">Windows 11 22H2 x64</a>
-          <a href="https://dl.bobpony.com/windows/vista/en_windows_vista_sp2_x64_dvd_342267.iso" class="button is-rounded is-fullwidth">Windows Vista SP2 x64</a>
-        </div>
       </div>
-    </div>
+	  
   </div>
+  </section>
 </div>
 </div>
 </div>

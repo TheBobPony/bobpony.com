@@ -7,7 +7,7 @@ const downloadURL = document.querySelector("#download");
 
 fetch("./products.json").then(data => data.json().then(products => {
 	productList = products;
-	for (const i in products) {
+	for (var i in products) {
 		typeObj.append(new Option(i, i));
 	}
 }));
@@ -15,13 +15,13 @@ fetch("./products.json").then(data => data.json().then(products => {
 const updateVersions = () => {
 	const versionOptions = document.querySelectorAll("#version option");
 
-	for (const i of versionOptions) {
+	for (var i of versionOptions) {
 		if (!i.disabled) i.remove();
 	}
 
 	document.querySelector("#version option[value='placeholder']").selected = true;
 
-	for (const i in productList[typeObj.value]) {
+	for (var i in productList[typeObj.value]) {
 		versionObj.append(new Option(i, i));
 	}
 

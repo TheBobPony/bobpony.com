@@ -7,21 +7,22 @@ const downloadURL = document.querySelector("#download");
 
 fetch("./products.json").then(data => data.json().then(products => {
 	productList = products;
-	for (const i in products) {
+        // Normally we'd use constants, but Firefox <51 doesn't work right with the way we use them, so use variables.
+	for (var i in products) {
 		typeObj.append(new Option(i, i));
 	}
 }));
 
 const updateVersions = () => {
 	const versionOptions = document.querySelectorAll("#version option");
-
-	for (const i of versionOptions) {
+        // ditto
+	for (var i of versionOptions) {
 		if (!i.disabled) i.remove();
 	}
 
 	document.querySelector("#version option[value='placeholder']").selected = true;
-
-	for (const i in productList[typeObj.value]) {
+        // ditto
+	for (var i in productList[typeObj.value]) {
 		versionObj.append(new Option(i, i));
 	}
 

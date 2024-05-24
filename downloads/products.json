@@ -253,8 +253,12 @@
     },
     "Windows": {
 	"11": {
-		"22H2 x64 (All editions)": "https://dl.bobpony.com/windows/11/en-us_windows_11_22h2_x64.iso",
-		"22H2 ARM64 (All editions)": "https://dl.bobpony.com/windows/11/en-us_windows_11_22h2_arm64.iso"
+		"23H2 x64 (All editions)": "https://dl.bobpony.com/windows/11/en-us_windows_11_23h2_x64.iso",
+    	"23H2 ARM64 (All editions)": "https://dl.bobpony.com/windows/11/en-us_windows_11_23h2_arm64.iso",
+    	"22H2 x64 (All editions)": "https://dl.bobpony.com/windows/11/en-us_windows_11_22h2_x64.iso",
+		"22H2 ARM64 (All editions)": "https://dl.bobpony.com/windows/11/en-us_windows_11_22h2_arm64.iso",
+        "LTSC 2024 x64": "https://dl.bobpony.com/windows/11/26100.1.240331-1435.ge_release_CLIENT_ENTERPRISES_OEM_x64FRE_en-us.iso",
+        "LTSC 2024 ARM64": "https://dl.bobpony.com/windows/11/26100.1.240331-1435.ge_release_CLIENT_ENTERPRISES_OEM_A64FRE_en-us.iso"
 	},
         "10": {
             "22H2 x86 (All editions)": "https://dl.bobpony.com/windows/10/en-us_windows_10_22h2_x86.iso",
@@ -297,18 +301,18 @@
             "x64 with SP1": "https://dl.bobpony.com/windows/7/en_windows_7_with_sp1_x64.iso"
         },
         "Vista": {
-            "x86 DVD": "https://dl.bobpony.com/windows/vista/en_windows_vista_x86_dvd_x12-34293.iso",
+            "x86 DVD (RTM)": "https://dl.bobpony.com/windows/vista/en_windows_vista_x86_dvd_x12-34293.7z",
             "x86 CD 1": "https://dl.bobpony.com/windows/vista/en_windows_vista_x86_cd1_x12-54426.iso",
             "x86 CD 2": "https://dl.bobpony.com/windows/vista/en_windows_vista_x86_cd2_x12-54427.iso",
             "x86 CD 3": "https://dl.bobpony.com/windows/vista/en_windows_vista_x86_cd3_x12-54428.iso",
             "x86 CD 4": "https://dl.bobpony.com/windows/vista/en_windows_vista_x86_cd4_x12-54429.iso",
             "x86 CD 5": "https://dl.bobpony.com/windows/vista/en_windows_vista_x86_cd5_x12-54430.iso",
-            "x86 with SP1": "https://dl.bobpony.com/windows/vista/en_windows_vista_with_service_pack_1_x86_dvd_x14-29594.iso",
-            "x64 with SP1": "https://dl.bobpony.com/windows/vista/en_windows_vista_with_service_pack_1_x64_dvd_x14-29595.iso",
+            "x86 with SP1": "https://dl.bobpony.com/windows/vista/en_windows_vista_with_service_pack_1_x86_dvd_x14-29594.7z",
+            "x64 with SP1": "https://dl.bobpony.com/windows/vista/en_windows_vista_with_service_pack_1_x64_dvd_x14-29595.7z",
             "x86 with SP2": "https://dl.bobpony.com/windows/vista/en_windows_vista_with_sp2_x86_dvd_342266.iso",
             "x64 with SP2": "https://dl.bobpony.com/windows/vista/en_windows_vista_sp2_x64_dvd_342267.iso",
-            "Enterprise x86 with SP2": "https://dl.bobpony.com/windows/vista/en_windows_vista_enterprise_sp2_x86_dvd_342329.iso",
-            "Enterprise x64 with SP2": "https://dl.bobpony.com/windows/vista/en_windows_vista_enterprise_sp2_x64_dvd_342332.iso"
+            "Enterprise x86 with SP2": "https://dl.bobpony.com/windows/vista/en_windows_vista_enterprise_sp2_x86_dvd_342329.7z",
+            "Enterprise x64 with SP2": "https://dl.bobpony.com/windows/vista/en_windows_vista_enterprise_sp2_x64_dvd_342332.7z"
         },
         "XP": {
             "Windows XP for Tablet PCs (VL keys)": "https://dl.bobpony.com/windows/xp/en_win_xp_tabletpc_2005_vl.7z",
@@ -427,8 +431,11 @@
         "2019": {
             "x64 (Updated August 2021)": "https://dl.bobpony.com/windows/server/2019/en-us_windows_server_2019_updated_aug_2021_x64_dvd_a6431a28.iso"
         },
-	"2022": {
+		"2022": {
             "x64 (Updated September 2022)": "https://dl.bobpony.com/windows/server/2022/en-us_windows_server_2022_updated_sep_2022_x64_dvd_44ee9450.iso"
+        },
+        "2025": {
+        	"x64": "https://dl.bobpony.com/windows/server/2025/en-us_windows_server_2025_preview_x64_dvd_ce9eb1a5.iso"
         }
     },
     "Windows Betas": {

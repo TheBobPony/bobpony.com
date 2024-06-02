@@ -147,14 +147,14 @@
             "Office XP Pro": "https://dl.bobpony.com/software/msoffice/xp/en_office_xp_pro.iso",
             "Office XP SP3 Update": "https://dl.bobpony.com/software/msoffice/xp/en_office_xp_sp3.iso",
             "Office 2007 Pro Plus x86": "https://dl.bobpony.com/software/msoffice/2007/en_office_professional_plus_2007_cd_x12-38663.iso",
-			"Office 2007 Ultimate x86": "https://dl.bobpony.com/software/msoffice/2007/en_office_ultimate_2007_dvd_x12-22244.iso",
-			"Office 2010 Standard x86": "https://dl.bobpony.com/software/msoffice/2010/en_office_standard_2010_x86_515544.zip",
-			"Office 2010 Standard x64": "https://dl.bobpony.com/software/msoffice/2010/en_office_standard_2010_x64_515548.zip",
+	    "Office 2007 Ultimate x86": "https://dl.bobpony.com/software/msoffice/2007/en_office_ultimate_2007_dvd_x12-22244.iso",
+	    "Office 2010 Standard x86": "https://dl.bobpony.com/software/msoffice/2010/en_office_standard_2010_x86_515544.zip",
+	    "Office 2010 Standard x64": "https://dl.bobpony.com/software/msoffice/2010/en_office_standard_2010_x64_515548.zip",
             "Office 2010 Pro Plus x86": "https://dl.bobpony.com/software/msoffice/2010/en_office_professional_plus_2010_x86_515486.zip",
             "Office 2010 Pro Plus x64": "https://dl.bobpony.com/software/msoffice/2010/en_office_professional_plus_2010_x64_515489.zip",
             "Office 2013 Pro Plus with SP1 x64 and x86": "https://dl.bobpony.com/software/msoffice/2013/en_office_professional_plus_2013_with_sp1_x86_and_x64_dvd_3928186.iso",
-			"Office 2016 Pro Plus x64 and x86": "https://dl.bobpony.com/software/msoffice/2016/en_office_professional_plus_2016_x86_x64_dvd_6962141.iso",
-			"Office 2019 Pro Plus x64 and x86": "https://dl.bobpony.com/software/msoffice/2019/en_office_professional_plus_2019_x86_x64_dvd_7ea28c99.iso"
+	    "Office 2016 Pro Plus x64 and x86": "https://dl.bobpony.com/software/msoffice/2016/en_office_professional_plus_2016_x86_x64_dvd_6962141.iso",
+	    "Office 2019 Pro Plus x64 and x86": "https://dl.bobpony.com/software/msoffice/2019/en_office_professional_plus_2019_x86_x64_dvd_7ea28c99.iso"
         },
 		"Microsoft Plus!": {
             "for Windows 95": "https://dl.bobpony.com/software/msplus/Microsoft%20Plus%21%20for%20Windows%2095.iso",
@@ -186,7 +186,7 @@
             "VMware Workstation 12.0.1": "https://dl.bobpony.com/software/vmware/workstation/VMware-workstation-full-12.0.1-3160714.zip",
             "VMware Workstation 12.5.9": "https://dl.bobpony.com/software/vmware/workstation/VMware-workstation-full-12.5.9-7535481.zip",
             "VMware Workstation 15.5.6": "https://dl.bobpony.com/software/vmware/workstation/VMware-workstation-full-15.5.6-16341506.7z"
-			"VMWare Fusion 13.5.2": "https://dl.bobpony.com/software/vmware/fusion/VMware-Fusion-13.5.2-23775688_universal.dmg"
+	    "VMWare Fusion 13.5.2": "https://dl.bobpony.com/software/vmware/fusion/VMware-Fusion-13.5.2-23775688_universal.dmg"
         },
 		"Windows (Live) Essentials": {
             "2009 (English)": "https://dl.bobpony.com/software/wle/2009/wlsetup-all-en.exe",

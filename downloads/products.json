@@ -399,8 +399,9 @@
             "ASUS E203M": "https://dl.bobpony.com/windows/oemrecovery/ASUS%20E203M.7z",
             "Compaq SR5130NX": "https://dl.bobpony.com/windows/oemrecovery/Compaq%20SR5130NX.7z",
             "IBM T60": "https://dl.bobpony.com/windows/oemrecovery/IBM%20T60.7z"
-	},
-    }
+	}
+    },
+	
     "Windows Server": {
         "2003 R1": {
             "Enterprise with SP1 x86": "https://dl.bobpony.com/windows/server/2003/en_windows_server_2003_with_sp1_enterprise.zip",

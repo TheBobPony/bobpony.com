@@ -147,23 +147,23 @@
             "Office XP Pro": "https://dl.bobpony.com/software/msoffice/xp/en_office_xp_pro.iso",
             "Office XP SP3 Update": "https://dl.bobpony.com/software/msoffice/xp/en_office_xp_sp3.iso",
             "Office 2007 Pro Plus x86": "https://dl.bobpony.com/software/msoffice/2007/en_office_professional_plus_2007_cd_x12-38663.iso",
-			"Office 2007 Ultimate x86": "https://dl.bobpony.com/software/msoffice/2007/en_office_ultimate_2007_dvd_x12-22244.iso",
-			"Office 2010 Standard x86": "https://dl.bobpony.com/software/msoffice/2010/en_office_standard_2010_x86_515544.zip",
-			"Office 2010 Standard x64": "https://dl.bobpony.com/software/msoffice/2010/en_office_standard_2010_x64_515548.zip",
+	    "Office 2007 Ultimate x86": "https://dl.bobpony.com/software/msoffice/2007/en_office_ultimate_2007_dvd_x12-22244.iso",
+	    "Office 2010 Standard x86": "https://dl.bobpony.com/software/msoffice/2010/en_office_standard_2010_x86_515544.zip",
+	    "Office 2010 Standard x64": "https://dl.bobpony.com/software/msoffice/2010/en_office_standard_2010_x64_515548.zip",
             "Office 2010 Pro Plus x86": "https://dl.bobpony.com/software/msoffice/2010/en_office_professional_plus_2010_x86_515486.zip",
             "Office 2010 Pro Plus x64": "https://dl.bobpony.com/software/msoffice/2010/en_office_professional_plus_2010_x64_515489.zip",
             "Office 2013 Pro Plus with SP1 x64 and x86": "https://dl.bobpony.com/software/msoffice/2013/en_office_professional_plus_2013_with_sp1_x86_and_x64_dvd_3928186.iso",
-			"Office 2016 Pro Plus x64 and x86": "https://dl.bobpony.com/software/msoffice/2016/en_office_professional_plus_2016_x86_x64_dvd_6962141.iso",
-			"Office 2019 Pro Plus x64 and x86": "https://dl.bobpony.com/software/msoffice/2019/en_office_professional_plus_2019_x86_x64_dvd_7ea28c99.iso"
+	    "Office 2016 Pro Plus x64 and x86": "https://dl.bobpony.com/software/msoffice/2016/en_office_professional_plus_2016_x86_x64_dvd_6962141.iso",
+	    "Office 2019 Pro Plus x64 and x86": "https://dl.bobpony.com/software/msoffice/2019/en_office_professional_plus_2019_x86_x64_dvd_7ea28c99.iso"
         },
 		"Microsoft Plus!": {
             "for Windows 95": "https://dl.bobpony.com/software/msplus/Microsoft%20Plus%21%20for%20Windows%2095.iso",
-            "for Kids": "https://dl.bobpony.com/software/msplus/Microsoft%20Plus%21%20For%20Kids.iso",
+            "for Kids": "https://dl.bobpony.com/software/msplus/Microsoft%20Plus%21%20For%20Kids.7z",
             "for Windows 98": "https://dl.bobpony.com/software/msplus/Microsoft%20Plus%21%20For%20Windows%2098.iso",
-            "for Windows XP": "https://dl.bobpony.com/software/msplus/Microsoft%20Plus%21%20For%20Windows%20XP.iso",
+            "for Windows XP": "https://dl.bobpony.com/software/msplus/Microsoft%20Plus%21%20For%20Windows%20XP.7z",
             "XP SuperPack": "https://dl.bobpony.com/software/msplus/Microsoft%20Plus%21%20XP%20Superpack.zip",
-            "Digital Media Edition": "https://dl.bobpony.com/software/msplus/Microsoft%20Plus%21%20Digital%20Media%20Edition.iso",
-            "Game Pack - Cards and Puzzles": "https://dl.bobpony.com/software/msplus/Microsoft%20Plus%21%20Game%20Pack%20-%20Cards%20And%20Puzzles.iso"
+            "Digital Media Edition": "https://dl.bobpony.com/software/msplus/Microsoft%20Plus%21%20Digital%20Media%20Edition.7z",
+            "Game Pack - Cards and Puzzles": "https://dl.bobpony.com/software/msplus/Microsoft%20Plus%21%20Game%20Pack%20-%20Cards%20And%20Puzzles.7z"
         },
 		"Utilities": {
             "AIDA32 3.93": "https://dl.bobpony.com/software/utilities/aida32pe_393.zip"
@@ -175,17 +175,18 @@
             "2015": "https://dl.bobpony.com/software/visualstudio/2015/"
         },
 		"VMware": {
-            "VMware Player 6.0.7": "https://dl.bobpony.com/software/vmware/player/VMware-player-6.0.7-2844087.exe",
-            "VMware Player 12.0.1": "https://dl.bobpony.com/software/vmware/player/VMware-player-12.0.1-3160714.exe",
-            "VMware Player 12.5.9": "https://dl.bobpony.com/software/vmware/player/VMware-player-12.5.9-7535481.exe",
-            "VMware Player 15.5.6": "https://dl.bobpony.com/software/vmware/player/VMware-player-15.5.6-16341506.exe",
+            "VMware Player 6.0.7": "https://dl.bobpony.com/software/vmware/player/VMware-player-6.0.7-2844087.7z",
+            "VMware Player 12.0.1": "https://dl.bobpony.com/software/vmware/player/VMware-player-12.0.1-3160714.7z",
+            "VMware Player 12.5.9": "https://dl.bobpony.com/software/vmware/player/VMware-player-12.5.9-7535481.7z",
+            "VMware Player 15.5.6": "https://dl.bobpony.com/software/vmware/player/VMware-player-15.5.6-16341506.7z",
             "VMware Workstation 4.5.3": "https://dl.bobpony.com/software/vmware/workstation/VMware-workstation-4.5.3-19414.zip",
             "VMware Workstation 6.5.5": "https://dl.bobpony.com/software/vmware/workstation/VMware-workstation-6.5.5-328052.zip",
             "VMware Workstation 7.1.6": "https://dl.bobpony.com/software/vmware/workstation/VMware-workstation-full-7.1.6-744570.zip",
             "VMware Workstation 10.0.7": "https://dl.bobpony.com/software/vmware/workstation/VMware-workstation-full-10.0.7-2844087.zip",
             "VMware Workstation 12.0.1": "https://dl.bobpony.com/software/vmware/workstation/VMware-workstation-full-12.0.1-3160714.zip",
             "VMware Workstation 12.5.9": "https://dl.bobpony.com/software/vmware/workstation/VMware-workstation-full-12.5.9-7535481.zip",
-            "VMware Workstation 15.5.6": "https://dl.bobpony.com/software/vmware/workstation/VMware-workstation-full-15.5.6-16341506.exe"
+            "VMware Workstation 15.5.6": "https://dl.bobpony.com/software/vmware/workstation/VMware-workstation-full-15.5.6-16341506.7z"
+	    "VMWare Fusion 13.5.2": "https://dl.bobpony.com/software/vmware/fusion/VMware-Fusion-13.5.2-23775688_universal.dmg"
         },
 		"Windows (Live) Essentials": {
             "2009 (English)": "https://dl.bobpony.com/software/wle/2009/wlsetup-all-en.exe",
@@ -252,82 +253,64 @@
         }
     },
     "Windows": {
-	"11": {
-		"23H2 x64 (All editions)": "https://dl.bobpony.com/windows/11/en-us_windows_11_23h2_x64.iso",
-    	"23H2 ARM64 (All editions)": "https://dl.bobpony.com/windows/11/en-us_windows_11_23h2_arm64.iso",
-    	"22H2 x64 (All editions)": "https://dl.bobpony.com/windows/11/en-us_windows_11_22h2_x64.iso",
-		"22H2 ARM64 (All editions)": "https://dl.bobpony.com/windows/11/en-us_windows_11_22h2_arm64.iso",
-        "LTSC 2024 x64": "https://dl.bobpony.com/windows/11/26100.1.240331-1435.ge_release_CLIENT_ENTERPRISES_OEM_x64FRE_en-us.iso",
-        "LTSC 2024 ARM64": "https://dl.bobpony.com/windows/11/26100.1.240331-1435.ge_release_CLIENT_ENTERPRISES_OEM_A64FRE_en-us.iso"
-	},
-        "10": {
-            "22H2 x86 (All editions)": "https://dl.bobpony.com/windows/10/en-us_windows_10_22h2_x86.iso",
-            "22H2 x64 (All editions)": "https://dl.bobpony.com/windows/10/en-us_windows_10_22h2_x64.iso",
-            "22H2 ARM64 (All editions)": "https://dl.bobpony.com/windows/10/en-us_windows_10_22h2_arm64.iso",
-            "LTSB 2015 x86": "https://dl.bobpony.com/windows/10/en_windows_10_enterprise_2015_ltsb_x86_dvd_6848454.iso",
-            "LTSB 2015 x64": "https://dl.bobpony.com/windows/10/en_windows_10_enterprise_2015_ltsb_x64_dvd_6848446.iso",
-            "LTSB 2016 x86": "https://dl.bobpony.com/windows/10/en_windows_10_enterprise_2016_ltsb_x86_dvd_9060010.iso",
-            "LTSB 2016 x64": "https://dl.bobpony.com/windows/10/en_windows_10_enterprise_2016_ltsb_x64_dvd_9059483.iso",
-            "LTSC 2019 x86": "https://dl.bobpony.com/windows/10/en_windows_10_enterprise_ltsc_2019_x86_dvd_892869c9.iso",
-            "LTSC 2019 x64": "https://dl.bobpony.com/windows/10/en_windows_10_enterprise_ltsc_2019_x64_dvd_5795bb03.iso",
-	    "LTSC 2021 x86": "https://dl.bobpony.com/windows/10/en-us_windows_10_enterprise_ltsc_2021_x86_dvd_9f4aa95f.iso",
-	    "LTSC 2021 x64": "https://dl.bobpony.com/windows/10/en-us_windows_10_enterprise_ltsc_2021_x64_dvd_d289cf96.iso",
-	    "LTSC IoT 2021 x64": "https://dl.bobpony.com/windows/10/en-us_windows_10_iot_enterprise_ltsc_2021_x64_dvd_257ad90f.iso"
+			
+			    "DOS-based Windows (1.x to 3.x)": {
+            "Windows 1.04 [English] (5.25'')": "https://dl.bobpony.com/windows/1.x/Windows%201.04%20English%205.25.zip",
+            "Microsoft Windows 2.01 [English] (5.25'')": "https://dl.bobpony.com/windows/2.x/Microsoft%20Windows%202.01%20[English]%20(5.25%27%27).7z",
+            "Microsoft Windows 2.03 [English] (3.5'').7z": "https://dl.bobpony.com/windows/2.x/Microsoft%20Windows%202.03%20[English]%20(3.5%27%27).7z",
+            "Microsoft Windows 2.03 [English] (3.5''-720KB)": "https://dl.bobpony.com/windows/2.x/Microsoft%20Windows%202.03%20[English]%20(3.5%27%27-720KB).7z",
+            "Microsoft Windows 2.03 [English] (5.25'')": "https://dl.bobpony.com/windows/2.x/Microsoft%20Windows%202.03%20[English]%20(5.25%27%27).7z",
+            "Microsoft Windows 2.10 [English] (3.5'')": "https://dl.bobpony.com/windows/2.x/Microsoft%20Windows%202.10%20[English]%20(3.5%27%27).7z",
+            "Microsoft Windows 2.11 [English] (3.5'')": "https://dl.bobpony.com/windows/2.x/Microsoft%20Windows%202.11%20[English]%20(3.5%27%27).7z",
+            "Windows 3.1 (3.5'')": "https://dl.bobpony.com/windows/3.x/Microsoft%20Windows%203.1%20English%203.5.7z",
+            "Windows 3.1 (ISO)": "https://dl.bobpony.com/windows/3.x/Windows%203.1.ISO",
+            "Windows 3.11 (3.5'')": "https://dl.bobpony.com/windows/3.x/Microsoft%20Windows%203.11%20English%203.5.7z",
+            "Windows 3.11 (WFW) (3.5'')": "https://dl.bobpony.com/windows/3.x/Microsoft%20Windows%20For%20Workgroups%203.11%20English%203.5.7z",
+            "Windows 3.11 (WFW) (ISO)": "https://dl.bobpony.com/windows/3.x/WFWG311.ISO"
         },
-        "8.1": {
-            "x86": "https://dl.bobpony.com/windows/8.x/8.1/en_windows_8.1_with_update_x86_dvd_6051550.iso",
-            "x64": "https://dl.bobpony.com/windows/8.x/8.1/en_windows_8.1_with_update_x64_dvd_6051480.iso",
-            "x86 N": "https://dl.bobpony.com/windows/8.x/8.1/en_windows_8.1_n_with_update_x86_dvd_6051704.iso",
-            "x64 N": "https://dl.bobpony.com/windows/8.x/8.1/en_windows_8.1_with_update_x64_dvd_6051480.iso",
-            "x86 with Bing": "https://dl.bobpony.com/windows/8.x/8.1/Windows%208.1%20with%20Bing%2032%20bit.7z",
-            "x64 with Bing": "https://dl.bobpony.com/windows/8.x/8.1/Windows%208.1%20with%20Bing%2064%20bit.7z",
-            "Enterprise x86": "https://dl.bobpony.com/windows/8.x/8.1/en_windows_8.1_enterprise_with_update_x86_dvd_6050710.iso",
-            "Enterprise x64": "https://dl.bobpony.com/windows/8.x/8.1/en_windows_8.1_enterprise_with_update_x64_dvd_6054382.iso",
-            "Language Pack x64": "https://dl.bobpony.com/windows/8.x/8.1/mu_windows_8.1_language_pack_with_update_x64_dvd_6066963.iso"
+			
+			   "NT (3.x to 4.0)": {
+            "Windows NT 3.1 Advanced Server": "https://dl.bobpony.com/windows/nt/Microsoft%20Windows%20NT%203.1%20Advanced%20Server%20%283.10.5098.1%29.rar",
+            "Windows NT 3.1 Workstation": "https://dl.bobpony.com/windows/nt/Microsoft%20Windows%20NT%203.1%20Workstation%20%283.10.511.1%29.rar",
+            "Windows NT 3.5 Server": "https://dl.bobpony.com/windows/nt/Microsoft%20Windows%20NT%203.5%20Server%20%283.50.800.1%29.rar",
+            "Windows NT 3.5 Workstation": "https://dl.bobpony.com/windows/nt/Microsoft%20Windows%20NT%203.5%20Workstation%20%283.50.807%29.rar",
+            "Windows NT 3.51 Server": "https://dl.bobpony.com/windows/nt/Microsoft%20Windows%20NT%203.51%20Server%20%283.51.1057.1%29.rar",
+            "Windows NT 3.51 Workstation": "https://dl.bobpony.com/windows/nt/Microsoft%20Windows%20NT%203.51%20Workstation%20%283.51.1057.1%29%20%283.5%29.rar",
+            "Windows NT 4.0 Server": "https://dl.bobpony.com/windows/nt/Microsoft%20Windows%20NT%204.0%20Server%20%284.00.1381.1%29.rar",
+            "Windows NT 4.0 Enterprise Server": "https://dl.bobpony.com/windows/nt/Microsoft%20Windows%20NT%204.0%20Enterprise%20Server%20%284.00.1381.1%29.rar",
+            "Windows NT 4.0 Terminal Server": "https://dl.bobpony.com/windows/nt/Microsoft%20Windows%20NT%204.0%20Terminal%20Server%20%28%27%27Hydra%27%27%204.00.1381.32772.sp3%29.rar",
+            "Windows NT 4.0 Workstation": "https://dl.bobpony.com/windows/nt/Microsoft%20Windows%20NT%204.0%20Workstation%20%284.00.1381.1.sp1%29.rar",
+            "Windows NT 4.0 Embedded": "https://dl.bobpony.com/windows/nt/Microsoft%20Windows%20NT%204.0%20Embedded%20%284.00.1381.204%29.rar"
         },
-        "8.0": {
-            "x86": "https://dl.bobpony.com/windows/8.x/8.0/en_windows_8_x86_dvd_915417.iso",
-            "x64": "https://dl.bobpony.com/windows/8.x/8.0/en_windows_8_x64_dvd_915440.iso"
+			
+			      "9x": {
+            "Windows 95 (4.00.950)": "https://dl.bobpony.com/windows/9x/95/Microsoft%20Windows%2095%20%284.00.950%29.zip",
+            "Windows 95B (4.00.1111.osr2)": "https://dl.bobpony.com/windows/9x/95/Microsoft%20Windows%2095B%20%284.00.1111.osr2%29.zip",
+            "Windows 95C (4.03.1216.osr2.5)": "https://dl.bobpony.com/windows/9x/95/Microsoft%20Windows%2095C%20%284.03.1216.osr2.5%29.zip",
+            "Windows 98": "https://dl.bobpony.com/windows/9x/98/fe/Microsoft%20Windows%2098%20First%20Edition.7z",
+            "Windows 98 SE (4.10.2222)": "https://dl.bobpony.com/windows/9x/98/se/Microsoft%20Windows%2098%20Second%20Edition%20%284.10.2222%29.rar",
+            "Windows Me (English)": "https://dl.bobpony.com/windows/9x/me/Windows%20Me_en.zip"
         },
-        "Embedded 8.0": {
-            "Industry Pro x86": "https://dl.bobpony.com/windows/8.x/8.0/embedded/en_windows_embedded_8_industry_pro_x86_dvd_1966344.iso",
-            "Industry Pro x64": "https://dl.bobpony.com/windows/8.x/8.0/embedded/en_windows_embedded_8_industry_pro_x64_dvd_1966345.iso",
-            "Industry Pro Language Packs": "https://dl.bobpony.com/windows/8.x/8.0/embedded/mu_windows_embedded_8_industry_pro_language_pack_x86_x64_dvd_1966340.iso",
-            "Image Builder for Standard x86": "https://dl.bobpony.com/windows/8.x/8.0/embedded/en_windows_embedded_8_standard_image_builder_wizard_x86_dvd_1791545.iso",
-            "Image Builder for Standard x64": "https://dl.bobpony.com/windows/8.x/8.0/embedded/en_windows_embedded_8_standard_image_builder_wizard_x64_dvd_1791542.iso"
+			
+			    "2000": {
+            "Windows 2000 Professional with SP4": "https://dl.bobpony.com/windows/2000/5.00.2195.6717_x86fre_client-professional_retail_en-us.7z",
+            "Windows 2000 Advanced Server with SP4": "https://dl.bobpony.com/windows/2000/5.00.2195.6717_x86fre_server-advancedserver_retail_en-us.7z"
         },
-        "7": {
-            "x86 with SP1": "https://dl.bobpony.com/windows/7/en_windows_7_with_sp1_x86.iso",
-            "x64 with SP1": "https://dl.bobpony.com/windows/7/en_windows_7_with_sp1_x64.iso"
-        },
-        "Vista": {
-            "x86 DVD (RTM)": "https://dl.bobpony.com/windows/vista/en_windows_vista_x86_dvd_x12-34293.7z",
-            "x86 CD 1": "https://dl.bobpony.com/windows/vista/en_windows_vista_x86_cd1_x12-54426.iso",
-            "x86 CD 2": "https://dl.bobpony.com/windows/vista/en_windows_vista_x86_cd2_x12-54427.iso",
-            "x86 CD 3": "https://dl.bobpony.com/windows/vista/en_windows_vista_x86_cd3_x12-54428.iso",
-            "x86 CD 4": "https://dl.bobpony.com/windows/vista/en_windows_vista_x86_cd4_x12-54429.iso",
-            "x86 CD 5": "https://dl.bobpony.com/windows/vista/en_windows_vista_x86_cd5_x12-54430.iso",
-            "x86 with SP1": "https://dl.bobpony.com/windows/vista/en_windows_vista_with_service_pack_1_x86_dvd_x14-29594.7z",
-            "x64 with SP1": "https://dl.bobpony.com/windows/vista/en_windows_vista_with_service_pack_1_x64_dvd_x14-29595.7z",
-            "x86 with SP2": "https://dl.bobpony.com/windows/vista/en_windows_vista_with_sp2_x86_dvd_342266.iso",
-            "x64 with SP2": "https://dl.bobpony.com/windows/vista/en_windows_vista_sp2_x64_dvd_342267.iso",
-            "Enterprise x86 with SP2": "https://dl.bobpony.com/windows/vista/en_windows_vista_enterprise_sp2_x86_dvd_342329.7z",
-            "Enterprise x64 with SP2": "https://dl.bobpony.com/windows/vista/en_windows_vista_enterprise_sp2_x64_dvd_342332.7z"
-        },
-        "XP": {
+			
+			        "XP": {
             "Windows XP for Tablet PCs (VL keys)": "https://dl.bobpony.com/windows/xp/en_win_xp_tabletpc_2005_vl.7z",
             "Windows XP for Tablet PCs": "https://dl.bobpony.com/windows/xp/en_winxp_tablet_2005.7z",
-            "Windows Fundamentals for Legacy PCs (SP2)": "https://dl.bobpony.com/windows/xp/Windows%20Fundamentals%20for%20Legacy%20PCs%20SP2.iso",
-            "Windows XP Starter Edition (SP3)": "https://dl.bobpony.com/windows/xp/Windows%20XP%20Starter%20Edition%20SP3.iso",
+            "Windows Fundamentals for Legacy PCs (SP2)": "https://dl.bobpony.com/windows/xp/Windows%20Fundamentals%20for%20Legacy%20PCs%20SP2.7z",
+            "Windows XP Starter Edition (SP3)": "https://dl.bobpony.com/windows/xp/Windows%20XP%20Starter%20Edition%20SP3.7z",
             "Windows XP Embedded (SP2) CD 1": "https://dl.bobpony.com/windows/xp/embedded/en_winxp_embedded_sp2_cd1.iso",
             "Windows XP Embedded (SP2) CD 2": "https://dl.bobpony.com/windows/xp/embedded/en_winxp_embedded_sp2_cd2.iso",
             "Windows XP Embedded (SP2) CD 3": "https://dl.bobpony.com/windows/xp/embedded/en_winxp_embedded_sp2_cd3.iso",
             "Windows XP Home x86": "https://dl.bobpony.com/windows/xp/home/en_winxp_home_x86_build2600.iso",
             "Windows XP Home with SP2 x86": "https://dl.bobpony.com/windows/xp/home/en_winxp_home_with_sp2.iso",
             "Windows XP Home with SP3 x86": "https://dl.bobpony.com/windows/xp/home/en_windows_xp_home_with_service_pack_3_x86_cd_x14-92413.iso",
-            "Windows XP Home N with SP3 x86": "https://dl.bobpony.com/windows/xp/home/en_windows_xp_home_n_with_service_pack_3_x86_cd_x14-92393.iso",
-            "Windows XP Home K with SP3 x86": "https://dl.bobpony.com/windows/xp/home/en_windows_xp_home_k_with_service_pack_3_x86_cd_x14-92386.iso",
-            "Windows XP Home KN with SP3 x86": "https://dl.bobpony.com/windows/xp/home/en_windows_xp_home_kn_with_service_pack_3_x86_cd_x14-92388.iso",
+            "Windows XP Home N with SP3 x86": "https://dl.bobpony.com/windows/xp/home/en_windows_xp_home_n_with_service_pack_3_x86_cd_x14-92393.7z",
+            "Windows XP Home K with SP3 x86": "https://dl.bobpony.com/windows/xp/home/en_windows_xp_home_k_with_service_pack_3_x86_cd_x14-92386.7z",
+            "Windows XP Home KN with SP3 x86": "https://dl.bobpony.com/windows/xp/home/en_windows_xp_home_kn_with_service_pack_3_x86_cd_x14-92388.7z",
             "Windows XP Pro x86": "https://dl.bobpony.com/windows/xp/professional/en_winxp_pro_x86_build2600_iso.img",
             "Windows XP Pro x86 (VL keys)": "https://dl.bobpony.com/windows/xp/professional/en_winxp_pro_vl_iso.img",
             "Windows XP Pro x64 (VL keys)": "https://dl.bobpony.com/windows/xp/professional/en_win_xp_pro_x64_vl.iso",
@@ -341,51 +324,83 @@
             "Windows XP Media Center Edition 2004": "https://dl.bobpony.com/windows/xp/mce/en_winxp_mce_2004.iso",
             "Windows XP Media Center Edition 2005": "https://dl.bobpony.com/windows/xp/mce/en_winxp_mce_2005.7z"
         },
-        "2000": {
-            "Windows 2000 Professional with SP4": "https://dl.bobpony.com/windows/2000/5.00.2195.6717_x86fre_client-professional_retail_en-us.7z",
-            "Windows 2000 Advanced Server with SP4": "https://dl.bobpony.com/windows/2000/5.00.2195.6717_x86fre_server-advancedserver_retail_en-us.7z"
+			
+			        "Vista": {
+            "x86 DVD (RTM)": "https://dl.bobpony.com/windows/vista/en_windows_vista_x86_dvd_x12-34293.7z",
+            "x86 CD 1": "https://dl.bobpony.com/windows/vista/en_windows_vista_x86_cd1_x12-54426.iso",
+            "x86 CD 2": "https://dl.bobpony.com/windows/vista/en_windows_vista_x86_cd2_x12-54427.iso",
+            "x86 CD 3": "https://dl.bobpony.com/windows/vista/en_windows_vista_x86_cd3_x12-54428.iso",
+            "x86 CD 4": "https://dl.bobpony.com/windows/vista/en_windows_vista_x86_cd4_x12-54429.iso",
+            "x86 CD 5": "https://dl.bobpony.com/windows/vista/en_windows_vista_x86_cd5_x12-54430.iso",
+            "x86 with SP1": "https://dl.bobpony.com/windows/vista/en_windows_vista_with_service_pack_1_x86_dvd_x14-29594.7z",
+            "x64 with SP1": "https://dl.bobpony.com/windows/vista/en_windows_vista_with_service_pack_1_x64_dvd_x14-29595.7z",
+            "x86 with SP2": "https://dl.bobpony.com/windows/vista/en_windows_vista_with_sp2_x86_dvd_342266.iso",
+            "x64 with SP2": "https://dl.bobpony.com/windows/vista/en_windows_vista_sp2_x64_dvd_342267.iso",
+            "Enterprise x86 with SP2": "https://dl.bobpony.com/windows/vista/en_windows_vista_enterprise_sp2_x86_dvd_342329.7z",
+            "Enterprise x64 with SP2": "https://dl.bobpony.com/windows/vista/en_windows_vista_enterprise_sp2_x64_dvd_342332.7z"
         },
-        "9x": {
-            "Windows 95 (4.00.950)": "https://dl.bobpony.com/windows/9x/95/Microsoft%20Windows%2095%20%284.00.950%29.zip",
-            "Windows 95B (4.00.1111.osr2)": "https://dl.bobpony.com/windows/9x/95/Microsoft%20Windows%2095B%20%284.00.1111.osr2%29.zip",
-            "Windows 95C (4.03.1216.osr2.5)": "https://dl.bobpony.com/windows/9x/95/Microsoft%20Windows%2095C%20%284.03.1216.osr2.5%29.zip",
-            "Windows 98": "https://dl.bobpony.com/windows/9x/98/fe/Microsoft%20Windows%2098%20First%20Edition.7z",
-            "Windows 98 SE (4.10.2222)": "https://dl.bobpony.com/windows/9x/98/se/Microsoft%20Windows%2098%20Second%20Edition%20%284.10.2222%29.rar",
-            "Windows Me (English)": "https://dl.bobpony.com/windows/9x/me/Windows%20Me_en.zip"
+			
+			
+        "7": {
+            "x86 with SP1": "https://dl.bobpony.com/windows/7/en_windows_7_with_sp1_x86.iso",
+            "x64 with SP1": "https://dl.bobpony.com/windows/7/en_windows_7_with_sp1_x64.iso"
         },
-        "NT (3.x to 4.0)": {
-            "Windows NT 3.1 Advanced Server": "https://dl.bobpony.com/windows/nt/Microsoft%20Windows%20NT%203.1%20Advanced%20Server%20%283.10.5098.1%29.rar",
-            "Windows NT 3.1 Workstation": "https://dl.bobpony.com/windows/nt/Microsoft%20Windows%20NT%203.1%20Workstation%20%283.10.511.1%29.rar",
-            "Windows NT 3.5 Server": "https://dl.bobpony.com/windows/nt/Microsoft%20Windows%20NT%203.5%20Server%20%283.50.800.1%29.rar",
-            "Windows NT 3.5 Workstation": "https://dl.bobpony.com/windows/nt/Microsoft%20Windows%20NT%203.5%20Workstation%20%283.50.807%29.rar",
-            "Windows NT 3.51 Server": "https://dl.bobpony.com/windows/nt/Microsoft%20Windows%20NT%203.51%20Server%20%283.51.1057.1%29.rar",
-            "Windows NT 3.51 Workstation": "https://dl.bobpony.com/windows/nt/Microsoft%20Windows%20NT%203.51%20Workstation%20%283.51.1057.1%29%20%283.5%29.rar",
-            "Windows NT 4.0 Server": "https://dl.bobpony.com/windows/nt/Microsoft%20Windows%20NT%204.0%20Server%20%284.00.1381.1%29.rar",
-            "Windows NT 4.0 Enterprise Server": "https://dl.bobpony.com/windows/nt/Microsoft%20Windows%20NT%204.0%20Enterprise%20Server%20%284.00.1381.1%29.rar",
-            "Windows NT 4.0 Terminal Server": "https://dl.bobpony.com/windows/nt/Microsoft%20Windows%20NT%204.0%20Terminal%20Server%20%28%27%27Hydra%27%27%204.00.1381.32772.sp3%29.rar",
-            "Windows NT 4.0 Workstation": "https://dl.bobpony.com/windows/nt/Microsoft%20Windows%20NT%204.0%20Workstation%20%284.00.1381.1.sp1%29.rar",
-            "Windows NT 4.0 Embedded": "https://dl.bobpony.com/windows/nt/Microsoft%20Windows%20NT%204.0%20Embedded%20%284.00.1381.204%29.rar"
+			
+			 "8.0": {
+            "x86": "https://dl.bobpony.com/windows/8.x/8.0/en_windows_8_x86_dvd_915417.iso",
+            "x64": "https://dl.bobpony.com/windows/8.x/8.0/en_windows_8_x64_dvd_915440.iso"
         },
-        "DOS-based Windows (1.x to 3.x)": {
-            "Windows 1.x": "https://dl.bobpony.com/windows/1.x/",
-            "Microsoft Windows 2.01 [English] (5.25'')": "https://dl.bobpony.com/windows/2.x/Microsoft%20Windows%202.01%20[English]%20(5.25%27%27).7z",
-            "Microsoft Windows 2.03 [English] (3.5'').7z": "https://dl.bobpony.com/windows/2.x/Microsoft%20Windows%202.03%20[English]%20(3.5%27%27).7z",
-            "Microsoft Windows 2.03 [English] (3.5''-720KB)": "https://dl.bobpony.com/windows/2.x/Microsoft%20Windows%202.03%20[English]%20(3.5%27%27-720KB).7z",
-            "Microsoft Windows 2.03 [English] (5.25'')": "https://dl.bobpony.com/windows/2.x/Microsoft%20Windows%202.03%20[English]%20(5.25%27%27).7z",
-            "Microsoft Windows 2.10 [English] (3.5'')": "https://dl.bobpony.com/windows/2.x/Microsoft%20Windows%202.10%20[English]%20(3.5%27%27).7z",
-            "Microsoft Windows 2.11 [English] (3.5'')": "https://dl.bobpony.com/windows/2.x/Microsoft%20Windows%202.11%20[English]%20(3.5%27%27).7z",
-            "Windows 3.1 (3.5'')": "https://dl.bobpony.com/windows/3.x/Microsoft%20Windows%203.1%20English%203.5.7z",
-            "Windows 3.1 (ISO)": "https://dl.bobpony.com/windows/3.x/Windows%203.1.ISO",
-            "Windows 3.11 (3.5'')": "https://dl.bobpony.com/windows/3.x/Microsoft%20Windows%203.11%20English%203.5.7z",
-            "Windows 3.11 (WFW) (3.5'')": "https://dl.bobpony.com/windows/3.x/Microsoft%20Windows%20For%20Workgroups%203.11%20English%203.5.7z",
-            "Windows 3.11 (WFW) (ISO)": "https://dl.bobpony.com/windows/3.x/WFWG311.ISO"
+		
+		 "Embedded 8.0": {
+            "Industry Pro x86": "https://dl.bobpony.com/windows/8.x/8.0/embedded/en_windows_embedded_8_industry_pro_x86_dvd_1966344.iso",
+            "Industry Pro x64": "https://dl.bobpony.com/windows/8.x/8.0/embedded/en_windows_embedded_8_industry_pro_x64_dvd_1966345.iso",
+            "Industry Pro Language Packs": "https://dl.bobpony.com/windows/8.x/8.0/embedded/mu_windows_embedded_8_industry_pro_language_pack_x86_x64_dvd_1966340.iso",
+            "Image Builder for Standard x86": "https://dl.bobpony.com/windows/8.x/8.0/embedded/en_windows_embedded_8_standard_image_builder_wizard_x86_dvd_1791542.iso",
+            "Image Builder for Standard x64": "https://dl.bobpony.com/windows/8.x/8.0/embedded/en_windows_embedded_8_standard_image_builder_wizard_x64_dvd_1791545.iso"
         },
-        "OEM Recovery Images": {
+			
+			"8.1": {
+            "x86": "https://dl.bobpony.com/windows/8.x/8.1/en_windows_8.1_with_update_x86_dvd_6051550.iso",
+            "x64": "https://dl.bobpony.com/windows/8.x/8.1/en_windows_8.1_with_update_x64_dvd_6051480.iso",
+            "x86 N": "https://dl.bobpony.com/windows/8.x/8.1/en_windows_8.1_n_with_update_x86_dvd_6051704.7z",
+            "x64 N": "https://dl.bobpony.com/windows/8.x/8.1/en_windows_8.1_with_update_x64_dvd_6051480.iso",
+            "x86 with Bing": "https://dl.bobpony.com/windows/8.x/8.1/Windows%208.1%20with%20Bing%2032%20bit.7z",
+            "x64 with Bing": "https://dl.bobpony.com/windows/8.x/8.1/Windows%208.1%20with%20Bing%2064%20bit.7z",
+            "Enterprise x86": "https://dl.bobpony.com/windows/8.x/8.1/en_windows_8.1_enterprise_with_update_x86_dvd_6050710.7z",
+            "Enterprise x64": "https://dl.bobpony.com/windows/8.x/8.1/en_windows_8.1_enterprise_with_update_x64_dvd_6054382.iso",
+            "Language Pack x64": "https://dl.bobpony.com/windows/8.x/8.1/mu_windows_8.1_language_pack_with_update_x64_dvd_6066963.iso"
+        },
+			
+			"10": {
+            "22H2 x86 (All editions)": "https://dl.bobpony.com/windows/10/en-us_windows_10_22h2_x86.iso",
+            "22H2 x64 (All editions)": "https://dl.bobpony.com/windows/10/en-us_windows_10_22h2_x64.iso",
+            "22H2 ARM64 (All editions)": "https://dl.bobpony.com/windows/10/en-us_windows_10_22h2_arm64.iso",
+            "LTSB 2015 x86": "https://dl.bobpony.com/windows/10/en_windows_10_enterprise_2015_ltsb_x86_dvd_6848454.iso",
+            "LTSB 2015 x64": "https://dl.bobpony.com/windows/10/en_windows_10_enterprise_2015_ltsb_x64_dvd_6848446.iso",
+            "LTSB 2016 x86": "https://dl.bobpony.com/windows/10/en_windows_10_enterprise_2016_ltsb_x86_dvd_9060010.iso",
+            "LTSB 2016 x64": "https://dl.bobpony.com/windows/10/en_windows_10_enterprise_2016_ltsb_x64_dvd_9059483.iso",
+            "LTSC 2019 x86": "https://dl.bobpony.com/windows/10/en_windows_10_enterprise_ltsc_2019_x86_dvd_892869c9.iso",
+            "LTSC 2019 x64": "https://dl.bobpony.com/windows/10/en_windows_10_enterprise_ltsc_2019_x64_dvd_5795bb03.iso",
+	    "LTSC 2021 x86": "https://dl.bobpony.com/windows/10/en-us_windows_10_enterprise_ltsc_2021_x86_dvd_9f4aa95f.iso",
+	    "LTSC 2021 x64": "https://dl.bobpony.com/windows/10/en-us_windows_10_enterprise_ltsc_2021_x64_dvd_d289cf96.iso",
+	    "LTSC IoT 2021 x64": "https://dl.bobpony.com/windows/10/en-us_windows_10_iot_enterprise_ltsc_2021_x64_dvd_257ad90f.iso"
+        },
+				
+				"11": {
+	"23H2 x64 (All editions)": "https://dl.bobpony.com/windows/11/en-us_windows_11_23h2_x64.iso",
+    	"23H2 ARM64 (All editions)": "https://dl.bobpony.com/windows/11/en-us_windows_11_23h2_arm64.iso",
+    	"22H2 x64 (All editions)": "https://dl.bobpony.com/windows/11/en-us_windows_11_22h2_x64.iso",
+	"22H2 ARM64 (All editions)": "https://dl.bobpony.com/windows/11/en-us_windows_11_22h2_arm64.iso",
+        "LTSC 2024 x64": "https://dl.bobpony.com/windows/11/26100.1.240331-1435.ge_release_CLIENT_ENTERPRISES_OEM_x64FRE_en-us.iso",
+        "LTSC 2024 ARM64": "https://dl.bobpony.com/windows/11/26100.1.240331-1435.ge_release_CLIENT_ENTERPRISES_OEM_A64FRE_en-us.iso"
+	},
+		
+		   "OEM Recovery Images": {
             "ASUS E203M": "https://dl.bobpony.com/windows/oemrecovery/ASUS%20E203M.7z",
             "Compaq SR5130NX": "https://dl.bobpony.com/windows/oemrecovery/Compaq%20SR5130NX.7z",
             "IBM T60": "https://dl.bobpony.com/windows/oemrecovery/IBM%20T60.7z"
-        }
-    },
+	},
+    }
     "Windows Server": {
         "2003 R1": {
             "Enterprise with SP1 x86": "https://dl.bobpony.com/windows/server/2003/en_windows_server_2003_with_sp1_enterprise.zip",
@@ -407,7 +422,7 @@
             "Without Hyper-V with SP2 x86": "https://dl.bobpony.com/windows/server/2008/en_windows_server_2008_datacenter_enterprise_standard_without_hyper-v_sp2_x86_dvd_342334.iso",
             "With SP2 x64": "https://dl.bobpony.com/windows/server/2008/en_windows_server_2008_with_sp2_x64_dvd_342336-025.iso",
             "With SP2 x86": "https://dl.bobpony.com/windows/server/2008/en_windows_server_2008_with_sp2_x86_dvd_342333.iso",
-            "Web with SP2 x64": "https://dl.bobpony.com/windows/server/2008/en_windows_web_server_2008_x64_dvd_x14-26683-012.iso",
+            "Web with SP2 x64": "https://dl.bobpony.com/windows/server/2008/en_windows_server_2008_x64_dvd_x14-26714-021.7z",
             "Web with SP2 x86": "https://dl.bobpony.com/windows/server/2008/en_windows_web_server_2008_x86_dvd_x14-26678.iso"
         },
         "2008 R2": {
@@ -418,21 +433,21 @@
             "Hyper-V Server x64": "https://dl.bobpony.com/windows/server/2012/en_microsoft_hyper-v_server_2012_x64_dvd_915600.iso",
             "Retail x64": "https://dl.bobpony.com/windows/server/2012/en_windows_server_2012_x64_dvd_915478-006.iso",
             "VL x64": "https://dl.bobpony.com/windows/server/2012/en_windows_server_2012_vl_x64_dvd_917758-005.iso",
-            "Language Pack": "https://dl.bobpony.com/windows/server/2012/mu_windows_server_2012_language_pack_x64_dvd_917551.iso"
+            "Language Pack x64": "https://dl.bobpony.com/windows/server/2012/mu_windows_server_2012_language_pack_x64_dvd_917551.iso"
         },
         "2012 R2": {
             "Retail with Update x64": "https://dl.bobpony.com/windows/server/2012r2/en_windows_server_2012_r2_with_update_x64_dvd_6052708-004.iso",
             "VL with Update x64": "https://dl.bobpony.com/windows/server/2012r2/en_windows_server_2012_r2_vl_with_update_x64_dvd_6052766-003.iso",
-            "Language Pack with Update": "https://dl.bobpony.com/windows/server/2012r2/mu_windows_server_2012_r2_language_pack_with_update_x64_dvd_6066969-001.iso"
+            "Language Pack with Update x64": "https://dl.bobpony.com/windows/server/2012r2/mu_windows_server_2012_r2_language_pack_with_update_x64_dvd_6066969-001.iso"
         },
         "2016": {
-            "Updated Feb 2018 x64": "https://dl.bobpony.com/windows/server/2016/en_windows_server_2016_updated_feb_2018_x64_dvd_11636692.iso"
+            "x64 (Updated Feburary 2018)": "https://dl.bobpony.com/windows/server/2016/en_windows_server_2016_updated_feb_2018_x64_dvd_11636692.iso"
         },
         "2019": {
             "x64 (Updated August 2021)": "https://dl.bobpony.com/windows/server/2019/en-us_windows_server_2019_updated_aug_2021_x64_dvd_a6431a28.iso"
         },
 		"2022": {
-            "x64 (Updated September 2022)": "https://dl.bobpony.com/windows/server/2022/en-us_windows_server_2022_updated_sep_2022_x64_dvd_44ee9450.iso"
+            "x64 (Updated January 2024)": "https://dl.bobpony.com/windows/server/2022/en-us_windows_server_2022_updated_jan_2024_x64_dvd_2b7a0c9f.iso"
         },
         "2025": {
         	"x64": "https://dl.bobpony.com/windows/server/2025/en-us_windows_server_2025_preview_x64_dvd_ce9eb1a5.iso"

@@ -433,21 +433,21 @@
             "Hyper-V Server x64": "https://dl.bobpony.com/windows/server/2012/en_microsoft_hyper-v_server_2012_x64_dvd_915600.iso",
             "Retail x64": "https://dl.bobpony.com/windows/server/2012/en_windows_server_2012_x64_dvd_915478-006.iso",
             "VL x64": "https://dl.bobpony.com/windows/server/2012/en_windows_server_2012_vl_x64_dvd_917758-005.iso",
-            "Language Pack": "https://dl.bobpony.com/windows/server/2012/mu_windows_server_2012_language_pack_x64_dvd_917551.iso"
+            "Language Pack x64": "https://dl.bobpony.com/windows/server/2012/mu_windows_server_2012_language_pack_x64_dvd_917551.iso"
         },
         "2012 R2": {
             "Retail with Update x64": "https://dl.bobpony.com/windows/server/2012r2/en_windows_server_2012_r2_with_update_x64_dvd_6052708-004.iso",
             "VL with Update x64": "https://dl.bobpony.com/windows/server/2012r2/en_windows_server_2012_r2_vl_with_update_x64_dvd_6052766-003.iso",
-            "Language Pack with Update": "https://dl.bobpony.com/windows/server/2012r2/mu_windows_server_2012_r2_language_pack_with_update_x64_dvd_6066969-001.iso"
+            "Language Pack with Update x64": "https://dl.bobpony.com/windows/server/2012r2/mu_windows_server_2012_r2_language_pack_with_update_x64_dvd_6066969-001.iso"
         },
         "2016": {
-            "Updated Feb 2018 x64": "https://dl.bobpony.com/windows/server/2016/en_windows_server_2016_updated_feb_2018_x64_dvd_11636692.iso"
+            "x64 (Updated Feburary 2018)": "https://dl.bobpony.com/windows/server/2016/en_windows_server_2016_updated_feb_2018_x64_dvd_11636692.iso"
         },
         "2019": {
             "x64 (Updated August 2021)": "https://dl.bobpony.com/windows/server/2019/en-us_windows_server_2019_updated_aug_2021_x64_dvd_a6431a28.iso"
         },
 		"2022": {
-            "x64 (Updated September 2022)": "https://dl.bobpony.com/windows/server/2022/en-us_windows_server_2022_updated_jan_2024_x64_dvd_2b7a0c9f.iso"
+            "x64 (Updated January 2024)": "https://dl.bobpony.com/windows/server/2022/en-us_windows_server_2022_updated_jan_2024_x64_dvd_2b7a0c9f.iso"
         },
         "2025": {
         	"x64": "https://dl.bobpony.com/windows/server/2025/en-us_windows_server_2025_preview_x64_dvd_ce9eb1a5.iso"

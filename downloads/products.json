@@ -185,7 +185,7 @@
             "VMware Workstation 10.0.7": "https://dl.bobpony.com/software/vmware/workstation/VMware-workstation-full-10.0.7-2844087.zip",
             "VMware Workstation 12.0.1": "https://dl.bobpony.com/software/vmware/workstation/VMware-workstation-full-12.0.1-3160714.zip",
             "VMware Workstation 12.5.9": "https://dl.bobpony.com/software/vmware/workstation/VMware-workstation-full-12.5.9-7535481.zip",
-            "VMware Workstation 15.5.6": "https://dl.bobpony.com/software/vmware/workstation/VMware-workstation-full-15.5.6-16341506.7z"
+            "VMware Workstation 15.5.6": "https://dl.bobpony.com/software/vmware/workstation/VMware-workstation-full-15.5.6-16341506.7z",
 	    "VMWare Fusion 13.5.2": "https://dl.bobpony.com/software/vmware/fusion/VMware-Fusion-13.5.2-23775688_universal.dmg"
         },
 		"Windows (Live) Essentials": {
@@ -381,16 +381,16 @@
             "LTSB 2016 x64": "https://dl.bobpony.com/windows/10/en_windows_10_enterprise_2016_ltsb_x64_dvd_9059483.iso",
             "LTSC 2019 x86": "https://dl.bobpony.com/windows/10/en_windows_10_enterprise_ltsc_2019_x86_dvd_892869c9.iso",
             "LTSC 2019 x64": "https://dl.bobpony.com/windows/10/en_windows_10_enterprise_ltsc_2019_x64_dvd_5795bb03.iso",
-	    "LTSC 2021 x86": "https://dl.bobpony.com/windows/10/en-us_windows_10_enterprise_ltsc_2021_x86_dvd_9f4aa95f.iso",
-	    "LTSC 2021 x64": "https://dl.bobpony.com/windows/10/en-us_windows_10_enterprise_ltsc_2021_x64_dvd_d289cf96.iso",
-	    "LTSC IoT 2021 x64": "https://dl.bobpony.com/windows/10/en-us_windows_10_iot_enterprise_ltsc_2021_x64_dvd_257ad90f.iso"
+	          "LTSC 2021 x86": "https://dl.bobpony.com/windows/10/en-us_windows_10_enterprise_ltsc_2021_x86_dvd_9f4aa95f.iso",
+	          "LTSC 2021 x64": "https://dl.bobpony.com/windows/10/en-us_windows_10_enterprise_ltsc_2021_x64_dvd_d289cf96.iso",
+	          "LTSC IoT 2021 x64": "https://dl.bobpony.com/windows/10/en-us_windows_10_iot_enterprise_ltsc_2021_x64_dvd_257ad90f.iso"
         },
 				
 				"11": {
-	"23H2 x64 (All editions)": "https://dl.bobpony.com/windows/11/en-us_windows_11_23h2_x64.iso",
-    	"23H2 ARM64 (All editions)": "https://dl.bobpony.com/windows/11/en-us_windows_11_23h2_arm64.iso",
-    	"22H2 x64 (All editions)": "https://dl.bobpony.com/windows/11/en-us_windows_11_22h2_x64.iso",
-	"22H2 ARM64 (All editions)": "https://dl.bobpony.com/windows/11/en-us_windows_11_22h2_arm64.iso",
+	      "23H2 x64 (All editions)": "https://dl.bobpony.com/windows/11/en-us_windows_11_23h2_x64.iso",
+      	"23H2 ARM64 (All editions)": "https://dl.bobpony.com/windows/11/en-us_windows_11_23h2_arm64.iso",
+      	"22H2 x64 (All editions)": "https://dl.bobpony.com/windows/11/en-us_windows_11_22h2_x64.iso",
+	      "22H2 ARM64 (All editions)": "https://dl.bobpony.com/windows/11/en-us_windows_11_22h2_arm64.iso",
         "LTSC 2024 x64": "https://dl.bobpony.com/windows/11/26100.1.240331-1435.ge_release_CLIENT_ENTERPRISES_OEM_x64FRE_en-us.iso",
         "LTSC 2024 ARM64": "https://dl.bobpony.com/windows/11/26100.1.240331-1435.ge_release_CLIENT_ENTERPRISES_OEM_A64FRE_en-us.iso"
 	},

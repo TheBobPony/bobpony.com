@@ -1,7 +1,7 @@
-<nav class="navbar is-info is-fixed-top" role="navigation" aria-label="main navigation">
+<nav class="navbar is-fixed-top is-link" role="navigation" aria-label="main navigation">
   <div class="container" id="container">
     <div class="navbar-brand">
-        <img class="navlogo" style="width:50px;height:52px;" src="/img/favicon.png">
+      <img class="navlogo" style="width:50px;" src="/img/favicon.png">
       <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
@@ -11,7 +11,7 @@
 
     <div id="navbarBasicExample" class="navbar-menu">
       <div class="navbar-start">
-        <a href="/" class="navbar-item {% if page.url == "/" %}is-active{% endif %}">
+        <a href="/" class="navbar-item {% if page.url == " /" %}is-active{% endif %}">
           <span class="icon-text">
             <span class="icon">
               <i class="fas fa-home"></i>
@@ -19,7 +19,7 @@
             <span>Home</span>
           </span>
         </a>
-		<a href="/downloads/" class="navbar-item {% if page.url == "/downloads/" %}is-active{% endif %}">
+        <a href="/downloads/" class="navbar-item {% if page.url == " /downloads/" %}is-active{% endif %}">
           <span class="icon-text">
             <span class="icon">
               <i class="fas fa-download"></i>
@@ -27,7 +27,7 @@
             <span>Downloads</span>
           </span>
         </a>
-		<a href="https://status.bobpony.com/" class="navbar-item">
+        <a href="https://status.bobpony.com/" class="navbar-item">
           <span class="icon-text">
             <span class="icon">
               <i class="fas fa-arrow-trend-up"></i>
@@ -56,12 +56,12 @@
         <a href="https://github.com/TheBobPony/bobpony.com" class="navbar-item" title="GitHub">
           <i class="fab fa-github"></i>
         </a>
-        <a href="/contact" class="navbar-item {% if page.url == "/contact/" %}is-active{% endif %}" title="Contact">
+        <a href="/contact" class="navbar-item {% if page.url == " /contact/" %}is-active{% endif %}" title="Contact">
           <i class="fas fa-envelope"></i>
         </a>
       </div>
     </div>
   </div>
-  
+
 </nav>
 {% include nojs.html %}

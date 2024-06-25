@@ -5,70 +5,72 @@ permalink: /downloads/
 layout: default
 ---
 
-    <style>
-        .dropdown-item {
-            min-width: 40vh;
-            max-width: 90vw;
-            text-align-last: center;
-            margin-bottom: 1em;
-        }
+<style>
+    .dropdown-item {
+        width: 300px;
+        text-align-last: center;
+    }
 
-        .buttom {
-            margin-bottom: 0.5em;
-        }
-    </style>
-    <section class="hero is-info is-bold">
-        <div class="hero-body container has-text-centered">
-          <p class="title">
+    .dropdown {
+        margin-bottom: 1rem;
+    }
+
+    .buttom {
+        margin-bottom: 0.5em;
+    }
+</style>
+<section class="hero is-link is-bold">
+    <div class="hero-body container has-text-centered">
+        <p class="title">
             {{ page.title }}
         </p>
-        </div>
-      </section>
-        <div class="container">
-            <br />
-                <div class="has-text-centered">
-                    <div class="columns is-desktop is-vcentered is-centered">
-                        <div class="column is-narrow">
-                            <p class="dropdown">
-                                <select class="dropdown-item" name="Product type" id="type" autocomplete="off"
-                                    onchange="updateVersions()">
-                                    <option disabled selected value="placeholder">
-                                        ---- Choose category ----
-                                    </option>
-                                </select>
-                            </p>
-                            <br />
-                            <p class="dropdown">
-                                <select class="dropdown-item" name="Product version" id="version" autocomplete="off"
-                                    onchange="updateEditions()">
-                                    <option disabled selected value="placeholder">
-                                        ---- Choose version/type ----
-                                    </option>
-                                </select>
-                            </p>
-                            <br />
-                            <p class="dropdown">
-                                <select class="dropdown-item" name="Product edition" id="edition" autocomplete="off"
-                                    onchange="updateURL()">
-                                    <option disabled selected value="placeholder">
-                                        ---- Choose option ----
-                                    </option>
-                                </select>
-                            </p>
-                            <br />
-                            <p class="button is-rounded" id="downloadP">
-                                <a id="download">DOWNLOAD</a>
-                            </p>
-                            <br /><br />
-                            <div class="notification">
-                                <i class="fa-solid fa-circle-info"></i> If you need to enter a password, try
-                                <span style="font-family: monospace">bigcdn</span>.
-                            </div>
-			        <a href="https://dl.bobpony.com" class="button is-rounded">Directory Listing (Advanced)</a>
-                        </div>
-                    </div>
+    </div>
+</section>
+<div class="container">
+    <br />
+    <div class="has-text-centered">
+        <div class="columns is-desktop is-vcentered is-centered">
+            <div class="column is-narrow">
+                <p class="dropdown select">
+                    <select class="dropdown-item" name="Product type" id="type" autocomplete="off"
+                        onchange="updateVersions()">
+                        <option disabled selected value="placeholder">
+                            ---- Choose category ----
+                        </option>
+                    </select>
+                </p>
+                <br />
+                <p class="dropdown select">
+                    <select class="dropdown-item" name="Product version" id="version" autocomplete="off"
+                        onchange="updateEditions()">
+                        <option disabled selected value="placeholder">
+                            ---- Choose version/type ----
+                        </option>
+                    </select>
+                </p>
+                <br />
+                <p class="dropdown select">
+                    <select class="dropdown-item" name="Product edition" id="edition" autocomplete="off"
+                        onchange="updateURL()">
+                        <option disabled selected value="placeholder">
+                            ---- Choose option ----
+                        </option>
+                    </select>
+                </p>
+                <br />
+                <p class="button is-rounded" id="downloadP">
+                    <a id="download">DOWNLOAD</a>
+                </p>
+                <br /><br />
+                <div class="notification">
+                    <i class="fa-solid fa-circle-info"></i> If you need to enter a password, try
+                    <span style="font-family: monospace">bigcdn</span>.
                 </div>
+                <a href="https://dl.bobpony.com" class="button is-rounded">Directory Listing (Advanced)</a>
+            </div>
         </div>
-    <!-- Script tags here! -->
-    <script src="https://polyfill.io/v3/polyfill.min.js?features=Element.prototype.append"></script>
-    <script src="./listing.js"></script>
+    </div>
+</div>
+<!-- Script tags here! -->
+<script src="https://polyfill.io/v3/polyfill.min.js?features=Element.prototype.append"></script>
+<script src="./listing.js"></script>

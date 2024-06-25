@@ -4,14 +4,15 @@ html,
 body {
   height: 100%;
   width: 100%;
+  color-scheme: light dark;
 }
 
 /* Text Styling */
 
 /* Icon Styling */
-.navlogo {
+/* .navlogo {
   filter: brightness(1.2);
-}
+} */
 
 /* .blurr {
   background:rgba(0, 119, 238, 0.604);

@@ -4,44 +4,58 @@ layout: default
 permalink: /
 title: Home
 ---
-<section class="hero is-black is-bold is-fullheight">
-  <div class="hero-body container is-flex-direction-column">
-    <br />
+<section class="hero is-link is-bold">
+	<div class="hero-body container has-text-centered">
     <h1 class="title has-text-centered">
       👋 Welcome to BobPony.com!
     </h1>
+	</div>
+</section>
+<div class="container has-text-centered">
     <br />
     <h1 class="title is-spaced">Stay in touch with these socials:</h1>
     <div>
       <a title="YouTube Channel" href="https://www.youtube.com/channel/UCAZzz2Dd9Xh6vTjNcxhqPZw"
-        class="button is-danger is-large">
+        class="button is-danger is-medium">
         <span class="icon is-medium">
-          <i class="fab fa-youtube fa-lg"></i>
+          <i class="fab fa-youtube"></i>
         </span>
         <span>YouTube</span>
       </a>
-      <a title="Twitter" href="https://twitter.com/TheBobPony" class="button is-info is-large">
+      <a title="Twitter" href="https://twitter.com/TheBobPony" class="button is-info is-medium">
         <span class="icon is-medium">
-          <i class="fab fa-twitter fa-lg"></i>
+          <i class="fab fa-twitter"></i>
         </span>
         <span>Twitter</span>
       </a>
-      <a title="Bluesky @bobpony.com" href="https://bsky.app/profile/bobpony.com" class="button is-info is-large">
+	  <a title="X" onclick="xAct()" class="button is-dark is-medium">
         <span class="icon is-medium">
-          <i class="fab fa-bluesky fa-lg"></i>
+          <i class="fab fa-x-twitter"></i>
+        </span>
+      </a>
+	  <a title="Threads, also available on Mastodon @thebobpony@threads.net" href="https://www.threads.net/@thebobpony"
+        class="button is-dark is-medium">
+        <span class="icon is-medium">
+          <i class="fab fa-threads"></i>
+        </span>
+        <span>Threads</span>
+      </a>
+      <a title="Bluesky @bobpony.com" href="https://bsky.app/profile/bobpony.com" class="button is-info is-medium">
+        <span class="icon is-medium">
+          <i class="fab fa-bluesky"></i>
         </span>
         <span>Bluesky</span>
       </a>
-      <a title="Mastodon @bobpony@mastodon.social" href="https://mastodon.social/@bobpony"
-        class="button is-dark is-large">
+	  <a title="Mastodon @thebobpony@threads.net" onclick="mastodonAct()"
+        class="button is-dark is-medium">
         <span class="icon is-medium">
-          <i class="fab fa-mastodon fa-lg"></i>
+          <i class="fab fa-mastodon"></i>
         </span>
         <span>Mastodon</span>
       </a>
-      <a title="Join Bob Pony's Discord server" href="/discord" class="button is-link is-large">
+      <a title="Join Bob Pony's Discord server" href="/discord" class="button is-link is-medium">
         <span class="icon is-medium">
-          <i class="fab fa-discord fa-lg"></i>
+          <i class="fab fa-discord"></i>
         </span>
         <span>Discord Server</span>
       </a>
@@ -49,26 +63,25 @@ title: Home
     <br /><br />
     <h1 class="title is-spaced">Other pages:</h1>
     <div>
-      <a title="Downloads" href="/downloads" class="button is-large">
+      <a title="Downloads" href="/downloads" class="button is-medium">
         <span class="icon is-medium">
-          <i class="fas fa-download fa-lg"></i>
+          <i class="fas fa-download"></i>
         </span>
         <span>Downloads</span>
       </a>
-      <a title="Website status" href="https://status.bobpony.com/" class="button is-large">
+      <a title="Website status" href="https://status.bobpony.com/" class="button is-medium">
         <span class="icon is-medium">
-          <i class="fas fa-arrow-trend-up fa-lg"></i>
+          <i class="fas fa-arrow-trend-up"></i>
         </span>
         <span>Website status</span>
       </a>
     </div>
     <br /><br />
     <h1 class="title is-spaced">Have something to say?</h1>
-    <a title="Contact page" href="/contact" class="button is-large">
+    <a title="Contact page" href="/contact" class="button is-medium">
       <span class="icon is-medium">
-        <i class="fas fa-envelope fa-lg"></i>
+        <i class="fas fa-envelope"></i>
       </span>
       <span>Contact</span>
     </a>
   </div>
-</section>

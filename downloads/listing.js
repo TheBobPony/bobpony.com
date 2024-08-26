@@ -45,11 +45,11 @@ const updateEditions = () => {
 };
 
 const updateURL = () => {
-	if (typeObj.value && versionObj.value && editionObj.value) {
+	if (typeObj.value && versionObj.value && editionObj.value != "placeholder") {
 		const url = productList[typeObj.value][versionObj.value][editionObj.value];
 		downloadURL.href = url;
 	} else {
-		downloadURL.removeAttr("href");
+		downloadURL.removeAttribute("href");
 		downloadURL.disabled = true;
 	}
 };

@@ -24,9 +24,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 });
 function mastodonAct() {
+	// Shows a browser alert message
   alert("@thebobpony@threads.net");
-}
-function xAct() {
-  alert("Oh btw... it's still Twitter. ;)");
-  window.location.replace("https://x.com/TheBobPony");
 }

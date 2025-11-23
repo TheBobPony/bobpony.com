@@ -118,23 +118,23 @@
             "IE 4 SP2": "https://dl.bobpony.com/software/ie/4/IE4SP2.zip",
             "IE 5": "https://dl.bobpony.com/software/ie/IE5.zip",
             "IE 6": "https://dl.bobpony.com/software/ie/6/en_ie6.exe",
-            "IE 7 for Server 2003 IA64": "https://dl.bobpony.com/software/ie/7/en_ie7_for_win_srv_2003_ia64.exe",
-            "IE 7 for Server 2003 x64": "https://dl.bobpony.com/software/ie/7/en_ie7_for_win_srv_2003_x64.exe",
-            "IE 7 for Server 2003 SP1 or SP2 x86": "https://dl.bobpony.com/software/ie/7/en_ie7_for_win_srv_2003_sp1_or_sp2_x86.exe",
-            "IE 7 for Windows XP SP2 x86": "https://dl.bobpony.com/software/ie/7/en_ie7_for_win_xp_sp2_x86.exe",
-            "IE 8 for Server 2003 x86": "https://dl.bobpony.com/software/ie/8/en_windows_internet_explorer_8_for_windows_server_2003_x86.exe",
-            "IE 8 for Windows XP x86": "https://dl.bobpony.com/software/ie/8/en_windows_internet_explorer_8_for_windows_xp_x86.exe",
-            "IE 8 for Server 2003 and XP Pro x64": "https://dl.bobpony.com/software/ie/8/en_windows_internet_explorer_8_for_windows_server_2003_sp2_and_windows_xp_professional_x64.exe",
-            "IE 8 for Server 2008 and Windows Vista x86": "https://dl.bobpony.com/software/ie/8/en_windows_internet_explorer_8_for_windows_vista_and_windows_server_2008_x86.exe",
-            "IE 8 for Server 2008 and Windows Vista x64": "https://dl.bobpony.com/software/ie/8/en_windows_internet_explorer_8_for_windows_vista_and_windows_server_2008_x64.exe",
-            "IE 9 for Windows Vista x86": "https://dl.bobpony.com/software/ie/9/IE9-WindowsVista-x86-enu-final.exe",
-            "IE 9 for Windows Vista x64": "https://dl.bobpony.com/software/ie/9/IE9-WindowsVista-x64-enu-final.exe",
-            "IE 9 for Windows 7 x86": "https://dl.bobpony.com/software/ie/9/IE9-Windows7-x86-enu.exe",
-            "IE 9 for Windows 7 x64": "https://dl.bobpony.com/software/ie/9/IE9-Windows7-x64-enu-final.exe",
-            "IE 10 x86": "https://dl.bobpony.com/software/ie/10/IE10-Windows6.1-x86-en-us.exe",
-            "IE 10 x64": "https://dl.bobpony.com/software/ie/10/IE10-Windows6.1-x64-en-us.exe",
-            "IE 11 x86": "https://dl.bobpony.com/software/ie/11/IE11-Windows6.1-x86-en-us.exe",
-            "IE 11 x64": "https://dl.bobpony.com/software/ie/11/IE11-Windows6.1-x64-en-us.exe"
+            "IE 7 for Server 2003 IA64": "https://dl.bobpony.com/software/ie/7/en_ie7_for_win_srv_2003_ia64.zip",
+            "IE 7 for Server 2003 x64": "https://dl.bobpony.com/software/ie/7/en_ie7_for_win_srv_2003_x64.zip",
+            "IE 7 for Server 2003 SP1 or SP2 x86": "https://dl.bobpony.com/software/ie/7/en_ie7_for_win_srv_2003_sp1_or_sp2_x86.zip",
+            "IE 7 for Windows XP SP2 x86": "https://dl.bobpony.com/software/ie/7/en_ie7_for_win_xp_sp2_x86.zip",
+            "IE 8 for Server 2003 x86": "https://dl.bobpony.com/software/ie/8/en_windows_internet_explorer_8_for_windows_server_2003_x86.zip",
+            "IE 8 for Windows XP x86": "https://dl.bobpony.com/software/ie/8/en_windows_internet_explorer_8_for_windows_xp_x86.zip",
+            "IE 8 for Server 2003 and XP Pro x64": "https://dl.bobpony.com/software/ie/8/en_windows_internet_explorer_8_for_windows_server_2003_sp2_and_windows_xp_professional_x64.zip",
+            "IE 8 for Server 2008 and Windows Vista x86": "https://dl.bobpony.com/software/ie/8/en_windows_internet_explorer_8_for_windows_vista_and_windows_server_2008_x86.zip",
+            "IE 8 for Server 2008 and Windows Vista x64": "https://dl.bobpony.com/software/ie/8/en_windows_internet_explorer_8_for_windows_vista_and_windows_server_2008_x64.zip",
+            "IE 9 for Windows Vista x86": "https://dl.bobpony.com/software/ie/9/IE9-WindowsVista-x86-enu-final.zip",
+            "IE 9 for Windows Vista x64": "https://dl.bobpony.com/software/ie/9/IE9-WindowsVista-x64-enu-final.zip",
+            "IE 9 for Windows 7 x86": "https://dl.bobpony.com/software/ie/9/IE9-Windows7-x86-enu.zip",
+            "IE 9 for Windows 7 x64": "https://dl.bobpony.com/software/ie/9/IE9-Windows7-x64-enu-final.zip",
+            "IE 10 x86": "https://dl.bobpony.com/software/ie/10/IE10-Windows6.1-x86-en-us.zip",
+            "IE 10 x64": "https://dl.bobpony.com/software/ie/10/IE10-Windows6.1-x64-en-us.zip",
+            "IE 11 x86": "https://dl.bobpony.com/software/ie/11/IE11-Windows6.1-x86-en-us.zip",
+            "IE 11 x64": "https://dl.bobpony.com/software/ie/11/IE11-Windows6.1-x64-en-us.zip"
         },
         "Microsoft Office": {
             "Office 95 Pro CD 1": "https://dl.bobpony.com/software/msoffice/95/en_office_95_pro_cd1.exe",
@@ -251,10 +251,10 @@
         "Windows Vista": {
             "Windows Vista Updates (April 2017)": "https://dl.bobpony.com/updates/Windows%20Vista/VistaUpdatesApril2017.7z",
             "Windows Server 2008 R1 Updates (Jan 2020)": "https://dl.bobpony.com/updates/Windows%20Vista/Server2008R1UpdatesJan2020.7z",
-            "Windows Vista SP1 x64": "https://dl.bobpony.com/updates/Windows%20Vista/SP1/Windows6.0-KB936330-X64-wave0.exe",
-            "Windows Vista SP1 x86": "https://dl.bobpony.com/updates/Windows%20Vista/SP1/Windows6.0-KB936330-X86-wave0.exe",
-            "Windows Vista SP2 x64": "https://dl.bobpony.com/updates/Windows%20Vista/SP2/Windows6.0-KB948465-X64.exe",
-            "Windows Vista SP2 x86": "https://dl.bobpony.com/updates/Windows%20Vista/SP2/Windows6.0-KB948465-X86.exe"
+            "Windows Vista SP1 x64": "https://dl.bobpony.com/updates/Windows%20Vista/SP1/Windows6.0-KB936330-X64-wave0.zip",
+            "Windows Vista SP1 x86": "https://dl.bobpony.com/updates/Windows%20Vista/SP1/Windows6.0-KB936330-X86-wave0.zip",
+            "Windows Vista SP2 x64": "https://dl.bobpony.com/updates/Windows%20Vista/SP2/Windows6.0-KB948465-X64.zip",
+            "Windows Vista SP2 x86": "https://dl.bobpony.com/updates/Windows%20Vista/SP2/Windows6.0-KB948465-X86.zip"
         },
         "Windows 7": {
             "Windows 7 Updates (Jan 2020)": "https://dl.bobpony.com/updates/Windows%207/Windows%207%20Updates%20Jan2020.7z"
@@ -344,11 +344,11 @@
 	
 		"Vista": {
             "x86 DVD (RTM)": "https://dl.bobpony.com/windows/vista/en_windows_vista_x86_dvd_x12-34293.7z",
-            "x86 CD 1": "https://dl.bobpony.com/windows/vista/en_windows_vista_x86_cd1_x12-54426.iso",
-            "x86 CD 2": "https://dl.bobpony.com/windows/vista/en_windows_vista_x86_cd2_x12-54427.iso",
-            "x86 CD 3": "https://dl.bobpony.com/windows/vista/en_windows_vista_x86_cd3_x12-54428.iso",
-            "x86 CD 4": "https://dl.bobpony.com/windows/vista/en_windows_vista_x86_cd4_x12-54429.iso",
-            "x86 CD 5": "https://dl.bobpony.com/windows/vista/en_windows_vista_x86_cd5_x12-54430.iso",
+            "x86 CD 1": "https://dl.bobpony.com/windows/vista/en_windows_vista_x86_cd1_x12-54426.7z",
+            "x86 CD 2": "https://dl.bobpony.com/windows/vista/en_windows_vista_x86_cd2_x12-54427.7z",
+            "x86 CD 3": "https://dl.bobpony.com/windows/vista/en_windows_vista_x86_cd3_x12-54428.7z",
+            "x86 CD 4": "https://dl.bobpony.com/windows/vista/en_windows_vista_x86_cd4_x12-54429.7z",
+            "x86 CD 5": "https://dl.bobpony.com/windows/vista/en_windows_vista_x86_cd5_x12-54430.7z",
             "x86 with SP1": "https://dl.bobpony.com/windows/vista/en_windows_vista_with_service_pack_1_x86_dvd_x14-29594.7z",
             "x64 with SP1": "https://dl.bobpony.com/windows/vista/en_windows_vista_with_service_pack_1_x64_dvd_x14-29595.7z",
             "x86 with SP2": "https://dl.bobpony.com/windows/vista/en_windows_vista_with_sp2_x86_dvd_342266.iso",
@@ -397,24 +397,30 @@
             "LTSB 2016 x64": "https://dl.bobpony.com/windows/10/en_windows_10_enterprise_2016_ltsb_x64_dvd_9059483.iso",
             "LTSC 2019 x86": "https://dl.bobpony.com/windows/10/en_windows_10_enterprise_ltsc_2019_x86_dvd_892869c9.iso",
             "LTSC 2019 x64": "https://dl.bobpony.com/windows/10/en_windows_10_enterprise_ltsc_2019_x64_dvd_5795bb03.iso",
-	          "LTSC 2021 x86": "https://dl.bobpony.com/windows/10/en-us_windows_10_enterprise_ltsc_2021_x86_dvd_9f4aa95f.iso",
-	          "LTSC 2021 x64": "https://dl.bobpony.com/windows/10/en-us_windows_10_enterprise_ltsc_2021_x64_dvd_d289cf96.iso",
-	          "LTSC IoT 2021 x64": "https://dl.bobpony.com/windows/10/en-us_windows_10_iot_enterprise_ltsc_2021_x64_dvd_257ad90f.iso"
+	        "LTSC 2021 x86": "https://dl.bobpony.com/windows/10/en-us_windows_10_enterprise_ltsc_2021_x86_dvd_9f4aa95f.iso",
+	        "LTSC 2021 x64": "https://dl.bobpony.com/windows/10/en-us_windows_10_enterprise_ltsc_2021_x64_dvd_d289cf96.iso",
+	        "LTSC IoT 2021 x64": "https://dl.bobpony.com/windows/10/en-us_windows_10_iot_enterprise_ltsc_2021_x64_dvd_257ad90f.iso"
         },
 	
 		"11": {
-	      "23H2 x64 (All editions)": "https://dl.bobpony.com/windows/11/en-us_windows_11_23h2_x64.iso",
-      	"23H2 ARM64 (All editions)": "https://dl.bobpony.com/windows/11/en-us_windows_11_23h2_arm64.iso",
-      	"22H2 x64 (All editions)": "https://dl.bobpony.com/windows/11/en-us_windows_11_22h2_x64.iso",
-	      "22H2 ARM64 (All editions)": "https://dl.bobpony.com/windows/11/en-us_windows_11_22h2_arm64.iso",
-        "LTSC 2024 x64": "https://dl.bobpony.com/windows/11/26100.1.240331-1435.ge_release_CLIENT_ENTERPRISES_OEM_x64FRE_en-us.iso",
-        "LTSC 2024 ARM64": "https://dl.bobpony.com/windows/11/26100.1.240331-1435.ge_release_CLIENT_ENTERPRISES_OEM_A64FRE_en-us.iso"
+            "25H2 x64 (All Editions)": "https://dl.bobpony.com/windows/11/en-us_windows_11_25h2_x64.iso",
+            "25H2 ARM64 (All Editions)": "https://dl.bobpony.com/windows/11/en-us_windows_11_25h2_arm64.iso",
+            "24H2 x64 (All Editions)": "https://dl.bobpony.com/windows/11/en-us_windows_11_24h2_x64.iso",
+            "24H2 ARM64 (All Editions": "https://dl.bobpony.com/windows/11/en-us_windows_11_24h2_arm64.iso",
+	        "23H2 x64 (All editions)": "https://dl.bobpony.com/windows/11/en-us_windows_11_23h2_x64.iso",
+      	    "23H2 ARM64 (All editions)": "https://dl.bobpony.com/windows/11/en-us_windows_11_23h2_arm64.iso",
+      	    "22H2 x64 (All editions)": "https://dl.bobpony.com/windows/11/en-us_windows_11_22h2_x64.iso",
+	        "22H2 ARM64 (All editions)": "https://dl.bobpony.com/windows/11/en-us_windows_11_22h2_arm64.iso",
+            "LTSC 2024 x64": "https://dl.bobpony.com/windows/11/26100.1.240331-1435.ge_release_CLIENT_ENTERPRISES_OEM_x64FRE_en-us.iso",
+            "LTSC 2024 ARM64": "https://dl.bobpony.com/windows/11/26100.1.240331-1435.ge_release_CLIENT_ENTERPRISES_OEM_A64FRE_en-us.iso"
 		},
 		
 	  	"OEM Recovery Images": {
             "ASUS E203M": "https://dl.bobpony.com/windows/oemrecovery/ASUS%20E203M.7z",
             "Compaq SR5130NX": "https://dl.bobpony.com/windows/oemrecovery/Compaq%20SR5130NX.7z",
-            "IBM T60": "https://dl.bobpony.com/windows/oemrecovery/IBM%20T60.7z"
+            "IBM T60": "https://dl.bobpony.com/windows/oemrecovery/IBM%20T60.7z",
+            "Microsoft Surface Go 4 (Windows 10)": "https://dl.bobpony.com/windows/oemrecovery/SurfaceGo4_BMR_16220_2023.407.200-Win10Pro.zip",
+            "Microsoft Surface Go 4 (Windows 11)": "https://dl.bobpony.com/windows/oemrecovery/SurfaceGo4_BMR_16220_2023.407.192-Win11Pro.zip"
 		}
     },
     "Windows Server": {

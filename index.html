@@ -4,82 +4,49 @@ layout: default
 permalink: /
 title: Home
 ---
-<section class="hero is-link is-bold">
-	<div class="hero-body container has-text-centered">
-    <h1 class="title">
-      👋 Welcome to BobPony.com!
-    </h1>
-	</div>
-</section>
-<div class="container has-text-centered">
+<div class="container">
+<h1> Welcome to BobPony.com!</h1>
+    <h2>Stay in touch</h2>
+	<div class="grid">
+  <a href="https://www.youtube.com/channel/UCAZzz2Dd9Xh6vTjNcxhqPZw" role="button"><i class="fab fa-youtube"></i> YouTube</a>
+  <a href="https://twitter.com/TheBobPony" role="button"><i class="fab fa-twitter"></i> Twitter / <i class="fab fa-x-twitter"></i></a>
+  <a href="https://www.threads.net/@thebobpony" role="button"><i class="fab fa-threads"></i> Threads</a>
+  <a href="https://bsky.app/profile/bobpony.com" role="button"><i class="fab fa-bluesky"></i> Bluesky</a>
+</div>
+<br>
+<div class="grid">
+<a href="https://github.com/TheBobPony/bobpony.com" role="button"><i class="fab fa-github"></i> GitHub</a>
+<button onclick="mastodonAct()"><i class="fab fa-mastodon"></i> Mastodon</button>
+  <a href="https://discord.gg/tApDzYNwrj" role="button"><i class="fab fa-discord"></i> Discord Server</a>
+</div>
     <br />
-    <h1 class="title is-spaced">Stay in touch with these socials:</h1>
-    <div>
-      <a title="YouTube Channel" href="https://www.youtube.com/channel/UCAZzz2Dd9Xh6vTjNcxhqPZw"
-        class="button is-danger is-medium">
-        <span class="icon is-medium">
-          <i class="fab fa-youtube"></i>
-        </span>
-        <span>YouTube</span>
-      </a>
-      <a title="Twitter / X" href="https://twitter.com/TheBobPony" class="button is-info is-medium">
-        <span class="icon is-medium">
-          <i class="fab fa-twitter"></i>
-        </span>
-        <span>Twitter / </span>
-		<span class="icon is-medium">
-          <i class="fab fa-x-twitter"></i>
-        </span>
-      </a>
-	  <a title="Threads, also available on Mastodon @thebobpony@threads.net" href="https://www.threads.net/@thebobpony"
-        class="button is-dark is-medium">
-        <span class="icon is-medium">
-          <i class="fab fa-threads"></i>
-        </span>
-        <span>Threads</span>
-      </a>
-      <a title="Bluesky @bobpony.com" href="https://bsky.app/profile/bobpony.com" class="button is-info is-medium">
-        <span class="icon is-medium">
-          <i class="fab fa-bluesky"></i>
-        </span>
-        <span>Bluesky</span>
-      </a>
-	  <a title="Mastodon @thebobpony@threads.net" onclick="mastodonAct()"
-        class="button is-dark is-medium">
-        <span class="icon is-medium">
-          <i class="fab fa-mastodon"></i>
-        </span>
-        <span>Mastodon</span>
-      </a>
-      <a title="Join Bob Pony's Discord server" href="https://discord.gg/tApDzYNwrj" class="button is-link is-medium">
-        <span class="icon is-medium">
-          <i class="fab fa-discord"></i>
-        </span>
-        <span>Discord Server</span>
-      </a>
-    </div>
-    <br /><br />
-    <h1 class="title is-spaced">Other pages:</h1>
-    <div>
-      <a title="Downloads" href="/downloads" class="button is-medium">
-        <span class="icon is-medium">
-          <i class="fas fa-download"></i>
-        </span>
-        <span>Downloads</span>
-      </a>
-      <a title="Website status" href="https://status.bobpony.com/" class="button is-medium">
-        <span class="icon is-medium">
-          <i class="fas fa-arrow-trend-up"></i>
-        </span>
-        <span>Website status</span>
-      </a>
-    </div>
-    <br /><br />
-    <h1 class="title is-spaced">Have something to say?</h1>
-    <a title="Contact page" href="/contact" class="button is-medium">
-      <span class="icon is-medium">
-        <i class="fas fa-envelope"></i>
-      </span>
-      <span>Contact</span>
-    </a>
+
+<h2>Got something to say?</h2>
+<form
+  action="https://formspree.io/f/xjvllvwb"
+  method="POST"
+>
+  <div class="field">
+    <input class="input is-rounded" type="email" name="email" placeholder="Email address">
   </div>
+  <div class="field">
+    <input class="input is-rounded" name="message" placeholder="Your message" autocomplete="off">
+  </div>
+   <div class="g-recaptcha" data-sitekey="6LfechcUAAAAAKoMsJezng5Hf9Cm9i4fMGmRirO2" data-callback="callback"></div>
+   <noscript><p>To send your message, enable JavaScript!</p></noscript>
+   <br />
+  <button id="submit-button" type="submit" disabled>Send!</button>
+</form>
+</div>
+
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script type="text/javascript">
+      function callback() {
+        const submitButton = document.getElementById("submit-button");
+        submitButton.removeAttribute("disabled");
+      }
+</script>
+<script>function mastodonAct() {
+	// Shows a browser alert message
+  alert("@thebobpony@threads.net");
+}</script>

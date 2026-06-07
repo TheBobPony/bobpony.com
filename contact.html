@@ -1,52 +1,5 @@
----
-description: Contact Bob Pony
-layout: default
-permalink: /contact/
-title: Contact
----
-<section class="hero is-link is-bold">
-  <div class="hero-body container has-text-centered">
-    <p class="title">
-      Have something to say?
-    </p>
-  </div>
-</section>
-{% include nojs.html %}
-<div class="container">
-<br />
-<div class="box">
-<form
-  action="https://formspree.io/f/xjvllvwb"
-  method="POST"
->
-  <div class="field">
-  <p class="control has-icons-left has-icons-right">
-    <input class="input is-rounded" type="email" name="email" placeholder="Email">
-    <span class="icon is-small is-left">
-      <i class="fas fa-envelope"></i>
-    </span>
-  </p>
-  </div>
-  <div class="field">
-  <p class="control has-icons-left has-icons-right">
-    <input class="input is-rounded" name="message" placeholder="Message" autocomplete="off">
-    <span class="icon is-small is-left">
-      <i class="fas fa-envelope"></i>
-    </span>
-  </p>
-  </div>
-   <div class="g-recaptcha" data-sitekey="6LfechcUAAAAAKoMsJezng5Hf9Cm9i4fMGmRirO2" data-callback="callback"></div>
-   <noscript><p>To send your message, please enable JavaScript!</p></noscript>
-   <br />
-  <button id="submit-button" class="button is-info is-rounded" type="submit" disabled>Send your message</button>
-</form>
-</div>
-</div>
-
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
-<script type="text/javascript">
-      function callback() {
-        const submitButton = document.getElementById("submit-button");
-        submitButton.removeAttribute("disabled");
-      }
-</script>
+<title>Redirecting...</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<h1>Not redirected yet?</h1>
+<a href="/"><p>Click here!</p></a>
+<meta http-equiv="refresh" content="0; url=/" />

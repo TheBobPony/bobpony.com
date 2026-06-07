@@ -1,71 +1,14 @@
-<nav class="navbar is-link" role="navigation" aria-label="main navigation">
-  <div class="container" id="container">
-    <div class="navbar-brand">
-<!-- height is defined to stop the navbar from stretching vertically on older versions of Chromium -->
-      <img class="navlogo" style="width:50px;height:52px;" src="/img/favicon.png">
-      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-      <span aria-hidden="true"></span>
-    </a>
-    </div>
-
-    <div id="navbarBasicExample" class="navbar-menu">
-      <div class="navbar-start">
-        <a href="/" class="navbar-item {% if page.url == " /" %}is-active{% endif %}">
-          <span class="icon-text">
-            <span class="icon">
-              <i class="fas fa-home"></i>
-            </span>
-            <span>Home</span>
-          </span>
-        </a>
-        <a href="/downloads/" class="navbar-item {% if page.url == " /downloads/" %}is-active{% endif %}">
-          <span class="icon-text">
-            <span class="icon">
-              <i class="fas fa-download"></i>
-            </span>
-            <span>Downloads</span>
-          </span>
-        </a>
-        <a href="https://status.bobpony.com/" class="navbar-item">
-          <span class="icon-text">
-            <span class="icon">
-              <i class="fas fa-arrow-trend-up"></i>
-            </span>
-            <span>Status</span>
-          </span>
-        </a>
-      </div>
-
-      <div class="navbar-end is-hidden-touch">
-        <a href="https://www.youtube.com/channel/UCAZzz2Dd9Xh6vTjNcxhqPZw" class="navbar-item" title="YouTube">
-          <i class="fab fa-youtube"></i>
-        </a>
-        <a href="https://twitter.com/TheBobPony" class="navbar-item" title="Twitter / X">
-          <i class="fab fa-twitter"></i><i class="fab fa-x-twitter"></i>
-        </a>
-        <a rel="me" href="https://www.threads.net/@thebobpony" class="navbar-item" title="Threads, also available on Mastodon @thebobpony@threads.net">
-          <i class="fab fa-threads"></i>
-        </a>
-        <a rel="me" href="https://bsky.app/profile/bobpony.com" class="navbar-item" title="Bluesky">
-          <i class="fab fa-bluesky"></i>
-        </a>
-		<a rel="me" onclick="mastodonAct()" class="navbar-item" title="Mastodon @thebobpony@threads.net">
-          <i class="fab fa-mastodon"></i>
-        </a>
-        <a rel="me" href="https://discord.gg/tApDzYNwrj" class="navbar-item" title="Discord Server">
-          <i class="fab fa-discord"></i>
-        </a>
-        <a href="https://github.com/TheBobPony/bobpony.com" class="navbar-item" title="GitHub">
-          <i class="fab fa-github"></i>
-        </a>
-        <a href="/contact" class="navbar-item {% if page.url == " /contact/" %}is-active{% endif %}" title="Contact">
-          <i class="fas fa-envelope"></i>
-        </a>
-      </div>
-    </div>
-  </div>
-
+<nav class="container">
+  <ul>
+	<a href="/"><img style="width:60px;height:60px;" src="/img/favicon.png"></a>
+  </ul>
+  <ul>
+    <li><a href="/downloads"><i class="fas fa-download"></i> Downloads</a></li>
+	<li><a href="https://status.bobpony.com"><i class="fas fa-arrow-trend-up"></i> Status</a></li>
+  </ul>
 </nav>
-{% include nojs.html %}
+<noscript>
+<div class="container">
+<article><strong><i class="fa-solid fa-triangle-exclamation"></i> JavaScript is disabled, this website may not work correctly!</strong></article>
+</div>
+</noscript>

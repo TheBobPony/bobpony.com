@@ -5,8 +5,12 @@ permalink: /
 title: Home
 ---
 <div class="container">
-<h1> Welcome to BobPony.com!</h1>
-    <h2>Stay in touch</h2>
+<h1>Welcome to BobPony.com!</h1>
+<!-- <h2><i class="fa-solid fa-newspaper"></i> Recent Blog posts</h2>
+<div class="grid">
+</div>
+-->
+    <h2><i class="fa-solid fa-globe"></i> Stay in touch</h2>
 	<div class="grid">
   <a href="https://www.youtube.com/channel/UCAZzz2Dd9Xh6vTjNcxhqPZw" role="button"><i class="fab fa-youtube"></i> YouTube</a>
   <a href="https://twitter.com/TheBobPony" role="button"><i class="fab fa-twitter"></i> Twitter / <i class="fab fa-x-twitter"></i></a>
@@ -16,37 +20,46 @@ title: Home
 <br>
 <div class="grid">
 <a href="https://github.com/TheBobPony/bobpony.com" role="button"><i class="fab fa-github"></i> GitHub</a>
-<button onclick="mastodonAct()"><i class="fab fa-mastodon"></i> Mastodon</button>
+<button data-target="mastodonModal" onclick="toggleModal(event)"><i class="fab fa-mastodon"></i> Mastodon</button>
   <a href="https://discord.gg/tApDzYNwrj" role="button"><i class="fab fa-discord"></i> Discord Server</a>
 </div>
     <br />
-
-<h2>Got something to say?</h2>
-<form
-  action="https://formspree.io/f/xjvllvwb"
-  method="POST"
+<h2><i class="fa-solid fa-envelope"></i> Got something to say?</h2>
+<form action="https://formspree.io/f/xjvllvwb" method="POST"
 >
   <div class="field">
-    <input class="input is-rounded" type="email" name="email" placeholder="Email address">
+    <input class="input" type="email" name="email" placeholder="Email address" minlength="5" required>
   </div>
   <div class="field">
-    <input class="input is-rounded" name="message" placeholder="Your message" autocomplete="off">
+    <input class="input" name="message" placeholder="Your message" autocomplete="off" minlength="5" required>
   </div>
-   <div class="g-recaptcha" data-sitekey="6LfechcUAAAAAKoMsJezng5Hf9Cm9i4fMGmRirO2" data-callback="callback"></div>
+  <div class="cf-turnstile" data-sitekey="0x4AAAAAADhdqb5G4-YHylHI" data-callback="onSuccess"></div>
    <noscript><p>To send your message, enable JavaScript!</p></noscript>
    <br />
-  <button id="submit-button" type="submit" disabled>Send!</button>
+  <button id="submit-button" type="submit" disabled><i class="fa-solid fa-paper-plane"></i> Send!</button>
 </form>
+<dialog id="mastodonModal">
+  <article>
+    <header>
+      <button aria-label="Close" rel="prev" data-target="mastodonModal" onclick="toggleModal(event)"></button>
+      <p>
+        <strong>Mastodon</strong>
+      </p>
+    </header>
+	<input type="text" value="@thebobpony@threads.net" id="mastodonID">
+
+<!-- The button used to copy the text -->
+<button onclick="copy2clipboard()">Copy text</button>
+<button onclick="copy2clipboard()">Copy text</button>
+  </article>
+</dialog>
 </div>
 
-<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
 <script type="text/javascript">
-      function callback() {
+      function onSuccess() {
         const submitButton = document.getElementById("submit-button");
         submitButton.removeAttribute("disabled");
       }
 </script>
-<script>function mastodonAct() {
-	// Shows a browser alert message
-  alert("@thebobpony@threads.net");
-}</script>
+<script src="/js/modal.js"></script>

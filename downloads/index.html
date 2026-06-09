@@ -6,30 +6,23 @@ layout: default
 ---
 <div class="container">
 <h1>{{ page.description }}</h1>
-                <p class="dropdown select">
                     <select class="dropdown-item" name="Product type" id="type" autocomplete="off" onchange="updateVersions()">
                         <option disabled selected value="placeholder">
                             Choose category
                         </option>
                     </select>
-                </p>
-                <p class="dropdown select">
                     <select class="dropdown-item" name="Product version" id="version" autocomplete="off" onchange="updateEditions()">
                         <option disabled selected value="placeholder">
                             Choose version/type
                         </option>
                     </select>
-                </p>
-                <p class="dropdown select">
                     <select class="dropdown-item" name="Product edition" id="edition" autocomplete="off" onchange="updateURL()">
                         <option disabled selected value="placeholder">
                             Choose option
                         </option>
                     </select>
-                </p>
 				<article>
-                    <i class="fa-solid fa-circle-info"></i> If you need to enter a password, enter
-                    <span style="font-family: monospace">bigcdn</span>.
+                    <i class="fa-solid fa-circle-info"></i> If you need to enter a password, enter <span style="font-family: monospace">bigcdn</span>.
                 </article>
                 <button id="downloadP">
                     <a id="download"><i class="fa-solid fa-download"></i> DOWNLOAD!</a>

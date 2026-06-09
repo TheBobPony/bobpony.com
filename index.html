@@ -12,7 +12,7 @@ title: Home
 	<article>
   <header><strong>{{ post.title }}</strong><br/><small>Posted on {{ post.date | date: '%B %d, %Y' }}</small></header>
   {{ post.description }}
-  <footer><a href="{{ post.url }}"><i class="fa-solid fa-arrow-up-right-from-square"></i> Read more</a></footer>
+  <footer><a href="{{ post.url }}">Read more <i class="fa-solid fa-circle-chevron-right"></i></a></footer>
 </article>
   {% endfor %}
 </div>
@@ -22,7 +22,7 @@ title: Home
 	<div class="grid">
   <a href="https://www.youtube.com/channel/UCAZzz2Dd9Xh6vTjNcxhqPZw" role="button"><i class="fab fa-youtube"></i> YouTube</a>
   <a href="https://twitter.com/TheBobPony" role="button"><i class="fab fa-twitter"></i> Twitter / <i class="fab fa-x-twitter"></i></a>
-  <a href="https://www.threads.net/@thebobpony" role="button"><i class="fab fa-threads"></i> Threads</a>
+  <a href="https://www.threads.com/@thebobpony" role="button"><i class="fab fa-threads"></i> Threads</a>
   <a href="https://bsky.app/profile/bobpony.com" role="button"><i class="fab fa-bluesky"></i> Bluesky</a>
 </div>
 <br>

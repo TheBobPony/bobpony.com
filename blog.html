@@ -11,7 +11,7 @@ layout: default
 	<article>
   <header><strong>{{ post.title }}</strong><br/><small>Posted on {{ post.date | date: '%B %d, %Y' }}</small></header>
   {{ post.description }}
-  <footer><a href="{{ post.url }}"><i class="fa-solid fa-arrow-up-right-from-square"></i> Read more</a></footer>
+  <footer><a href="{{ post.url }}">Read more <i class="fa-solid fa-circle-chevron-right"></i></a></footer>
 </article>
   {% endfor %}
 

@@ -1,0 +1,18 @@
+---
+title: Blog
+description: Bob Pony's Blog
+permalink: /blog/
+layout: default
+---
+<div class="container">
+<h1><i class="fa-solid fa-newspaper"></i> {{ page.title }}</h1>
+
+{% for post in site.posts%}
+	<article>
+  <header><strong>{{ post.title }}</strong><br/><small>Posted on {{ post.date | date: '%B %d, %Y' }}</small></header>
+  {{ post.description }}
+  <footer><a href="{{ post.url }}"><i class="fa-solid fa-arrow-up-right-from-square"></i> Read more</a></footer>
+</article>
+  {% endfor %}
+
+</div>

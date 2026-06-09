@@ -15,3 +15,4 @@ exclude:
 # Plugins for Jekyll
 plugins:
   - jekyll-sitemap
+permalink: /blog/:title/

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Resources -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.blue.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+ <title>{% if page.title %}{{ page.title }} - Bob Pony Blog Post{% else %}Bob Pony Blog Post{% endif %}</title>
+  {% include head.html %}
+</head>
+
+<body>
+  {% include nav.html %}
+  <div class="container">
+  <h1>{{ page.title }}</h1>
+  <p><small>Posted on: {{ page.date | date: '%B %d, %Y' }}</small></p>
+  <article>
+  {{ content }}
+  </article>
+  <script src="https://giscus.app/client.js"
+        data-repo="TheBobPony/bobpony.com"
+        data-repo-id="MDEwOlJlcG9zaXRvcnkyNDY5MTIzNDA="
+        data-category="Blog Comments"
+        data-category-id="DIC_kwDODreVVM4C-16T"
+        data-mapping="title"
+        data-strict="1"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="en"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
+  </div>
+</body>
+
+</html>
